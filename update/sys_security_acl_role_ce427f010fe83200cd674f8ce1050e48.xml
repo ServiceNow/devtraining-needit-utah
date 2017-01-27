@@ -4,7 +4,7 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-24 22:46:34</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ce427f010fe83200cd674f8ce1050e48</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_58872_needit_needit.x_58872_needit.needit_user</sys_name>

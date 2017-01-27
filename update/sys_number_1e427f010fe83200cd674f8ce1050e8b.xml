@@ -8,7 +8,7 @@
         <sys_class_name>sys_number</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-24 22:46:35</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>1e427f010fe83200cd674f8ce1050e8b</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>NI</sys_name>
