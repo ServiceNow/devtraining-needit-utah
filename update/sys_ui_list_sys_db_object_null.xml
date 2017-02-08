@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sys_db_object" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>label</element>
+            <list_id display_value="sys_db_object" element="NULL" name="sys_db_object" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">29026f83c3023000bac1addbdfba8f15</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2012-12-06 22:48:20</sys_created_on>
+            <sys_id>a9026f83c3023000bac1addbdfba8f16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2012-12-06 22:48:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="sys_db_object" element="NULL" name="sys_db_object" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">29026f83c3023000bac1addbdfba8f15</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2012-12-06 22:48:20</sys_created_on>
+            <sys_id>61026f83c3023000bac1addbdfba8f17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2012-12-06 22:48:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>super_class</element>
+            <list_id display_value="sys_db_object" element="NULL" name="sys_db_object" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">29026f83c3023000bac1addbdfba8f15</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2012-12-06 22:48:20</sys_created_on>
+            <sys_id>e1026f83c3023000bac1addbdfba8f17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2012-12-06 22:48:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>is_extendable</element>
+            <list_id display_value="sys_db_object" element="NULL" name="sys_db_object" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">29026f83c3023000bac1addbdfba8f15</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2012-12-06 22:48:20</sys_created_on>
+            <sys_id>65026f83c3023000bac1addbdfba8f17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2012-12-06 22:48:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="sys_db_object" element="NULL" name="sys_db_object" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">29026f83c3023000bac1addbdfba8f15</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2012-12-06 22:48:20</sys_created_on>
+            <sys_id>e5026f83c3023000bac1addbdfba8f17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2012-12-06 22:48:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_db_object</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>ben.greer@snc</sys_created_by>
+            <sys_created_on>2017-02-08 17:47:07</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d69d3f390fb43200cd674f8ce1050e55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_db_object</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_list_sys_db_object_null</sys_update_name>
+            <sys_updated_by>ben.greer@snc</sys_updated_by>
+            <sys_updated_on>2017-02-08 17:47:07</sys_updated_on>
+            <sys_user display_value="">ben.greer@snc</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
