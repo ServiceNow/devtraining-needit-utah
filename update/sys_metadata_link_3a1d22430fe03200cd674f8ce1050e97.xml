@@ -82,7 +82,7 @@
         <sys_class_name>sys_metadata_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-30 22:52:10</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>3a1d22430fe03200cd674f8ce1050e97</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>NI002004</sys_name>
