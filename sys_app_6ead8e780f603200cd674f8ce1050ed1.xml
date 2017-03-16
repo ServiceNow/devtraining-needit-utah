@@ -11,7 +11,7 @@
         <name>NeedIt</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
-        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <runtime_access_tracking>enforcing</runtime_access_tracking>
         <scope>x_58872_needit</scope>
         <scoped_administration>false</scoped_administration>
         <short_description/>
@@ -23,9 +23,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-23 20:48:29</sys_created_on>
         <sys_id>6ead8e780f603200cd674f8ce1050ed1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-01-23 20:48:29</sys_updated_on>
+        <sys_updated_on>2017-03-16 21:26:25</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
