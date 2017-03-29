@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_what_needed" table="x_58872_needit_needit">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_what_needed" table="x_58872_needit_historic_">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes>import_attribute_name=What needed,edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>3</choice>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
         <column_label>What needed</column_label>
         <comments/>
         <create_roles/>
-        <default_value>hr1</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -27,9 +27,9 @@
         <element_reference>false</element_reference>
         <foreign_database/>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_58872_needit_needit</name>
+        <name>x_58872_needit_historic_</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,18 +46,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-01-26 19:39:57</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>397a54b54f713200cb281b818110c71e</sys_id>
+        <sys_created_on>2017-03-29 19:59:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>93c1b0314fb13200cb281b818110c7a9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>What needed</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_dictionary_x_58872_needit_needit_u_what_needed</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-03-29 18:17:37</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_58872_needit_historic__u_what_needed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-29 19:59:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
