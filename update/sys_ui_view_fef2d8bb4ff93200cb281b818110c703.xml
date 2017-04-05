@@ -8,7 +8,7 @@
         <sys_class_name>sys_ui_view</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-04 22:52:43</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>fef2d8bb4ff93200cb281b818110c703</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Sys_popup,myhomepage</sys_name>
