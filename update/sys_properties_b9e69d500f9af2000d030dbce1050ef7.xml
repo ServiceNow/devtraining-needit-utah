@@ -11,7 +11,7 @@
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-19 03:23:02</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b9e69d500f9af2000d030dbce1050ef7</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>x_58872_needit.advancedNoticeDays</sys_name>

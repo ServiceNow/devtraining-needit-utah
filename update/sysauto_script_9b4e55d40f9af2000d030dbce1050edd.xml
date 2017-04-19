@@ -17,7 +17,7 @@
         <sys_class_name>sysauto_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-19 03:55:41</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>9b4e55d40f9af2000d030dbce1050edd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Make Long Overdue NeedIt Tasks Closed Incomplete</sys_name>
