@@ -42,7 +42,7 @@
         <sys_class_name>sys_data_source</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-03-29 19:59:31</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>03c1b4794f313200cb281b818110c701</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>needitimportdata.csv (Uploaded)</sys_name>
