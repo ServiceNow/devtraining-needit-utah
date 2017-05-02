@@ -9,7 +9,7 @@
         <sys_class_name>sysevent_register</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-11 00:06:55</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>857c5fa50f8232000d030dbce1050e4b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_58872_needit.overdueNeedItTask</sys_name>
