@@ -8,7 +8,6 @@
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_58872_needit.needit_user</name>
-        <snbe>false</snbe>
         <suffix>needit_user</suffix>
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>

@@ -8,7 +8,6 @@
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description/>
-        <express_security>false</express_security>
         <name>x_58872_needit_needit</name>
         <operation display_value="read">read</operation>
         <script/>
