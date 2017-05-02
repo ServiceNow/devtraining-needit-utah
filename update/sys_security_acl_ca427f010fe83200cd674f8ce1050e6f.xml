@@ -6,7 +6,6 @@
         <advanced>false</advanced>
         <condition/>
         <description>Default access control on x_58872_needit_needit</description>
-        <express_security>false</express_security>
         <name>x_58872_needit_needit</name>
         <operation display_value="delete">delete</operation>
         <script/>
