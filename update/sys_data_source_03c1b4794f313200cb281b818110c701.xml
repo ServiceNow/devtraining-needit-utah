@@ -20,6 +20,7 @@
         <jdbc_password/>
         <jdbc_server/>
         <jdbc_user_name/>
+        <jpath_root_node/>
         <last_run_database_field/>
         <last_run_datetime/>
         <ldap_target/>
