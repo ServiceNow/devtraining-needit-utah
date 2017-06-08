@@ -6,6 +6,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
+        <category display_value="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_58872_needit_needit_task</collection>
         <condition/>
         <content_type>text/html</content_type>
@@ -54,7 +55,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c003c7f60fc272000d030dbce1050e3b</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Overdue NeedIt Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -63,7 +64,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_email_action_c003c7f60fc272000d030dbce1050e3b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-04-18 02:22:31</sys_updated_on>
+        <sys_updated_on>2017-06-08 16:55:11</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
