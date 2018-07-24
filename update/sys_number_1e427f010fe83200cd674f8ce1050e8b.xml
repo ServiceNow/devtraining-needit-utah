@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_number">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
     <sys_number action="INSERT_OR_UPDATE">
         <category display_value="" name="x_58872_needit_needit">x_58872_needit_needit</category>
         <maximum_digits>6</maximum_digits>
