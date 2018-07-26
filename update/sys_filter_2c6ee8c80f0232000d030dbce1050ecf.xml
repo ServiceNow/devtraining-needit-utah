@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_filter">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
     <sys_filter action="INSERT_OR_UPDATE">
         <filter table="sys_user">nameSTARTSWITH^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value=""/>
             <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
@@ -12,7 +11,6 @@
         <sys_class_name>sys_filter</sys_class_name>
         <sys_created_by>beth.anglin</sys_created_by>
         <sys_created_on>2017-04-05 19:30:55</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2c6ee8c80f0232000d030dbce1050ecf</sys_id>
@@ -20,7 +18,6 @@
         <sys_name>mobile</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_filter_2c6ee8c80f0232000d030dbce1050ecf</sys_update_name>
         <sys_updated_by>beth.anglin</sys_updated_by>
@@ -29,4 +26,5 @@
         <title>mobile</title>
         <user display_value="Beth Anglin">46d44a23a9fe19810012d100cca80666</user>
     </sys_filter>
+    <sys_translated_text action="delete_multiple" query="documentkey=2c6ee8c80f0232000d030dbce1050ecf"/>
 </record_update>

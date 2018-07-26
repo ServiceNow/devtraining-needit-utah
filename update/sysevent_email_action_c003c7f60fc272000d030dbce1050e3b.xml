@@ -1,16 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sysevent_email_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>false</action_insert>
         <action_update>false</action_update>
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_58872_needit_needit_task</collection>
         <condition/>
         <content_type>text/html</content_type>
+        <default_interval/>
         <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html/>
+        <digest_separator_text/>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
         <event_name>x_58872_needit.overdueNeedItTask</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
@@ -51,7 +60,6 @@
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-14 19:31:52</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c003c7f60fc272000d030dbce1050e3b</sys_id>
@@ -60,7 +68,6 @@
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_email_action_c003c7f60fc272000d030dbce1050e3b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
