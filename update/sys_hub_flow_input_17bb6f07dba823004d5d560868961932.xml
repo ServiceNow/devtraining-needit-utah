@@ -1,37 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_when_needed" table="x_58872_needit_needit">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_input">
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper</attributes>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>When needed</column_label>
+        <column_label/>
         <comments/>
         <create_roles/>
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_when_needed</element>
+        <element>current</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">glide_date_time</internal_type>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
         <mandatory>true</mandatory>
-        <max_length>40</max_length>
-        <name>x_58872_needit_needit</name>
+        <max_length>200</max_length>
+        <model display_value="NeedIt Fulfillment">2d9aa78bdbe423004d5d560868961968</model>
+        <model_id>2d9aa78bdbe423004d5d560868961968</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_2d9aa78bdbe423004d5d560868961968</name>
         <next_element/>
+        <order>100</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -45,18 +57,18 @@
         <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
-        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-01-26 19:08:23</sys_created_on>
-        <sys_id>a4331f47db6823004d5d5608689619dc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>When needed</sys_name>
+        <sys_created_on>2018-09-19 15:59:17</sys_created_on>
+        <sys_id>17bb6f07dba823004d5d560868961932</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>var__m_sys_hub_flow_input_2d9aa78bdbe423004d5d560868961968</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_dictionary_x_58872_needit_needit_u_when_needed</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-09-19 14:12:07</sys_updated_on>
+        <sys_update_name>sys_hub_flow_input_17bb6f07dba823004d5d560868961932</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-19 15:59:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -67,5 +79,5 @@
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
-    </sys_dictionary>
+    </sys_hub_flow_input>
 </record_update>
