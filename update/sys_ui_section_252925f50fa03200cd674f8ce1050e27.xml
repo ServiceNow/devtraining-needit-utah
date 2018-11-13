@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Log" section_id="252925f50fa03200cd674f8ce1050e27" sys_domain="global" table="x_58872_needit_needit" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>comments</element>
@@ -36,7 +35,7 @@
             <sys_created_on>2017-01-26 20:42:51</sys_created_on>
             <sys_id>a12925f50fa03200cd674f8ce1050e3e</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter display_value="">b832d3560a0001c700d781efe21e22f5</sys_ui_formatter>
+            <sys_ui_formatter display_value="Activities (filtered)">b832d3560a0001c700d781efe21e22f5</sys_ui_formatter>
             <sys_ui_section caption="Log" display_value="Log" name="x_58872_needit_needit" sys_domain="global" view="Default view">252925f50fa03200cd674f8ce1050e27</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-01-26 20:42:51</sys_updated_on>
@@ -51,6 +50,7 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-26 20:42:50</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>252925f50fa03200cd674f8ce1050e27</sys_id>
@@ -59,6 +59,7 @@
             <sys_overrides/>
             <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
             <sys_update_name>sys_ui_section_252925f50fa03200cd674f8ce1050e27</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

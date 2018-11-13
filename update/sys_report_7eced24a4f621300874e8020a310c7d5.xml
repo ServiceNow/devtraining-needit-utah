@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_report">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby>u_requested_for,u_what_needed</additional_groupby>
         <aggregate>COUNT</aggregate>
@@ -94,11 +93,13 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-08 21:43:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>7eced24a4f621300874e8020a310c7d5</sys_id>
         <sys_mod_count>30</sys_mod_count>
         <sys_name>NeedIt Requests by Type</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_report_7eced24a4f621300874e8020a310c7d5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
@@ -112,6 +113,8 @@
         <type>donut</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
+        <use_color_palette>false</use_color_palette>
+        <use_null_in_trend>false</use_null_in_trend>
         <user>GLOBAL</user>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>

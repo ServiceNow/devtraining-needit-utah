@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_script_client">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
         <active>true</active>
         <applies_extended>false</applies_extended>
@@ -7,6 +6,7 @@
         <description>Use the GetEmail Address Script Include to retrieve the Requested for's email address from the database when the Requested for value changes.</description>
         <field>u_requested_for</field>
         <global>true</global>
+        <isolate_script>false</isolate_script>
         <messages/>
         <name>NeedIt Populate Email Field</name>
         <order/>
@@ -40,6 +40,7 @@
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-03-09 00:59:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c2dce5039f513200bde5f79ff57fcf50</sys_id>
@@ -48,6 +49,7 @@
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_client_c2dce5039f513200bde5f79ff57fcf50</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

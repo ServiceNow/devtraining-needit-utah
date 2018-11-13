@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="state" label="State" language="en" table="x_58872_needit_needit">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>state</element>
@@ -12,11 +11,13 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-26 20:14:39</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>acb229350fa03200cd674f8ce1050eb4</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_name>State</sys_name>
             <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
             <sys_update_name>sys_documentation_x_58872_needit_needit_state_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

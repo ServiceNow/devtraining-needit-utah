@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_report_source">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_source">
     <sys_report_source action="INSERT_OR_UPDATE">
         <description>All active NeedIt request records.</description>
         <display>Active NeedIt Requests (NeedIt)</display>
@@ -9,11 +8,13 @@
         <sys_class_name>sys_report_source</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-08 23:38:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>85383a864fa21300874e8020a310c777</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Active NeedIt Requests (NeedIt)</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_report_source_85383a864fa21300874e8020a310c777</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
