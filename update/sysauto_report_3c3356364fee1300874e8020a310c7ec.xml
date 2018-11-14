@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sysauto_report">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_report">
     <sysauto_report action="INSERT_OR_UPDATE">
         <active>true</active>
         <address_list/>

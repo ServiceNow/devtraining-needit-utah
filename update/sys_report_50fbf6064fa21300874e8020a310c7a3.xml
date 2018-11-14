@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_report">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby>u_requested_for,u_what_needed</additional_groupby>
         <aggregate>COUNT</aggregate>
@@ -112,6 +111,7 @@
         <type>donut</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
+        <use_null_in_trend>false</use_null_in_trend>
         <user>6816f79cc0a8016401c5a33be04be441</user>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>

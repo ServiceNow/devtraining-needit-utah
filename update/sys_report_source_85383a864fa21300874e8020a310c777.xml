@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_report_source">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_source">
     <sys_report_source action="INSERT_OR_UPDATE">
         <description>All active NeedIt request records.</description>
         <display>Active NeedIt Requests (NeedIt)</display>
