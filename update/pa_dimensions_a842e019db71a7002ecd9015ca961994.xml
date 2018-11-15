@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dimensions">
+    <pa_dimensions action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="sys_choice">name=x_58872_needit_needit^language=en^element=u_request_type^inactive=false^ORinactiveISEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="=" or="false" value="x_58872_needit_needit"/>
+            <item endquery="false" field="language" goto="false" newquery="false" operator="=" or="false" value="en"/>
+            <item endquery="false" field="element" goto="false" newquery="false" operator="=" or="false" value="u_request_type"/>
+            <item endquery="false" field="inactive" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="false" field="inactive" goto="false" newquery="false" operator="ISEMPTY" or="true" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <empty_value/>
+        <facts_table>sys_choice</facts_table>
+        <field>sys_id</field>
+        <manual_breakdown/>
+        <name>NeedIt Request type</name>
+        <security_type>1</security_type>
+        <sys_class_name>pa_dimensions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-14 18:08:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a842e019db71a7002ecd9015ca961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Request type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>pa_dimensions_a842e019db71a7002ecd9015ca961994</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-14 18:08:07</sys_updated_on>
+    </pa_dimensions>
+    <sys_translated_text action="delete_multiple" query="documentkey=a842e019db71a7002ecd9015ca961994"/>
+</record_update>
