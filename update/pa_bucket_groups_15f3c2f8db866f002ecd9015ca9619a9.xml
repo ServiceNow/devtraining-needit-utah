@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_bucket_groups">
+    <pa_bucket_groups action="INSERT_OR_UPDATE">
+        <description>Bucket group to divide the month into two parts:  Days 1 - 14 and days 15 - 31.</description>
+        <name>Month Halves</name>
+        <sys_class_name>pa_bucket_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-25 22:21:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>15f3c2f8db866f002ecd9015ca9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Month Halves</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>pa_bucket_groups_15f3c2f8db866f002ecd9015ca9619a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-25 22:21:33</sys_updated_on>
+    </pa_bucket_groups>
+    <sys_translated_text action="delete_multiple" query="documentkey=15f3c2f8db866f002ecd9015ca9619a9"/>
+</record_update>
