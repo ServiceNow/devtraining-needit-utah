@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_user_role">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
     <sys_user_role action="INSERT_OR_UPDATE">
         <assignable_by/>
         <can_delegate>true</can_delegate>
@@ -8,6 +7,8 @@
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_58872_needit.admin</name>
+        <requires_subscription/>
+        <scoped_admin>false</scoped_admin>
         <suffix>admin</suffix>
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="u_requested_for_email" label="Requested for email" language="en" table="x_58872_needit_needit">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_requested_for_email</element>
