@@ -4,7 +4,9 @@
         <benchmarking>false</benchmarking>
         <collect_breakdown_matrix>false</collect_breakdown_matrix>
         <collect_records>true</collect_records>
-        <conditions/>
+        <conditions table="x_58872_needit_needit">u_when_needed&lt;javascript:gs.beginningOfThisWeek()^EQ<item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="&lt;" or="false" value="javascript:gs.beginningOfThisWeek()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
         <contributor/>
         <cube display_value="NeedIt.ActiveWeekly">bd5edc55db71a7002ecd9015ca96195d</cube>
         <data_source/>
@@ -12,7 +14,8 @@
         <default_chart_type>line</default_chart_type>
         <description>NeedIt: Active NeedIt requests measured weekly as a count (#). It is the sum of the indicator source: NeedIt.ActiveWeekly.</description>
         <direction>1</direction>
-        <display>false</display>
+        <display>true</display>
+        <excluded_statistics/>
         <field>complete</field>
         <forecast_base_periods>2</forecast_base_periods>
         <forecast_base_start>00000000</forecast_base_start>
@@ -23,10 +26,11 @@
         <forecast_upper_limit/>
         <formula/>
         <formula_aggregate_whole>false</formula_aggregate_whole>
+        <formula_allow_null>false</formula_allow_null>
         <frequency>20</frequency>
         <groups/>
         <has_managed_indicators>false</has_managed_indicators>
-        <id>102</id>
+        <id>115</id>
         <key>false</key>
         <label/>
         <linked_indicator/>
@@ -36,20 +40,20 @@
         <managing_indicator/>
         <name>NeedIt: Active Weekly</name>
         <order/>
-        <override_periods>false</override_periods>
+        <override_periods>true</override_periods>
         <precision>0</precision>
-        <related_breakdowns>0</related_breakdowns>
-        <related_jobs>0</related_jobs>
+        <related_breakdowns>2</related_breakdowns>
+        <related_jobs>3</related_jobs>
         <render_continuous_lines>false</render_continuous_lines>
         <role_override>true</role_override>
         <roles/>
-        <score_periods>-1</score_periods>
-        <scores_modified_at/>
+        <score_periods>300</score_periods>
+        <scores_modified_at>2019-01-17 17:35:26</scores_modified_at>
         <script/>
         <scripted>false</scripted>
         <show_delta>true</show_delta>
         <show_realtime_score>false</show_realtime_score>
-        <snapshot_periods>-1</snapshot_periods>
+        <snapshot_periods>300</snapshot_periods>
         <sql_statement/>
         <sys_class_name>pa_indicators</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -57,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4380a4d5db71a7002ecd9015ca9619f1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>NeedIt: Active Weekly</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -65,7 +69,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>pa_indicators_4380a4d5db71a7002ecd9015ca9619f1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-14 18:01:46</sys_updated_on>
+        <sys_updated_on>2019-01-17 17:32:51</sys_updated_on>
         <type>1</type>
         <unit display_value="#">17b365e2d7320100ba986f14ce6103ad</unit>
         <users/>
