@@ -15,12 +15,12 @@
         <display>true</display>
         <excluded_statistics/>
         <field>complete</field>
-        <forecast_base_periods>2</forecast_base_periods>
+        <forecast_base_periods>1</forecast_base_periods>
         <forecast_base_start>00000000</forecast_base_start>
-        <forecast_base_type>1</forecast_base_type>
+        <forecast_base_type>2</forecast_base_type>
         <forecast_lower_limit/>
         <forecast_method>1</forecast_method>
-        <forecast_periods>2</forecast_periods>
+        <forecast_periods>3</forecast_periods>
         <forecast_upper_limit/>
         <formula/>
         <formula_aggregate_whole>false</formula_aggregate_whole>
@@ -59,7 +59,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5c5024d5db71a7002ecd9015ca961963</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>NeedIt: Due Monthly</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -67,7 +67,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>pa_indicators_5c5024d5db71a7002ecd9015ca961963</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-17 16:14:12</sys_updated_on>
+        <sys_updated_on>2019-01-17 18:55:14</sys_updated_on>
         <type>1</type>
         <unit display_value="#">17b365e2d7320100ba986f14ce6103ad</unit>
         <users/>
