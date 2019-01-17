@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_job_indicator_breakdown_ex">
+    <pa_job_indicator_breakdown_ex action="INSERT_OR_UPDATE">
+        <breakdown display_value="NeedIt Request type">024e6165db4b2300c9247bfdae96198c</breakdown>
+        <job_indicator display_value="temporary job for collecting NeedIt Requested for - NeedIt: Due Monthly">5bd607bddb0b2300c9247bfdae96193a</job_indicator>
+        <sys_class_name>pa_job_indicator_breakdown_ex</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-17 22:42:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>93d607bddb0b2300c9247bfdae961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Request type.temporary job for collecting NeedIt Requested for - NeedIt: Due Monthly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>pa_job_indicator_breakdown_ex_93d607bddb0b2300c9247bfdae961943</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-17 22:42:44</sys_updated_on>
+    </pa_job_indicator_breakdown_ex>
+</record_update>
