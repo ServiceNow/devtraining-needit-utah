@@ -16,7 +16,7 @@
         <number_ref display_value="NITASK">7031f84c0f0232000d030dbce1050ec2</number_ref>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Task" name="task">f24afa81db6f1b009d7831d0ef961968</super_class>
+        <super_class display_value="Task" name="task">6cdbdf75dd0323007850f2ee37a03982</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
