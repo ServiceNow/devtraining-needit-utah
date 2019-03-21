@@ -28,15 +28,31 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Retrieve the value of the Advanced notice days property from the NeedIt Properties table
+	var daysLeadTime;
 	
-	// Instantiate the NeedItUtils class.  Call the isDatePast method and pass
+	var niProperties = new GlideRecord('x_58872_needit_needit_properties');
+	niProperties.query();
+	
+	while (niProperties.next()) {
+		daysLeadTime = niProperties.getValue('advanced_notice_days');
+	}
+	
+	// Adjust When needed value with daysLeadTime for calculation
+	var whenNeeded = new GlideDateTime(current.u_when_needed.getDisplayValue());
+	whenNeeded.addDaysUTC(-daysLeadTime);
+	var comparisonDate = whenNeeded.getDate();
+	
+	// Instantiate the NeedItUtils class. Call the isDatePast method and pass
 	// the u_when_needed value.
+	
 	var niutils = new NeedItUtils();
-	var isPast = niutils.isDatePast(current.u_when_needed);
+	var isPast = niutils.isDatePast(comparisonDate);
 	
 	// If the isDatePast method returns true, the date is in the past.
 	if(isPast == true){
-		gs.addErrorMessage("When needed date cannot be in the past.  Your request has not been saved to the database.");
+		gs.addErrorMessage("When needed date needs to be more than " + daysLeadTime + " from today.  Your request has not been saved to the database.");
 		current.setAbortAction(true);
 	}
 	
@@ -44,12 +60,12 @@
 	// pass the When needed field value to the isDateToday method in NeedItUtils
 	var isToday = niutils.isDateToday(current.u_when_needed);
 	
-	// if the isDateToday method returns true the When needed date is today 
+	// if the isDateToday method returns true the When needed date is today
 	if(isToday == true){
 		gs.addErrorMessage("You cannot submit NeedIt requests for today.");
 		current.setAbortAction(true);
 	}
-	
+
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -57,7 +73,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9373668d4fd93200cb281b818110c7f9</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>NeedIt When needed field date</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -65,7 +81,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_9373668d4fd93200cb281b818110c7f9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-26 18:53:02</sys_updated_on>
+        <sys_updated_on>2019-03-21 21:43:35</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

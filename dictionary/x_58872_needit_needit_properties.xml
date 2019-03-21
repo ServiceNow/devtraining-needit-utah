@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="NeedIt Properties" max_length="40" name="x_58872_needit_needit_properties" type="collection">
+        <element label="Advanced notice days" max_length="40" name="advanced_notice_days" type="integer"/>
+        <element choice="3" default="7" label="Auto-close overdue" max_length="40" name="auto_close_overdue" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="7" sequence="0" value="7"/>
+                <element inactive_on_update="false" label="14" sequence="1" value="14"/>
+                <element inactive_on_update="false" label="21" sequence="2" value="21"/>
+                <element inactive_on_update="false" label="28" sequence="3" value="28"/>
+            </choice>
+        </element>
+        <element label="Domain" max_length="32" name="sys_domain" type="domain_id"/>
+        <element label="Domain Path" max_length="255" name="sys_domain_path" type="domain_path"/>
+        <element attributes="edge_encryption_enabled=true" label="Overrides" max_length="40" name="sys_overrides" type="string"/>
+        <index name="index">
+            <element name="sys_domain"/>
+        </index>
+        <index name="index2">
+            <element name="sys_domain_path"/>
+        </index>
+    </element>
+</database>
