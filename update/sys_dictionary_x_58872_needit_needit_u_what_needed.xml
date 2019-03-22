@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_what_needed" table="x_58872_needit_needit">
         <active>true</active>
         <array>false</array>
@@ -26,6 +25,8 @@
         <element>u_what_needed</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>true</mandatory>
         <max_length>40</max_length>
@@ -47,7 +48,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-26 19:39:57</sys_created_on>
-        <sys_id>2ed25ea04f2d47004e584b8d0210c748</sys_id>
+        <sys_id>750c2356db1c7f007520f5861d96196a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>What needed</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -55,7 +56,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_dictionary_x_58872_needit_needit_u_what_needed</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-09-28 15:46:36</sys_updated_on>
+        <sys_updated_on>2019-03-22 18:00:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

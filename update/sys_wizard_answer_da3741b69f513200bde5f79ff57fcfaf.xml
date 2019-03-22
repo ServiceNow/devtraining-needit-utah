@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_wizard_answer">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
     <sys_wizard_answer action="INSERT_OR_UPDATE">
         <active>true</active>
         <answer>NeedIt</answer>
@@ -10,7 +9,7 @@
         <next_question/>
         <order>100</order>
         <payload_name/>
-        <question display_value="Task" name="Task">4cc2e7294f9cc700a9e6f4934210c7d6</question>
+        <question display_value="Task" name="Task">7bbb6c5455312300aadbd038fa9eecd7</question>
         <roles/>
         <script/>
         <sys_class_name>sys_wizard_answer</sys_class_name>

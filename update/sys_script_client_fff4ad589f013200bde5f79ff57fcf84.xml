@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_script_client">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
         <active>true</active>
         <applies_extended>false</applies_extended>
@@ -7,6 +6,7 @@
         <description>Only display What needed choices that match the Request type value.</description>
         <field>u_request_type</field>
         <global>true</global>
+        <isolate_script>false</isolate_script>
         <messages/>
         <name>NeedIt Request Type Options</name>
         <order/>

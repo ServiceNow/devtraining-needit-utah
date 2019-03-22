@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_script_include">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
         <api_name>x_58872_needit.NeedItUtils</api_name>
+        <caller_access/>
         <client_callable>false</client_callable>
         <description>Utils Script Include for the NeedIt application.</description>
         <name>NeedItUtils</name>
