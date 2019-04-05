@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_type">
+    <asmt_metric_type action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <allow_public>false</allow_public>
+        <allow_retake>false</allow_retake>
+        <anonymize>false</anonymize>
+        <business_rule/>
+        <condition table="asmt_metric_type">sys_id=6eaacb57db1033407520f5861d961927^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="6eaacb57db1033407520f5861d961927"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <default_filter/>
+        <delete_business_rule/>
+        <description>ME's Test Quiz</description>
+        <disable_ui_action/>
+        <display_all_filters>false</display_all_filters>
+        <display_field>name</display_field>
+        <duration>1970-01-15 00:00:00</duration>
+        <enable_ui_action/>
+        <end_note><![CDATA[<p>Thank you for participating in the quizzing assessment.</p>]]></end_note>
+        <enforce_condition>false</enforce_condition>
+        <evaluation_method>quiz</evaluation_method>
+        <filter_condition/>
+        <filter_table/>
+        <introduction><![CDATA[<p>This quiz is intended to test the quizzing capabilities of ServiceNow to evaluate if this is an effective strategy for our learning program.</p>
+<p>As to the questions, it MAY BE THE CASE that none of the correct responses are actually correct.  </p>]]></introduction>
+        <job/>
+        <live_feed>false</live_feed>
+        <name>ME's Identity Theft Quiz</name>
+        <notify_if_overdue>false</notify_if_overdue>
+        <notify_user>true</notify_user>
+        <one_click_survey>false</one_click_survey>
+        <overdue_notify_user/>
+        <portal_pagination>category</portal_pagination>
+        <publish_state>published</publish_state>
+        <roles/>
+        <sample_metric/>
+        <scale_factor>100</scale_factor>
+        <schedule_period>0</schedule_period>
+        <schedule_type>on_demand</schedule_type>
+        <scoring_type>percent</scoring_type>
+        <signature/>
+        <source_table/>
+        <sys_class_name>asmt_metric_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 18:08:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6eaacb57db1033407520f5861d961927</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>ME's Identity Theft Quiz</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>asmt_metric_type_6eaacb57db1033407520f5861d961927</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 19:26:47</sys_updated_on>
+        <table>asmt_metric_type</table>
+        <url/>
+    </asmt_metric_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=6eaacb57db1033407520f5861d961927"/>
+</record_update>
