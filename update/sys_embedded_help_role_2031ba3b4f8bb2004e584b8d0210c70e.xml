@@ -5,13 +5,11 @@
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2017-06-06 13:42:27</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>2031ba3b4f8bb2004e584b8d0210c70e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>4e42fb8d0fa83200cd674f8ce1050e72</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_embedded_help_role_2031ba3b4f8bb2004e584b8d0210c70e</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
