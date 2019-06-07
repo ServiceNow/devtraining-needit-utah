@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_app">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
     <sys_app action="INSERT_OR_UPDATE">
         <active>true</active>
+        <can_edit_in_studio>false</can_edit_in_studio>
         <enforce_license>log</enforce_license>
+        <guided_setup_guid/>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
+        <license_category/>
         <license_model>none</license_model>
         <logo/>
         <menu/>
