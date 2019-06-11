@@ -7,6 +7,7 @@
         <csv_delimiter/>
         <database_name/>
         <database_port/>
+        <discard_arrays>false</discard_arrays>
         <expand_node_children>false</expand_node_children>
         <file_path>needitimportdata.csv</file_path>
         <file_retrieval_method>Attachment</file_retrieval_method>

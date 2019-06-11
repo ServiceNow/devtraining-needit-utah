@@ -33,6 +33,7 @@
         <plugin/>
         <question>In which order does Ben start his day?</question>
         <randomize_answers>true</randomize_answers>
+        <read_only>false</read_only>
         <reference_table/>
         <scale>low</scale>
         <scored>false</scored>

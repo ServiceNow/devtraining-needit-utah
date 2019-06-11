@@ -33,6 +33,7 @@
         <plugin/>
         <question>How many times has Jack been to Disneyland?</question>
         <randomize_answers>false</randomize_answers>
+        <read_only>false</read_only>
         <reference_table/>
         <scale>high</scale>
         <scored>true</scored>

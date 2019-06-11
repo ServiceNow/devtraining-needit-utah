@@ -26,6 +26,7 @@
         <job/>
         <live_feed>false</live_feed>
         <name>ME's Identity Theft Quiz</name>
+        <not_show_intro_note>false</not_show_intro_note>
         <notify_if_overdue>false</notify_if_overdue>
         <notify_user>true</notify_user>
         <one_click_survey>false</one_click_survey>
@@ -40,6 +41,7 @@
         <scoring_type>percent</scoring_type>
         <signature/>
         <source_table/>
+        <survey_owners/>
         <sys_class_name>asmt_metric_type</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-25 18:08:43</sys_created_on>
@@ -56,6 +58,7 @@
         <sys_updated_on>2019-03-25 19:26:47</sys_updated_on>
         <table>asmt_metric_type</table>
         <url/>
+        <user_field/>
     </asmt_metric_type>
     <sys_translated_text action="delete_multiple" query="documentkey=6eaacb57db1033407520f5861d961927"/>
 </record_update>

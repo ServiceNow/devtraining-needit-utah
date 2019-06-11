@@ -33,6 +33,7 @@
         <plugin/>
         <question>What percentage of Jack's day is spent in meetings?</question>
         <randomize_answers>false</randomize_answers>
+        <read_only>false</read_only>
         <reference_table/>
         <scale>high</scale>
         <scored>true</scored>

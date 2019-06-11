@@ -33,6 +33,7 @@
         <plugin/>
         <question>Which sport would Bharath most like to win a gold medal in?</question>
         <randomize_answers>true</randomize_answers>
+        <read_only>false</read_only>
         <reference_table/>
         <scale>high</scale>
         <scored>true</scored>

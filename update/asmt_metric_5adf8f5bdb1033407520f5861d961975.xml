@@ -33,6 +33,7 @@
         <plugin/>
         <question>Which pets has Andrew owned?  Select all that apply.</question>
         <randomize_answers>false</randomize_answers>
+        <read_only>false</read_only>
         <reference_table/>
         <scale>low</scale>
         <scored>false</scored>

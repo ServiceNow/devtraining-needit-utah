@@ -33,6 +33,7 @@
         <plugin/>
         <question>How likely is Mary Ellen to be beekeeper one day?  0 is not likely at all and 5 is very likely.</question>
         <randomize_answers>false</randomize_answers>
+        <read_only>false</read_only>
         <reference_table/>
         <scale>high</scale>
         <scored>true</scored>

@@ -33,6 +33,7 @@
         <plugin/>
         <question>What was the name of Bharath's first pet?</question>
         <randomize_answers>true</randomize_answers>
+        <read_only>false</read_only>
         <reference_table/>
         <scale>high</scale>
         <scored>true</scored>
