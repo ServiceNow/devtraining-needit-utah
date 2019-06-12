@@ -6,7 +6,7 @@
         <checked_out/>
         <checked_out_by/>
         <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
-        <condition table="x_58872_needit_needit">state=14^EQ<item display_value="Awaiting Approval" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="14"/>
+        <condition table="x_58872_needit_needit">state=14^EQ<item display_value="14" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="14"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <condition_type>run_match</condition_type>
