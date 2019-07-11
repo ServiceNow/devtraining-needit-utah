@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_report">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby>u_requested_for,u_what_needed</additional_groupby>
         <aggregate>COUNT</aggregate>
@@ -13,9 +12,14 @@
         <chart_border_width>1</chart_border_width>
         <chart_height>450</chart_height>
         <chart_size>large</chart_size>
+        <chart_subtitle/>
+        <chart_subtitle_color/>
+        <chart_subtitle_size/>
+        <chart_subtitle_style/>
         <chart_title>Request Type - NeedIt</chart_title>
         <chart_title_color display_value="Darkorange">65b30254a9fe3dba00b44ce0710382b3</chart_title_color>
         <chart_title_size>20</chart_title_size>
+        <chart_title_style/>
         <chart_title_x_position>0</chart_title_x_position>
         <chart_title_y_position>0</chart_title_y_position>
         <chart_width>600</chart_width>
@@ -48,7 +52,9 @@
         <import_table/>
         <interval>year</interval>
         <is_published>true</is_published>
+        <is_real_time>false</is_real_time>
         <is_scheduled>true</is_scheduled>
+        <legend_align_columns>false</legend_align_columns>
         <legend_background_color/>
         <legend_border_color/>
         <legend_border_radius>0</legend_border_radius>
@@ -90,6 +96,7 @@
         <show_zero>false</show_zero>
         <source_type>table</source_type>
         <start_time/>
+        <style_config/>
         <sumfield>business_duration</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -112,7 +119,9 @@
         <type>donut</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
+        <use_null_in_trend>false</use_null_in_trend>
         <user>GLOBAL</user>
+        <x_axis_allow_decimals>false</x_axis_allow_decimals>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>
         <x_axis_grid_dotted>false</x_axis_grid_dotted>
@@ -120,11 +129,13 @@
         <x_axis_label_bold>false</x_axis_label_bold>
         <x_axis_label_color/>
         <x_axis_label_size>11</x_axis_label_size>
+        <x_axis_label_tilt/>
         <x_axis_opposite>false</x_axis_opposite>
         <x_axis_title/>
         <x_axis_title_bold>true</x_axis_title_bold>
         <x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color>
         <x_axis_title_size>12</x_axis_title_size>
+        <y_axis_allow_decimals>false</y_axis_allow_decimals>
         <y_axis_display_grid>true</y_axis_display_grid>
         <y_axis_from/>
         <y_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</y_axis_grid_color>
@@ -133,6 +144,7 @@
         <y_axis_label_bold>false</y_axis_label_bold>
         <y_axis_label_color/>
         <y_axis_label_size>11</y_axis_label_size>
+        <y_axis_label_tilt/>
         <y_axis_opposite>false</y_axis_opposite>
         <y_axis_title/>
         <y_axis_title_bold>true</y_axis_title_bold>

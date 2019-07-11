@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_app_module">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
         <application display_value="NeedIt">0242fb8d0fa83200cd674f8ce1050e79</application>
         <assessment/>
-        <content_page/>
         <device_type/>
         <filter/>
         <hint>List of all NeedIt records in the database.</hint>

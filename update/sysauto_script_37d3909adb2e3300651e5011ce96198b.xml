@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Generate Random NeedIt Records</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2019-07-11 22:37:25</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[//Number of NeedIt records to create
+	var recordsToMake = 0;
+	
+	// Declare and initialize variables used in the script
+	var genNIRec;
+	var i;
+	var tableName = "x_58872_needit_needit";
+	var requestTypeArray = ["facilities","hr","legal"];
+	var selectRequestType = "";
+	var selectWhatNeeded = 3;
+	var pickDate = 1;
+	var requestedForArray = [{"name":"Fred Luddy","email":"fred.luddy@example.com"},{"name":"Beth Anglin","email":"beth.anglin@example.com"},{"name":"Joe Employee","email":"joe.employee@example.com"}];
+	var pickUser = 10;
+		
+	
+	//For loop to create records
+		for (i = 0; i < recordsToMake; i++) {
+			
+			//Create an empty record for the NeedIt table
+			genNIRec = new GlideRecord(tableName);
+			genNIRec.newRecord();
+			
+	
+			//Select a random value from the requestType array and set the Request Type field value (choice)
+			selectRequestType = requestTypeArray[(Math.floor(Math.random() * 3))];
+			genNIRec.setValue("u_request_type",selectRequestType);
+			
+			
+			//Set the What needed field value (choice) from the Request Type and either 1 or 2
+			selectWhatNeeded = (Math.floor(Math.random()*2) +1);		
+			genNIRec.setValue("u_what_needed",selectRequestType + selectWhatNeeded);
+			
+			//Set the Short description field value (string)
+			genNIRec.setValue("short_description", "Automatically created NeedIt request: " + selectRequestType + ", " + selectRequestType + selectWhatNeeded);
+			
+			//Set the When needed field value (date/time) to a date between yesterday and seven months ago
+			var rightNow = new GlideDateTime();		
+			pickDate = (Math.floor(Math.random() * 210) + 1);
+			rightNow.addDaysUTC(-pickDate);		
+			genNIRec.setValue("u_when_needed",rightNow.getDate());
+			
+			
+			//Set the Requested for field value (reference) by selecting a random user from requestedForArray.
+			//Also set the Requested for email field value (string).  The reference field cannot be set in a scoped app
+			//using the setValue method unless using the sys_id to set the field value.  To set by display name, use 
+			//the GlideElement setDisplayValue method.  gr.<field_name>.setDisplayValue(<value>). 
+			pickUser = (Math.floor(Math.random()*3));
+			genNIRec.u_requested_for.setDisplayValue(requestedForArray[pickUser].name);
+			genNIRec.setValue("u_requested_for_email",requestedForArray[pickUser].email.toString());
+			
+			
+			//Set the Priority field value (choice) to a random value
+			genNIRec.setValue("priority",(Math.floor(Math.random()*5)+1));
+			
+			//Set the State field value (choice) to Requested
+			genNIRec.setValue("state",13);
+			
+			//Insert the new NeedIt record into the table
+			genNIRec.insert();
+	}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-11 22:43:07</sys_created_on>
+        <sys_id>37d3909adb2e3300651e5011ce96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Generate Random NeedIt Records</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysauto_script_37d3909adb2e3300651e5011ce96198b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-11 22:43:07</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
