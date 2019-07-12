@@ -18,3 +18,12 @@ If you find yourself unable to import your repository due to the presence of fil
   4. Run `git add -A`
   5. Run `git commit`
   6. Run `git push`
+
+ **Notes on dependencies**
+  1. Dependencies will not show up in the list of changes but will be exported/imported
+  2. It is your responsibility to resolve the dependencies before installing an application. ServiceNow source control will not manage these for you. In case you installed an application before installing its dependencies:
+   2.1 Delete the application
+   2.2 Activate/install all required dependencies
+   2.3 Re-import the application from source control
+   Currently listed dependencies:
+   * Task table schema
