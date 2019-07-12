@@ -13,6 +13,7 @@
         <description>NeedIt: Active NeedIt requests measured weekly as a count (#). It is the sum of the indicator source: NeedIt.ActiveWeekly.</description>
         <direction>1</direction>
         <display>false</display>
+        <excluded_statistics/>
         <field>complete</field>
         <forecast_base_periods>2</forecast_base_periods>
         <forecast_base_start>00000000</forecast_base_start>
@@ -23,10 +24,11 @@
         <forecast_upper_limit/>
         <formula/>
         <formula_aggregate_whole>false</formula_aggregate_whole>
+        <formula_allow_null>false</formula_allow_null>
         <frequency>20</frequency>
         <groups/>
         <has_managed_indicators>false</has_managed_indicators>
-        <id>102</id>
+        <id>122</id>
         <key>false</key>
         <label/>
         <linked_indicator/>
