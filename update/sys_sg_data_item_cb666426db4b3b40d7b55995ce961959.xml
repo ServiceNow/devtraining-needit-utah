@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description>Open NeedIt records of a user-specified Request type</description>
+        <group_by/>
+        <name>Specified Request Type</name>
+        <query_condition table="x_58872_needit_needit">active=true^u_request_type={{Req type}}^ORDERBYnumber<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item display_value="{{Req type}}" endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="{{Req type}}"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>devprog2</sys_created_by>
+        <sys_created_on>2019-08-06 15:08:20</sys_created_on>
+        <sys_id>cb666426db4b3b40d7b55995ce961959</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Specified Request Type</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_data_item_cb666426db4b3b40d7b55995ce961959</sys_update_name>
+        <sys_updated_by>devprog2</sys_updated_by>
+        <sys_updated_on>2019-08-06 15:11:27</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=cb666426db4b3b40d7b55995ce961959"/>
+</record_update>
