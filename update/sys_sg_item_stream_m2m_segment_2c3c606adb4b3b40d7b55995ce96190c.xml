@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
+    <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
+        <item_stream display_value="By Request Type Item Stream">243ce82adb4b3b40d7b55995ce961962</item_stream>
+        <segment display_value="Item Stream Segment">e43c606adb4b3b40d7b55995ce96190a</segment>
+        <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
+        <sys_created_by>devprog2</sys_created_by>
+        <sys_created_on>2019-08-06 15:33:34</sys_created_on>
+        <sys_id>2c3c606adb4b3b40d7b55995ce96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_segment_2c3c606adb4b3b40d7b55995ce96190c</sys_update_name>
+        <sys_updated_by>devprog2</sys_updated_by>
+        <sys_updated_on>2019-08-06 15:33:34</sys_updated_on>
+    </sys_sg_item_stream_m2m_segment>
+</record_update>
