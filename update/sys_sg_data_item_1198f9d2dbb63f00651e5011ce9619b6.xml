@@ -4,23 +4,23 @@
         <description>Open NeedIt records for next quarter</description>
         <group_by/>
         <name>NeedIt - Next Quarter</name>
-        <query_condition table="x_58872_needit_needit">active=true^u_when_neededONNext quarter@javascript:gs.beginningOfNextQuarter()@javascript:gs.endOfNextQuarter()^ORDERBYnumber<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <query_condition table="x_58872_needit_needit">active=true^u_when_neededONNext quarter@javascript:gs.beginningOfNextQuarter()@javascript:gs.endOfNextQuarter()^ORDERBYDESCnumber<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="ON" or="false" value="Next quarter@javascript:gs.beginningOfNextQuarter()@javascript:gs.endOfNextQuarter()"/>
-            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="number"/>
         </query_condition>
         <query_condition_script/>
         <sys_class_name>sys_sg_data_item</sys_class_name>
         <sys_created_by>devprog2</sys_created_by>
         <sys_created_on>2019-07-24 16:13:08</sys_created_on>
         <sys_id>1198f9d2dbb63f00651e5011ce9619b6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>NeedIt - Next Quarter</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_sg_data_item_1198f9d2dbb63f00651e5011ce9619b6</sys_update_name>
         <sys_updated_by>devprog2</sys_updated_by>
-        <sys_updated_on>2019-07-24 16:15:38</sys_updated_on>
+        <sys_updated_on>2019-08-07 21:28:22</sys_updated_on>
         <table>x_58872_needit_needit</table>
     </sys_sg_data_item>
     <sys_translated_text action="delete_multiple" query="documentkey=1198f9d2dbb63f00651e5011ce9619b6"/>
