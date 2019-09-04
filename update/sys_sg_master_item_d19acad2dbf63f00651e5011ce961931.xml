@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
     <sys_sg_master_item action="INSERT_OR_UPDATE">
-        <condition/>
         <condition_order>-1</condition_order>
         <datasource_table>x_58872_needit_needit</datasource_table>
         <datasource_table_condition/>
         <embedded_screen display_value="NeedIt Last Quarter">0d9acad2dbf63f00651e5011ce96191c</embedded_screen>
         <item_view display_value="NeedIt Last Quarter Item View">099ac6d2dbf63f00651e5011ce9619c3</item_view>
         <name>NeedIt Last Quarter Master Item</name>
-        <screen/>
         <sys_class_name>sys_sg_master_item</sys_class_name>
         <sys_created_by>devprog2</sys_created_by>
         <sys_created_on>2019-07-24 17:31:46</sys_created_on>
@@ -20,6 +18,5 @@
         <sys_update_name>sys_sg_master_item_d19acad2dbf63f00651e5011ce961931</sys_update_name>
         <sys_updated_by>devprog2</sys_updated_by>
         <sys_updated_on>2019-07-24 17:32:39</sys_updated_on>
-        <table/>
     </sys_sg_master_item>
 </record_update>

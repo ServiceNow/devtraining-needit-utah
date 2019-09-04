@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
     <sys_sg_form_screen action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <application_roles/>
         <available_offline>false</available_offline>
         <data_item/>
         <description/>
         <dynamic_prefetch_count/>
         <fetch_type>not_required</fetch_type>
-        <hidden>false</hidden>
         <hide_filters>false</hide_filters>
         <icon display_value="NeedIt Next Quarter Icon">432bc216dbf63f00651e5011ce961985</icon>
         <item_view display_value="NeedIt Next Quarter Header Item View">832bc216dbf63f00651e5011ce961987</item_view>
         <name>NeedIt Next Quarter</name>
-        <order/>
-        <parent/>
-        <parent_table/>
         <roles_override/>
         <sys_class_name>sys_sg_form_screen</sys_class_name>
         <sys_created_by>devprog2</sys_created_by>
@@ -30,5 +24,4 @@
         <sys_updated_on>2019-08-08 20:20:46</sys_updated_on>
         <table>x_58872_needit_needit</table>
     </sys_sg_form_screen>
-    <sys_translated_text action="delete_multiple" query="documentkey=cb2bc216dbf63f00651e5011ce961995"/>
 </record_update>

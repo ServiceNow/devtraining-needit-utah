@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
     <sys_sg_master_item action="INSERT_OR_UPDATE">
-        <condition/>
         <condition_order>-1</condition_order>
         <datasource_table>x_58872_needit_needit</datasource_table>
         <datasource_table_condition/>
         <embedded_screen display_value="By Request Type">a43c206adb4b3b40d7b55995ce9619e6</embedded_screen>
         <item_view display_value="By Request Type Item View">2c3ce82adb4b3b40d7b55995ce96195c</item_view>
         <name>By Request Type Master Item</name>
-        <screen/>
         <sys_class_name>sys_sg_master_item</sys_class_name>
         <sys_created_by>devprog2</sys_created_by>
         <sys_created_on>2019-08-06 15:33:34</sys_created_on>
@@ -20,6 +18,5 @@
         <sys_update_name>sys_sg_master_item_e83c606adb4b3b40d7b55995ce961907</sys_update_name>
         <sys_updated_by>devprog2</sys_updated_by>
         <sys_updated_on>2019-08-06 15:58:34</sys_updated_on>
-        <table/>
     </sys_sg_master_item>
 </record_update>

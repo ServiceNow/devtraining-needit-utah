@@ -55,5 +55,4 @@
         <use_overlay>false</use_overlay>
         <write_back_action_item display_value="Update NeedIt Priority">1d1e9122db0f3b40d7b55995ce9619fa</write_back_action_item>
     </sys_sg_button>
-    <sys_translated_text action="delete_multiple" query="documentkey=27706e66dbcf3b40d7b55995ce961996"/>
 </record_update>

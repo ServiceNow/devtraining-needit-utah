@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
     <sys_sg_list_screen action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <application_roles/>
         <available_offline>false</available_offline>
-        <data_item/>
         <description>View my open NeedIt records</description>
         <dynamic_prefetch_count/>
         <fetch_type>on_demand</fetch_type>
-        <hidden>false</hidden>
         <hide_filters>false</hide_filters>
         <icon display_value="icon-Keyboard">c00b2d5adb763f00651e5011ce9619f4</icon>
-        <item_view/>
         <name>My Open NeedIt Requests</name>
-        <order/>
-        <parent/>
-        <parent_table/>
         <roles_override/>
-        <style>regular</style>
         <sys_class_name>sys_sg_list_screen</sys_class_name>
         <sys_created_by>devprog2</sys_created_by>
         <sys_created_on>2019-07-24 15:13:48</sys_created_on>
@@ -30,5 +21,4 @@
         <sys_updated_by>devprog2</sys_updated_by>
         <sys_updated_on>2019-07-24 17:29:18</sys_updated_on>
     </sys_sg_list_screen>
-    <sys_translated_text action="delete_multiple" query="documentkey=cc0b2d5adb763f00651e5011ce9619f9"/>
 </record_update>

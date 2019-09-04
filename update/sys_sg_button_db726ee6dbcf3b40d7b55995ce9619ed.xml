@@ -55,5 +55,4 @@
         <use_overlay>false</use_overlay>
         <write_back_action_item display_value="Update NeedIt Short description">8b9f5d62db0f3b40d7b55995ce9619f4</write_back_action_item>
     </sys_sg_button>
-    <sys_translated_text action="delete_multiple" query="documentkey=db726ee6dbcf3b40d7b55995ce9619ed"/>
 </record_update>

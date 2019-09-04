@@ -55,5 +55,4 @@
         <use_overlay>false</use_overlay>
         <write_back_action_item display_value="Delete NeedIt Record">b19d9122db0f3b40d7b55995ce96197b</write_back_action_item>
     </sys_sg_button>
-    <sys_translated_text action="delete_multiple" query="documentkey=accc96e2dbcf3b40d7b55995ce961910"/>
 </record_update>

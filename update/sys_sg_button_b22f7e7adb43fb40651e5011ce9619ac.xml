@@ -55,5 +55,4 @@
         <use_overlay>false</use_overlay>
         <write_back_action_item display_value="Create NeedIt">745c7ef6db43fb40651e5011ce96192c</write_back_action_item>
     </sys_sg_button>
-    <sys_translated_text action="delete_multiple" query="documentkey=b22f7e7adb43fb40651e5011ce9619ac"/>
 </record_update>

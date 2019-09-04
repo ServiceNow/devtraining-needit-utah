@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
     <sys_sg_list_screen action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <application_roles/>
         <available_offline>false</available_offline>
-        <data_item/>
         <description>View all open NeedIt records for a specific Request type</description>
         <dynamic_prefetch_count/>
         <fetch_type>on_demand</fetch_type>
-        <hidden>false</hidden>
         <hide_filters>false</hide_filters>
         <icon display_value="icon-Window">903ce82adb4b3b40d7b55995ce96195a</icon>
-        <item_view/>
         <name>By Request Type</name>
-        <order/>
-        <parent/>
-        <parent_table/>
         <roles_override/>
-        <style>regular</style>
         <sys_class_name>sys_sg_list_screen</sys_class_name>
         <sys_created_by>devprog2</sys_created_by>
         <sys_created_on>2019-08-06 15:33:34</sys_created_on>
@@ -30,5 +21,4 @@
         <sys_updated_by>devprog2</sys_updated_by>
         <sys_updated_on>2019-08-06 16:24:52</sys_updated_on>
     </sys_sg_list_screen>
-    <sys_translated_text action="delete_multiple" query="documentkey=643ce82adb4b3b40d7b55995ce96195f"/>
 </record_update>

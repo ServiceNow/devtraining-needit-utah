@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
     <sys_sg_master_item action="INSERT_OR_UPDATE">
-        <condition/>
         <condition_order>-1</condition_order>
         <datasource_table>x_58872_needit_needit</datasource_table>
         <datasource_table_condition/>
         <embedded_screen display_value="My Open NeedIt Requests">d80b6d5adb763f00651e5011ce961967</embedded_screen>
         <item_view display_value="My Open NeedIt Requests Item View">400b2d5adb763f00651e5011ce9619f7</item_view>
         <name>My Open NeedIt Requests Master Item</name>
-        <screen/>
         <sys_class_name>sys_sg_master_item</sys_class_name>
         <sys_created_by>devprog2</sys_created_by>
         <sys_created_on>2019-07-24 15:13:49</sys_created_on>
@@ -20,6 +18,5 @@
         <sys_update_name>sys_sg_master_item_180b6d5adb763f00651e5011ce96197d</sys_update_name>
         <sys_updated_by>devprog2</sys_updated_by>
         <sys_updated_on>2019-07-24 17:24:40</sys_updated_on>
-        <table/>
     </sys_sg_master_item>
 </record_update>
