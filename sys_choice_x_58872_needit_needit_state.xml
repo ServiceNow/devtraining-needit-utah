@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_58872_needit_needit" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>0</sequence>
+            <sys_created_by>devprog</sys_created_by>
+            <sys_created_on>2019-09-20 20:05:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1e9ddc5db400010445c9444ca96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>devprog</sys_updated_by>
+            <sys_updated_on>2019-09-20 20:05:10</sys_updated_on>
+            <value>-5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requested</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>1</sequence>
+            <sys_created_by>devprog</sys_created_by>
+            <sys_created_on>2019-09-20 20:05:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65e9ddc5db400010445c9444ca961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>devprog</sys_updated_by>
+            <sys_updated_on>2019-09-20 20:05:10</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>2</sequence>
+            <sys_created_by>devprog</sys_created_by>
+            <sys_created_on>2019-09-20 20:05:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31e9ddc5db400010445c9444ca961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>devprog</sys_updated_by>
+            <sys_updated_on>2019-09-20 20:05:10</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Work in Progress</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>3</sequence>
+            <sys_created_by>devprog</sys_created_by>
+            <sys_created_on>2019-09-20 20:05:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9e9ddc5db400010445c9444ca961996</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>devprog</sys_updated_by>
+            <sys_updated_on>2019-09-20 20:05:10</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>4</sequence>
+            <sys_created_by>devprog</sys_created_by>
+            <sys_created_on>2019-09-20 20:05:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>35e9ddc5db400010445c9444ca961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>devprog</sys_updated_by>
+            <sys_updated_on>2019-09-20 20:05:10</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Incomplete</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>5</sequence>
+            <sys_created_by>devprog</sys_created_by>
+            <sys_created_on>2019-09-20 20:05:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bde9ddc5db400010445c9444ca961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>devprog</sys_updated_by>
+            <sys_updated_on>2019-09-20 20:05:10</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Skipped</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>6</sequence>
+            <sys_created_by>devprog</sys_created_by>
+            <sys_created_on>2019-09-20 20:05:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>39e9ddc5db400010445c9444ca96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>devprog</sys_updated_by>
+            <sys_updated_on>2019-09-20 20:05:10</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_58872_needit_needit</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>devprog</sys_created_by>
+            <sys_created_on>2019-09-20 20:05:10</sys_created_on>
+            <sys_id>61e9ddc5db400010445c9444ca961992</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_choice_x_58872_needit_needit_state</sys_update_name>
+            <sys_updated_by>devprog</sys_updated_by>
+            <sys_updated_on>2019-09-20 20:05:10</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
