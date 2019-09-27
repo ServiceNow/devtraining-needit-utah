@@ -11,14 +11,14 @@
         <delete_access>false</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
-        <label>Historic NeedIt Data</label>
+        <label>Needit Historic</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_58872_needit_historic_</name>
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Import Set Row" name="sys_import_set_row">61bc03d8db9fb3009d7831d0ef96192a</super_class>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">b9661087070000107ff5f9fc7c1ed041</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
