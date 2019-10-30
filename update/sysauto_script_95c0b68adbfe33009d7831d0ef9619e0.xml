@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
     <sysauto_script action="INSERT_OR_UPDATE">
         <active>true</active>
+        <business_calendar/>
         <condition/>
         <conditional>false</conditional>
+        <entered_time/>
         <name>Generate Random NeedIt Records</name>
         <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
@@ -93,6 +95,7 @@ for (i = 0; i < recordsToMake; i++) {
         <sys_update_name>sysauto_script_95c0b68adbfe33009d7831d0ef9619e0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-07-24 01:40:33</sys_updated_on>
+        <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>

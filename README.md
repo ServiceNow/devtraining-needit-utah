@@ -1,8 +1,6 @@
 # Generated files
 This repository contains generated files and a checksum.
 
-**Do not edit the files in this repository outside of an instance of ServiceNow.**
-
 If you find yourself unable to import your repository due to the presence of files edited outside an instance of ServiceNow, merge commits that mix files from different revisions, or other data that does not match the checksum, you may recover using either of the following techniques:
 * Remove the problem commits:
   1. Clone your repository to a personal computer with the git command line tools installed and open a git command prompt in the repository root
@@ -26,5 +24,5 @@ If you find yourself unable to import your repository due to the presence of fil
    2.2 Activate/install all required dependencies
    2.3 Re-import the application from source control
    Currently listed dependencies:
-   * Task table schema
    * System Import Sets
+   * Task table schema
