@@ -202,13 +202,13 @@
         <source>9cd12403070000107ff5f9fc7c1ed032</source>
         <source_table>sys_upgrade_history</source_table>
         <state>previous</state>
-        <sys_created_by/>
+        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-26 21:07:59</sys_created_on>
         <sys_id>ed0df903078000107ff5f9fc7c1ed052</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>16d6f66eb980000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-30 19:57:34</sys_updated_on>
         <type>Choice list</type>
         <update_guid>ad0df903fc800010bbe2e904b9bf6f52</update_guid>
         <update_guid_history>ad0df903fc800010bbe2e904b9bf6f52:-2102025764</update_guid_history>
