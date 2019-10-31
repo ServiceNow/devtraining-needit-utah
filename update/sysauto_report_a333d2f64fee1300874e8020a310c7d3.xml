@@ -2,8 +2,10 @@
     <sysauto_report action="INSERT_OR_UPDATE">
         <active>true</active>
         <address_list/>
+        <business_calendar/>
         <condition/>
         <conditional>false</conditional>
+        <entered_time/>
         <group_list/>
         <include_detail>false</include_detail>
         <include_with/>
@@ -36,6 +38,7 @@
         <sys_update_name>sysauto_report_a333d2f64fee1300874e8020a310c7d3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-06-11 04:48:42</sys_updated_on>
+        <time_zone/>
         <upgrade_safe>false</upgrade_safe>
         <user_list/>
         <zip>false</zip>
