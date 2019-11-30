@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Insert a record into 'x_58872_needit_needit' with the following values:
+When needed = 2019-12-02 15:42:52
+and Requested for = {{Step 1: Create a User.User}}
+and Requested for email = {{Step 1: Create a User.User.First name}}.{{Step 1: Create a User.User.Last name}}@example.com
+Confirm the record was successfully inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <snapshot/>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-29 23:09:09</sys_created_on>
+        <sys_id>df43ee2b13d500100a0133e2e144b0bb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_df43ee2b13d500100a0133e2e144b0bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-29 23:42:52</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <test display_value="When needed - Future">02e22e2b13d500100a0133e2e144b018</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=df43ee2b13d500100a0133e2e144b0bb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>df43ee2b13d500100a0133e2e144b0bb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-29 23:09:09</sys_created_on>
+        <sys_id>1f43ee2b13d500100a0133e2e144b0bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-29 23:09:09</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>df43ee2b13d500100a0133e2e144b0bb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-29 23:09:09</sys_created_on>
+        <sys_id>5b43ee2b13d500100a0133e2e144b0bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-29 23:09:09</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>df43ee2b13d500100a0133e2e144b0bb</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-29 23:09:09</sys_created_on>
+        <sys_id>9343ee2b13d500100a0133e2e144b0be</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-29 23:42:52</sys_updated_on>
+        <value>u_when_needed=javascript:gs.daysAgo(-3)^u_requested_for={{step['9f43ee2b13d500100a0133e2e144b044'].user}}^u_requested_for_email={{step['9f43ee2b13d500100a0133e2e144b044'].user.first_name}}.{{step['9f43ee2b13d500100a0133e2e144b044'].user.last_name}}@example.com^EQ</value>
+        <variable display_value="">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>df43ee2b13d500100a0133e2e144b0bb</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-29 23:09:09</sys_created_on>
+        <sys_id>df43ee2b13d500100a0133e2e144b0bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-29 23:09:09</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=df43ee2b13d500100a0133e2e144b0bb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>df43ee2b13d500100a0133e2e144b0bb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-29 23:43:43</sys_created_on>
+        <sys_id>6d3b666f13d500100a0133e2e144b0a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-29 23:43:43</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>df43ee2b13d500100a0133e2e144b0bb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-29 23:25:05</sys_created_on>
+        <sys_id>3cf6aeab13d500100a0133e2e144b08f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-29 23:42:52</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>u_when_needed=javascript:gs.daysAgo(-3)^u_requested_for={{step['9f43ee2b13d500100a0133e2e144b044'].user}}^u_requested_for_email={{step['9f43ee2b13d500100a0133e2e144b044'].user.first_name}}.{{step['9f43ee2b13d500100a0133e2e144b044'].user.last_name}}@example.com^EQ</value>
+    </sys_element_mapping>
+</record_update>

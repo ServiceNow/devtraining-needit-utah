@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Create a User">d00c2e6f13d500100a0133e2e144b03b</copied_from>
+        <description>Create and impersonate user with first name 'Jodie' and last name 'Whittaker'
+With roles: admin</description>
+        <display_name>Create a User</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <snapshot/>
+        <step_config display_value="Create a User">d9bc5f21ff6033008d3f5d9ad53bf12d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-29 23:50:42</sys_created_on>
+        <sys_id>0cdc26af13d500100a0133e2e144b095</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create a User</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_0cdc26af13d500100a0133e2e144b095</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-29 23:50:42</sys_updated_on>
+        <table/>
+        <test display_value="When needed - Today copy">c4dc26af13d500100a0133e2e144b092</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=0cdc26af13d500100a0133e2e144b095"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>0cdc26af13d500100a0133e2e144b095</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-29 23:50:42</sys_created_on>
+        <sys_id>04dc26af13d500100a0133e2e144b097</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-29 23:50:42</sys_updated_on>
+        <value/>
+        <variable display_value="">b27b2b29ff6033008d3f5d9ad53bf164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>0cdc26af13d500100a0133e2e144b095</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-29 23:50:42</sys_created_on>
+        <sys_id>40dc26af13d500100a0133e2e144b097</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-29 23:50:42</sys_updated_on>
+        <value>2831a114c611228501d4ea6c309d626d</value>
+        <variable display_value="">8c07aba5ff6033008d3f5d9ad53bf13b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>0cdc26af13d500100a0133e2e144b095</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-29 23:50:42</sys_created_on>
+        <sys_id>88dc26af13d500100a0133e2e144b097</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-29 23:50:42</sys_updated_on>
+        <value>Jodie</value>
+        <variable display_value="">1985e0ceff2433008d3f5d9ad53bf1ba</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>0cdc26af13d500100a0133e2e144b095</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-29 23:50:42</sys_created_on>
+        <sys_id>8cdc26af13d500100a0133e2e144b096</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-29 23:50:42</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">98c44875ffa033008d3f5d9ad53bf1fa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>0cdc26af13d500100a0133e2e144b095</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-29 23:50:42</sys_created_on>
+        <sys_id>c4dc26af13d500100a0133e2e144b097</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-29 23:50:42</sys_updated_on>
+        <value>Whittaker</value>
+        <variable display_value="">6f69fc4aff6433008d3f5d9ad53bf18c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=0cdc26af13d500100a0133e2e144b095"/>
+    <sys_element_mapping action="DELETE">
+        <field>first_name</field>
+        <id>0cdc26af13d500100a0133e2e144b095</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-29 23:50:42</sys_created_on>
+        <sys_id>40dc26af13d500100a0133e2e144b098</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-29 23:50:42</sys_updated_on>
+        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
+        <value>Jodie</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>last_name</field>
+        <id>0cdc26af13d500100a0133e2e144b095</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-29 23:50:42</sys_created_on>
+        <sys_id>8cdc26af13d500100a0133e2e144b097</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-29 23:50:42</sys_updated_on>
+        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
+        <value>Whittaker</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>4572bdf1db0dc09007072f17d4961934</instance_id>
+        <instance_name>niedzielorlando2</instance_name>
+        <name>sys_atf_step_0cdc26af13d500100a0133e2e144b095</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Create a User">d00c2e6f13d500100a0133e2e144b03b</copied_from><description>Create and impersonate user with first name 'Jodie' and last name 'Whittaker'
+With roles: admin</description><display_name>Create a User</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>1</order><snapshot/><step_config display_value="Create a User">d9bc5f21ff6033008d3f5d9ad53bf12d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-29 23:50:42</sys_created_on><sys_id>0cdc26af13d500100a0133e2e144b095</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create a User</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_0cdc26af13d500100a0133e2e144b095</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-29 23:50:42</sys_updated_on><table/><test display_value="When needed - Today copy">c4dc26af13d500100a0133e2e144b092</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=0cdc26af13d500100a0133e2e144b095"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>0cdc26af13d500100a0133e2e144b095</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-29 23:50:42</sys_created_on><sys_id>04dc26af13d500100a0133e2e144b097</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-29 23:50:42</sys_updated_on><value/><variable display_value="">b27b2b29ff6033008d3f5d9ad53bf164</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>0cdc26af13d500100a0133e2e144b095</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-29 23:50:42</sys_created_on><sys_id>40dc26af13d500100a0133e2e144b097</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-29 23:50:42</sys_updated_on><value>2831a114c611228501d4ea6c309d626d</value><variable display_value="">8c07aba5ff6033008d3f5d9ad53bf13b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>0cdc26af13d500100a0133e2e144b095</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-29 23:50:42</sys_created_on><sys_id>88dc26af13d500100a0133e2e144b097</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-29 23:50:42</sys_updated_on><value>Jodie</value><variable display_value="">1985e0ceff2433008d3f5d9ad53bf1ba</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>0cdc26af13d500100a0133e2e144b095</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-29 23:50:42</sys_created_on><sys_id>8cdc26af13d500100a0133e2e144b096</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-29 23:50:42</sys_updated_on><value>1</value><variable display_value="">98c44875ffa033008d3f5d9ad53bf1fa</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>0cdc26af13d500100a0133e2e144b095</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-29 23:50:42</sys_created_on><sys_id>c4dc26af13d500100a0133e2e144b097</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-29 23:50:42</sys_updated_on><value>Whittaker</value><variable display_value="">6f69fc4aff6433008d3f5d9ad53bf18c</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=0cdc26af13d500100a0133e2e144b095"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>first_name</field><id>0cdc26af13d500100a0133e2e144b095</id><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-29 23:50:42</sys_created_on><sys_id>40dc26af13d500100a0133e2e144b098</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-29 23:50:42</sys_updated_on><table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table><value>Jodie</value></sys_element_mapping><sys_element_mapping action="INSERT_OR_UPDATE"><field>last_name</field><id>0cdc26af13d500100a0133e2e144b095</id><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-29 23:50:42</sys_created_on><sys_id>8cdc26af13d500100a0133e2e144b097</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-29 23:50:42</sys_updated_on><table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table><value>Whittaker</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-425675196</payload_hash>
+        <record_name>Create a User</record_name>
+        <reverted_from/>
+        <source>c0ed1a6713d500100a0133e2e144b09e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-29 23:50:42</sys_created_on>
+        <sys_id>c4dc26af13d500100a0133e2e144b09a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16eb992e6010000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-29 23:50:42</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>00dc26af95d50010d4f95c03170a869a</update_guid>
+        <update_guid_history>00dc26af95d50010d4f95c03170a869a:-425675196</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-29 23:50:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>a7c87765dfbe485e82c2b30fce98dd44</sys_id>
+        <sys_metadata>0cdc26af13d500100a0133e2e144b095</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create a User</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_0cdc26af13d500100a0133e2e144b095</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_0cdc26af13d500100a0133e2e144b095">c4dc26af13d500100a0133e2e144b09a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-29 23:50:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
