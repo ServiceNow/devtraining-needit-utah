@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description>All of my open NeedIt records</description>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>My Open NeedIt Requests</name>
+        <query_condition table="x_58872_needit_needit">u_requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORDERBYnumber<item endquery="false" field="u_requested_for" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-01 19:28:52</sys_created_on>
+        <sys_id>8c14c8d813a500100a0133e2e144b09d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Open NeedIt Requests</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_data_item_8c14c8d813a500100a0133e2e144b09d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-01 19:28:52</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=8c14c8d813a500100a0133e2e144b09d"/>
+</record_update>

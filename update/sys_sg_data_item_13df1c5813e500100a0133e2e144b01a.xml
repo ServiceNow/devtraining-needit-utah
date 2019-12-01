@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description>Open NeedIt records from last quarter</description>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>NeedIt - Last Quarter</name>
+        <query_condition table="x_58872_needit_needit">active=true^u_when_neededONLast quarter@javascript:gs.beginningOfLastQuarter()@javascript:gs.endOfLastQuarter()^ORDERBYnumber<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="ON" or="false" value="Last quarter@javascript:gs.beginningOfLastQuarter()@javascript:gs.endOfLastQuarter()"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-01 21:30:20</sys_created_on>
+        <sys_id>13df1c5813e500100a0133e2e144b01a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>NeedIt - Last Quarter</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_data_item_13df1c5813e500100a0133e2e144b01a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-01 21:33:48</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=13df1c5813e500100a0133e2e144b01a"/>
+</record_update>

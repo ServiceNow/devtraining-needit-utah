@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item/>
+        <dependency_fields/>
+        <item_view_json>{"Type":"ViewGroup","Margin":{"Top":15,"Bottom":17},"Orientation":"Vertical","Alignment":"Stretch","Distribution":"Auto","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Children":[{"Type":"ViewGroup","Id":42845,"Orientation":"Vertical","Alignment":"Left","Distribution":"Equal","Children":[{"Type":"ViewGroup","CornerRadius":2,"BackgroundColor":"#f1f1f1","Height":20,"Margin":{},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Id":43045,"Type":"Text","studio_ignore":true,"Margin":{"Left":8},"TextColor":"#333e3f","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":10,"Name":"Font Awesome 5 Pro Regular"}},{"Type":"Text","studio_template_field_id":"E1","Margin":{"Left":6,"Right":8,"Top":3,"Bottom":3},"Text":"","TextColor":"#333e3f","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":43046}],"Id":3484}]},{"Type":"ViewGroup","Orientation":"Vertical","Alignment":"Right","Distribution":"Equal","Children":[{"Type":"Text","studio_template_field_id":"E2","Id":3907,"Text":"","TextColor":"#637274","TextAlignment":"Right","MaxLines":1,"Font":{"Weight":"regular","Size":13}}],"Id":42846}],"Id":12259},{"Type":"Text","studio_template_field_id":"E3","Margin":{"Top":10},"Id":22124,"TextColor":"#333e3f","TextAlignment":"Left","MaxLines":2,"Font":{"Weight":"regular","Size":18}},{"Type":"ViewGroup","Orientation":"Vertical","Alignment":"Left","Distribution":"Equal","Children":[{"Type":"ViewGroup","Margin":{"Top":9},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"Text","studio_template_is_label":true,"Margin":{},"TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":3091},{"Type":"Text","studio_template_field_id":"E4","Margin":{"Left":8},"TextColor":"#333e3f","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":3092}],"Id":34348}],"Id":12261},{"Type":"ViewGroup","Orientation":"Vertical","Alignment":"Left","Distribution":"Equal","Children":[{"Type":"ViewGroup","Margin":{"Top":17},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"Image","studio_template_field_id":"E5","CornerRadius":12,"Height":24,"Width":24,"Scaling":"Fill","Id":20170},{"Type":"Text","Margin":{"Left":8},"studio_template_is_label":true,"studio_template_field_id":"E6","TextColor":"#333e3f","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":10133},{"Type":"Text","studio_template_field_id":"E6","Margin":{"Left":3},"TextColor":"#333e3f","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Id":10134}],"Id":24212}],"Id":12262}],"Id":28090,"studio_card_id":"abc505b30f733300c46f5cbac4767e29"}</item_view_json>
+        <name>My Open NeedIt Requests Header Item View</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-01 19:29:23</sys_created_on>
+        <sys_id>2b240cd813a500100a0133e2e144b0d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Open NeedIt Requests Header Item View</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_item_view_2b240cd813a500100a0133e2e144b0d8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-01 19:29:23</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <ui_styles/>
+    </sys_sg_item_view>
+    <sys_translated_text action="delete_multiple" query="documentkey=2b240cd813a500100a0133e2e144b0d8"/>
+</record_update>
