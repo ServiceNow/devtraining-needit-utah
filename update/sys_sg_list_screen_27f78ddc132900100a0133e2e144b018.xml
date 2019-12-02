@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
     <sys_sg_list_screen action="INSERT_OR_UPDATE">
         <available_offline>false</available_offline>
-        <description>View my open NeedIt records</description>
+        <description>Active NeedIt requests for next quarter</description>
         <dynamic_prefetch_count/>
         <fetch_type>on_demand</fetch_type>
         <hide_filters>false</hide_filters>
         <hide_screen_name>false</hide_screen_name>
-        <icon display_value="icon-File">1f2484d813a500100a0133e2e144b0bb</icon>
-        <name>My Open NeedIt Requests</name>
+        <icon display_value="icon-File">5ff78ddc132900100a0133e2e144b013</icon>
+        <name>NeedIt Next Quarter</name>
         <roles_override/>
         <sys_class_name>sys_sg_list_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-12-01 19:29:23</sys_created_on>
-        <sys_id>ef2484d813a500100a0133e2e144b0bf</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>My Open NeedIt Requests</sys_name>
+        <sys_created_on>2019-12-02 00:25:40</sys_created_on>
+        <sys_id>27f78ddc132900100a0133e2e144b018</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>NeedIt Next Quarter</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_sg_list_screen_ef2484d813a500100a0133e2e144b0bf</sys_update_name>
+        <sys_update_name>sys_sg_list_screen_27f78ddc132900100a0133e2e144b018</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-02 00:17:17</sys_updated_on>
+        <sys_updated_on>2019-12-02 00:26:29</sys_updated_on>
     </sys_sg_list_screen>
-    <sys_translated_text action="delete_multiple" query="documentkey=ef2484d813a500100a0133e2e144b0bf"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=27f78ddc132900100a0133e2e144b018"/>
 </record_update>
