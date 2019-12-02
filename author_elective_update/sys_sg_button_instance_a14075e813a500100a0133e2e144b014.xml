@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="Delete">584db0ec132500100a0133e2e144b04e</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>Delete</label>
+        <location>trailing_swipe</location>
+        <name>Delete</name>
+        <order>10</order>
+        <parent>f9e609dc132900100a0133e2e144b007</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-02 22:00:08</sys_created_on>
+        <sys_id>a14075e813a500100a0133e2e144b014</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_button_instance_a14075e813a500100a0133e2e144b014</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-02 22:00:08</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="DELETE" query="documentkey=a14075e813a500100a0133e2e144b014"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>4572bdf1db0dc09007072f17d4961934</instance_id>
+        <instance_name>niedzielorlando2</instance_name>
+        <name>sys_sg_button_instance_a14075e813a500100a0133e2e144b014</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance"><sys_sg_button_instance action="INSERT_OR_UPDATE"><active>true</active><button display_value="Delete">584db0ec132500100a0133e2e144b04e</button><color_theme>primary</color_theme><description/><field_name/><icon/><label>Delete</label><location>trailing_swipe</location><name>Delete</name><order>10</order><parent>f9e609dc132900100a0133e2e144b007</parent><parent_table>sys_sg_master_item</parent_table><sys_class_name>sys_sg_button_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-02 22:00:08</sys_created_on><sys_id>a14075e813a500100a0133e2e144b014</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Delete</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_sg_button_instance_a14075e813a500100a0133e2e144b014</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-02 22:00:08</sys_updated_on><table>x_58872_needit_needit</table></sys_sg_button_instance><sys_translated_text action="delete_multiple" query="documentkey=a14075e813a500100a0133e2e144b014"/></record_update>]]></payload>
+        <payload_hash>-2048047537</payload_hash>
+        <record_name>Delete</record_name>
+        <reverted_from/>
+        <source>12bd992c136500100a0133e2e144b0ba</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-02 22:00:08</sys_created_on>
+        <sys_id>a94075e813a500100a0133e2e144b015</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ec8a0c0e20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-02 22:00:08</sys_updated_on>
+        <type>Function instance</type>
+        <update_guid>e14075e8aba500106e02f846e277f215</update_guid>
+        <update_guid_history>e14075e8aba500106e02f846e277f215:-2048047537</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-02 22:06:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>0e8350ea0de843ef8380dec2c7c28571</sys_id>
+        <sys_metadata>a14075e813a500100a0133e2e144b014</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_a14075e813a500100a0133e2e144b014</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_a14075e813a500100a0133e2e144b014">a94075e813a500100a0133e2e144b015</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-02 22:06:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
