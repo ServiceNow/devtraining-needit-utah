@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description>Action Item to create NeedIt records</description>
+        <execution_script/>
+        <name>Create NeedIt</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-02 23:52:01</sys_created_on>
+        <sys_id>7a598a2813e500100a0133e2e144b033</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Create NeedIt</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_7a598a2813e500100a0133e2e144b033</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-03 00:30:38</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <template>description={{Description}}^u_request_type={{Request type}}^u_requested_for={{Requested for}}^u_requested_for_email={{Requested for email}}^short_description={{Short description}}^u_what_needed={{What needed}}^u_when_needed={{When needed}}^EQ</template>
+        <type>new</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=7a598a2813e500100a0133e2e144b033"/>
+</record_update>

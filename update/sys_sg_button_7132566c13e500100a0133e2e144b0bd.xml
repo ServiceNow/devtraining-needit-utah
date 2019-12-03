@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button">
+    <sys_sg_button action="INSERT_OR_UPDATE">
+        <acknowledgement_confirm_label>I Agree</acknowledgement_confirm_label>
+        <allow_images_upload>false</allow_images_upload>
+        <auto_redirection>false</auto_redirection>
+        <button_table_field_name/>
+        <cancel_label/>
+        <condition/>
+        <condition_script/>
+        <condition_type>script</condition_type>
+        <confirm_label/>
+        <confirmation_message/>
+        <context>global</context>
+        <description>Action to allow users to create NeedIt records</description>
+        <destination_alp/>
+        <destination_screen/>
+        <destination_type>screen</destination_type>
+        <external_browser>false</external_browser>
+        <failure_message>We are sorry but we were unable to create the NeedIt record.  Please contact a system administrator.</failure_message>
+        <field_name/>
+        <jump_to_previous>false</jump_to_previous>
+        <jump_to_screen>false</jump_to_screen>
+        <link_label/>
+        <link_url/>
+        <mail_address/>
+        <mail_content/>
+        <mail_subject/>
+        <name>Create New</name>
+        <phone_number/>
+        <phone_type>cellular</phone_type>
+        <preconditions>none</preconditions>
+        <relative_url>true</relative_url>
+        <roles/>
+        <save_signature_before_action_execution>false</save_signature_before_action_execution>
+        <select_current_record>false</select_current_record>
+        <show_acknowledgement>false</show_acknowledgement>
+        <show_confirmation>false</show_confirmation>
+        <show_refresh_on_previous>true</show_refresh_on_previous>
+        <show_signature>false</show_signature>
+        <sms/>
+        <success_message>NeedIt record created.</success_message>
+        <sys_class_name>sys_sg_button</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-03 00:36:11</sys_created_on>
+        <sys_id>7132566c13e500100a0133e2e144b0bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_button_7132566c13e500100a0133e2e144b0bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-03 00:36:11</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <take_value_from_field>false</take_value_from_field>
+        <type>write_back</type>
+        <use_overlay>false</use_overlay>
+        <write_back_action_item display_value="Create NeedIt">7a598a2813e500100a0133e2e144b033</write_back_action_item>
+    </sys_sg_button>
+    <sys_translated_text action="delete_multiple" query="documentkey=7132566c13e500100a0133e2e144b0bd"/>
+</record_update>
