@@ -2,7 +2,7 @@
     <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
         <active>true</active>
         <applet_launcher display_value="NeedIt">445b8d50136900100a0133e2e144b046</applet_launcher>
-        <icon display_value="File Icon">3bd5244b53053300f214ddeeff7b122a</icon>
+        <icon display_value="">3bd5244b53053300f214ddeeff7b122a</icon>
         <label>NeedIt</label>
         <roles/>
         <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
