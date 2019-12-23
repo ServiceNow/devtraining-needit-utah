@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Log">a035dd1b1bbdc0108d03631abc4bcb4a</copied_from>
+        <description>Log: This test is expected to fail because the When needed date is in the past.</description>
+        <display_name>Log</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Log">58ab71985f30220012b44adb7f46661e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-23 19:30:01</sys_created_on>
+        <sys_id>9b47159b1bbdc0108d03631abc4bcbb7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Log</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_9b47159b1bbdc0108d03631abc4bcbb7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-23 19:36:18</sys_updated_on>
+        <table/>
+        <test display_value="When needed - Past">8f47dd5b1bbdc0108d03631abc4bcb88</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=9b47159b1bbdc0108d03631abc4bcbb7"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>9b47159b1bbdc0108d03631abc4bcbb7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-23 19:30:01</sys_created_on>
+        <sys_id>db47159b1bbdc0108d03631abc4bcbb8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-23 19:31:08</sys_updated_on>
+        <value>This test is expected to fail because the When needed date is in the past.</value>
+        <variable display_value="">523c79985f30220012b44adb7f46663a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=9b47159b1bbdc0108d03631abc4bcbb7"/>
+    <sys_element_mapping action="DELETE">
+        <field>log</field>
+        <id>9b47159b1bbdc0108d03631abc4bcbb7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-23 19:30:01</sys_created_on>
+        <sys_id>df47159b1bbdc0108d03631abc4bcbb8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-23 19:31:08</sys_updated_on>
+        <table>var__m_atf_input_variable_58ab71985f30220012b44adb7f46661e</table>
+        <value>This test is expected to fail because the When needed date is in the past.</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>ed8d2d802bbdbc04ecf7bb4f59da15ad</instance_id>
+        <instance_name>empbsweets</instance_name>
+        <name>sys_atf_step_9b47159b1bbdc0108d03631abc4bcbb7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Log">a035dd1b1bbdc0108d03631abc4bcb4a</copied_from><description>Log: This test is expected to fail because the When needed date is in the past.</description><display_name>Log</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>3</order><snapshot/><step_config display_value="Log">58ab71985f30220012b44adb7f46661e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-23 19:30:01</sys_created_on><sys_id>9b47159b1bbdc0108d03631abc4bcbb7</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Log</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_9b47159b1bbdc0108d03631abc4bcbb7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-23 19:36:18</sys_updated_on><table/><test display_value="When needed - Past">8f47dd5b1bbdc0108d03631abc4bcb88</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=9b47159b1bbdc0108d03631abc4bcbb7"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>9b47159b1bbdc0108d03631abc4bcbb7</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-23 19:30:01</sys_created_on><sys_id>db47159b1bbdc0108d03631abc4bcbb8</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-23 19:31:08</sys_updated_on><value>This test is expected to fail because the When needed date is in the past.</value><variable display_value="">523c79985f30220012b44adb7f46663a</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=9b47159b1bbdc0108d03631abc4bcbb7"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>log</field><id>9b47159b1bbdc0108d03631abc4bcbb7</id><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-23 19:30:01</sys_created_on><sys_id>df47159b1bbdc0108d03631abc4bcbb8</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-23 19:31:08</sys_updated_on><table>var__m_atf_input_variable_58ab71985f30220012b44adb7f46661e</table><value>This test is expected to fail because the When needed date is in the past.</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>1155218796</payload_hash>
+        <record_name>Log</record_name>
+        <reverted_from/>
+        <source>d7243c971b7dc0108d03631abc4bcbe8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-23 19:36:18</sys_created_on>
+        <sys_id>9bb815db1bbdc0108d03631abc4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16f34429d0f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-23 19:36:18</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>17b815db51bdc01025d0a6270b1b3035</update_guid>
+        <update_guid_history>17b815db51bdc01025d0a6270b1b3035:1155218796,af87959b66bdc0100741039ea7159339:-452436499,5b47159b0dbdc0105eadd284de247cbe:-688184256,1747159bbfbdc010dd61c2d40426b7ba:-1256545454</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-23 19:36:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>45ce95f10b8c41c09b545d9e751f8cb9</sys_id>
+        <sys_metadata>9b47159b1bbdc0108d03631abc4bcbb7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Log</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_9b47159b1bbdc0108d03631abc4bcbb7</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_9b47159b1bbdc0108d03631abc4bcbb7">9bb815db1bbdc0108d03631abc4bcb35</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-23 19:36:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
