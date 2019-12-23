@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Navigate to Module">e65bd91f1bbdc0108d03631abc4bcbf7</copied_from>
+        <description>Navigate to the 'Create New' module in the 'NeedIt' application</description>
+        <display_name>Navigate to Module</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <snapshot/>
+        <step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-23 20:04:16</sys_created_on>
+        <sys_id>012f1ddf1bbdc0108d03631abc4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Navigate to Module</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_012f1ddf1bbdc0108d03631abc4bcb84</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-23 20:04:16</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <test display_value="NeedIt Fail Test">8d2f59df1bbdc0108d03631abc4bcbb4</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=012f1ddf1bbdc0108d03631abc4bcb84"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>012f1ddf1bbdc0108d03631abc4bcb84</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-23 20:04:16</sys_created_on>
+        <sys_id>452f1ddf1bbdc0108d03631abc4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-12-23 20:04:16</sys_updated_on>
+        <value>4fdfc45d0fe83200cd674f8ce1050e27</value>
+        <variable display_value="">b6d2b40c73720300c79260bdfaf6a786</variable>
+    </sys_variable_value>
+</record_update>
