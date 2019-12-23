@@ -3,6 +3,7 @@
         <condition_type>declarative</condition_type>
         <description>Open NeedIt records from last quarter</description>
         <group_by/>
+        <instance_relative_url_qc/>
         <name>NeedIt - Last Quarter</name>
         <query_condition table="x_58872_needit_needit">active=true^u_when_neededONLast quarter@javascript:gs.beginningOfLastQuarter()@javascript:gs.endOfLastQuarter()^ORDERBYnumber<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="ON" or="false" value="Last quarter@javascript:gs.beginningOfLastQuarter()@javascript:gs.endOfLastQuarter()"/>

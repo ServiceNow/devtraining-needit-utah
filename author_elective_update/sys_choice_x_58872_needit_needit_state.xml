@@ -1,153 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="u_what_needed" table="x_58872_needit_needit" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_58872_needit_needit" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_what_needed</element>
+            <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Legal 1</label>
+            <label>Requested</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>0</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-23 15:46:38</sys_created_on>
+            <sys_created_on>2019-12-23 15:46:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8b24ac571b3dc0108d03631abc4bcb73</sys_id>
+            <sys_id>4b24ac571b3dc0108d03631abc4bcb84</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-23 15:46:38</sys_updated_on>
-            <value>legal1</value>
+            <sys_updated_on>2019-12-23 15:46:39</sys_updated_on>
+            <value>13</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_what_needed</element>
+            <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Legal 2</label>
+            <label>Awaiting Approval</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>1</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-23 15:46:38</sys_created_on>
+            <sys_created_on>2019-12-23 15:46:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0b24ac571b3dc0108d03631abc4bcb75</sys_id>
+            <sys_id>c724ac571b3dc0108d03631abc4bcb86</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-23 15:46:38</sys_updated_on>
-            <value>legal2</value>
+            <sys_updated_on>2019-12-23 15:46:39</sys_updated_on>
+            <value>14</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_what_needed</element>
+            <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Facilities 1</label>
+            <label>Approved</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>2</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-23 15:46:38</sys_created_on>
+            <sys_created_on>2019-12-23 15:46:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c324ac571b3dc0108d03631abc4bcb77</sys_id>
+            <sys_id>8324ac571b3dc0108d03631abc4bcb88</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-23 15:46:38</sys_updated_on>
-            <value>facilities1</value>
+            <sys_updated_on>2019-12-23 15:46:39</sys_updated_on>
+            <value>15</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_what_needed</element>
+            <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Facilities 2</label>
+            <label>Awaiting Feedback</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>3</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-23 15:46:38</sys_created_on>
+            <sys_created_on>2019-12-23 15:46:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8f24ac571b3dc0108d03631abc4bcb78</sys_id>
+            <sys_id>5f24ac571b3dc0108d03631abc4bcb89</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-23 15:46:38</sys_updated_on>
-            <value>facilities2</value>
+            <sys_updated_on>2019-12-23 15:46:39</sys_updated_on>
+            <value>16</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_what_needed</element>
+            <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Human Resources 1</label>
+            <label>Closed Complete</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>4</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-23 15:46:38</sys_created_on>
+            <sys_created_on>2019-12-23 15:46:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4b24ac571b3dc0108d03631abc4bcb7a</sys_id>
+            <sys_id>1b24ac571b3dc0108d03631abc4bcb8b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-23 15:46:38</sys_updated_on>
-            <value>hr1</value>
+            <sys_updated_on>2019-12-23 15:46:39</sys_updated_on>
+            <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_what_needed</element>
+            <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Human Resources 2</label>
+            <label>Withdrawn</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>5</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-23 15:46:38</sys_created_on>
+            <sys_created_on>2019-12-23 15:46:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0724ac571b3dc0108d03631abc4bcb7c</sys_id>
+            <sys_id>9324ac571b3dc0108d03631abc4bcb8d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-23 15:46:38</sys_updated_on>
-            <value>hr2</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_what_needed</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Other</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>6</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-23 15:46:38</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>cf24ac571b3dc0108d03631abc4bcb7d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-23 15:46:38</sys_updated_on>
-            <value>other</value>
+            <sys_updated_on>2019-12-23 15:46:39</sys_updated_on>
+            <value>8</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>u_what_needed</element>
+            <element>state</element>
             <name>x_58872_needit_needit</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-12-23 15:46:38</sys_created_on>
-            <sys_id>c324ac571b3dc0108d03631abc4bcb74</sys_id>
+            <sys_created_on>2019-12-23 15:46:39</sys_created_on>
+            <sys_id>8324ac571b3dc0108d03631abc4bcb85</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>u_what_needed</sys_name>
+            <sys_name>state</sys_name>
             <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
             <sys_policy/>
             <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-            <sys_update_name>sys_choice_x_58872_needit_needit_u_what_needed</sys_update_name>
+            <sys_update_name>sys_choice_x_58872_needit_needit_state</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-12-23 15:46:38</sys_updated_on>
+            <sys_updated_on>2019-12-23 15:46:39</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>
