@@ -5,8 +5,11 @@
         <connection_url>attachment://sys_data_source:03c1b4794f313200cb281b818110c701/needitimportdata.csv</connection_url>
         <connection_url_parameters/>
         <csv_delimiter/>
+        <data_in_single_column>false</data_in_single_column>
+        <data_loader/>
         <database_name/>
         <database_port/>
+        <discard_arrays>false</discard_arrays>
         <expand_node_children>false</expand_node_children>
         <file_path>needitimportdata.csv</file_path>
         <file_retrieval_method>Attachment</file_retrieval_method>
@@ -22,15 +25,21 @@
         <jpath_root_node/>
         <last_run_database_field/>
         <last_run_datetime/>
+        <last_success_import_time/>
         <ldap_target/>
+        <ldapprobe_result_set_rows/>
+        <limit/>
         <maximum_rows/>
         <mid_server/>
         <name>needitimportdata.csv (Uploaded)</name>
+        <offset/>
         <oracle_port>1521</oracle_port>
         <oracle_sid>orcl</oracle_sid>
+        <parsing_script/>
         <properties/>
         <query>All Rows from Table</query>
         <query_timeout>0</query_timeout>
+        <request_action/>
         <scp_authentication>Username and Password</scp_authentication>
         <scp_password/>
         <scp_port/>
@@ -39,6 +48,7 @@
         <sheet_number>1</sheet_number>
         <sql_statement/>
         <ssh_keyfile_path/>
+        <support_pagination>false</support_pagination>
         <sys_class_name>sys_data_source</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-03-29 19:59:31</sys_created_on>
