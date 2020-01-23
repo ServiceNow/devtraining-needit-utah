@@ -7,7 +7,7 @@
             <choice>
                 <element inactive_on_update="false" label="Legal" sequence="0" value="legal"/>
                 <element inactive_on_update="false" label="Facilities" sequence="1" value="facilities"/>
-                <element inactive_on_update="false" label="Human Resources" sequence="2" value="human resources"/>
+                <element inactive_on_update="false" label="Human Resources" sequence="2" value="hr"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="hr1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
