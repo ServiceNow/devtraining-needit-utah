@@ -52,10 +52,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>46f976c61b340010411dea8bbc4bcb9a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-10-31 12:25:54</sys_updated_on>
-            <value>human resources</value>
+            <sys_updated_on>2020-01-23 18:18:52</sys_updated_on>
+            <value>hr</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_request_type</element>
@@ -63,7 +63,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-10-31 12:25:54</sys_created_on>
-            <sys_id>02f976c61b340010411dea8bbc4bcb97</sys_id>
+            <sys_id>7020b4551bea4410c6956356bd4bcbf8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_request_type</sys_name>
             <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
