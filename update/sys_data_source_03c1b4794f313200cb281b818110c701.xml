@@ -1,13 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_data_source">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
     <sys_data_source action="INSERT_OR_UPDATE">
+        <batch_size/>
         <category/>
         <connection_timeout>0</connection_timeout>
         <connection_url>attachment://sys_data_source:03c1b4794f313200cb281b818110c701/needitimportdata.csv</connection_url>
         <connection_url_parameters/>
         <csv_delimiter/>
+        <data_in_single_column>false</data_in_single_column>
+        <data_loader/>
         <database_name/>
         <database_port/>
+        <discard_arrays>false</discard_arrays>
         <expand_node_children>false</expand_node_children>
         <file_path>needitimportdata.csv</file_path>
         <file_retrieval_method>Attachment</file_retrieval_method>
@@ -23,15 +26,21 @@
         <jpath_root_node/>
         <last_run_database_field/>
         <last_run_datetime/>
+        <last_success_import_time/>
         <ldap_target/>
+        <ldapprobe_result_set_rows/>
+        <limit/>
         <maximum_rows/>
         <mid_server/>
         <name>needitimportdata.csv (Uploaded)</name>
+        <offset/>
         <oracle_port>1521</oracle_port>
         <oracle_sid>orcl</oracle_sid>
+        <parsing_script/>
         <properties/>
         <query>All Rows from Table</query>
         <query_timeout>0</query_timeout>
+        <request_action/>
         <scp_authentication>Username and Password</scp_authentication>
         <scp_password/>
         <scp_port/>
@@ -40,22 +49,22 @@
         <sheet_number>1</sheet_number>
         <sql_statement/>
         <ssh_keyfile_path/>
+        <support_pagination>false</support_pagination>
         <sys_class_name>sys_data_source</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-03-29 19:59:31</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>03c1b4794f313200cb281b818110c701</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>needitimportdata.csv (Uploaded)</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_data_source_03c1b4794f313200cb281b818110c701</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-03-29 19:59:33</sys_updated_on>
         <table_name/>
         <type>File</type>
+        <use_batch_import>false</use_batch_import>
         <use_integrated_authentication>false</use_integrated_authentication>
         <use_last_run_datetime>false</use_last_run_datetime>
         <xpath_root_node/>

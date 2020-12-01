@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_transform_map">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
     <sys_transform_map action="INSERT_OR_UPDATE">
         <active>true</active>
         <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
         <enforce_mandatory_fields>All Fields</enforce_mandatory_fields>
         <name>Import Historic NeedIt Data</name>
         <order>100</order>
@@ -23,13 +23,11 @@ if(!("u_requested_for_email" in source)){
         <sys_class_name>sys_transform_map</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-03-29 20:18:26</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>13d5bc714fb13200cb281b818110c71e</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Import Historic NeedIt Data</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_transform_map_13d5bc714fb13200cb281b818110c71e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

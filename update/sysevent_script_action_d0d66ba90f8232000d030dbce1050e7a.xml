@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sysevent_script_action">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
     <sysevent_script_action action="INSERT_OR_UPDATE">
         <active>true</active>
         <condition_script/>
@@ -15,7 +14,6 @@ current.update();]]></script>
         <sys_class_name>sysevent_script_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-04-11 00:48:20</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d0d66ba90f8232000d030dbce1050e7a</sys_id>
@@ -24,7 +22,6 @@ current.update();]]></script>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_script_action_d0d66ba90f8232000d030dbce1050e7a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
