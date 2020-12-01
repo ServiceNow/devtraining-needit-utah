@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_source">
     <sys_data_source action="INSERT_OR_UPDATE">
+        <batch_size/>
         <category/>
         <connection_timeout>0</connection_timeout>
         <connection_url>attachment://sys_data_source:03c1b4794f313200cb281b818110c701/needitimportdata.csv</connection_url>
@@ -63,6 +64,7 @@
         <sys_updated_on>2017-03-29 19:59:33</sys_updated_on>
         <table_name/>
         <type>File</type>
+        <use_batch_import>false</use_batch_import>
         <use_integrated_authentication>false</use_integrated_authentication>
         <use_last_run_datetime>false</use_last_run_datetime>
         <xpath_root_node/>

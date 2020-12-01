@@ -19,6 +19,7 @@
         <outputs/>
         <remote_trigger_id>19cde7c7dba823004d5d5608689619c0</remote_trigger_id>
         <run_as/>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
@@ -51,6 +52,7 @@
         <on_insert>true</on_insert>
         <on_update>false</on_update>
         <run_flow_in/>
+        <run_on_extended/>
         <run_when_setting/>
         <run_when_user_list/>
         <run_when_user_setting/>
@@ -102,7 +104,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-01-15 17:14:54</sys_updated_on>
         <value>x_58872_needit_needit</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -116,7 +118,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-01-15 17:14:54</sys_updated_on>
         <value>state=3</value>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=50f4d76e1b560010c6956356bd4bcb9f"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -189,7 +191,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 16:15:26</sys_updated_on>
         <value>approval</value>
-        <variable display_value="">1ed2a9920b10030085c083eb37673ab7</variable>
+        <variable display_value="Approval Field">1ed2a9920b10030085c083eb37673ab7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -203,7 +205,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 16:15:26</sys_updated_on>
         <value>x_58872_needit_needit</value>
-        <variable display_value="">d2d2a9920b10030085c083eb37673aa0</variable>
+        <variable display_value="Table">d2d2a9920b10030085c083eb37673aa0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -217,7 +219,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 16:15:26</sys_updated_on>
         <value/>
-        <variable display_value="">26d2a9920b10030085c083eb37673ad9</variable>
+        <variable display_value="Due Date">26d2a9920b10030085c083eb37673ad9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -231,7 +233,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 16:15:26</sys_updated_on>
         <value>approval_history</value>
-        <variable display_value="">22d2a9920b10030085c083eb37673ac3</variable>
+        <variable display_value="Journal Field">22d2a9920b10030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=887f2f0bdba823004d5d560868961930"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -315,6 +317,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="NeedIt Fulfillment">2d9aa78bdbe423004d5d560868961968</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -347,7 +351,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-01-15 17:11:20</sys_updated_on>
         <value>Request approved</value>
-        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=8c24df2e1b560010c6956356bd4bcbc6"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -408,7 +412,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-01-15 17:13:23</sys_updated_on>
         <value>x_58872_needit_needit</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -422,7 +426,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-01-15 17:13:23</sys_updated_on>
         <value>state=15</value>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=8e94176e1b560010c6956356bd4bcb27"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -470,6 +474,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="NeedIt Fulfillment">2d9aa78bdbe423004d5d560868961968</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>4</order>
@@ -523,7 +529,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 15:59:17</sys_updated_on>
         <value>state=14^assigned_to={"display":"Beth Anglin","value":"46d44a23a9fe19810012d100cca80666"}</value>
-        <variable display_value="">e7d270ccc3c632002841b63b12d3ae8b</variable>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -537,7 +543,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 16:08:08</sys_updated_on>
         <value>x_58872_needit_needit</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -551,7 +557,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-01-15 17:10:07</sys_updated_on>
         <value>state=14</value>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -565,21 +571,9 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 15:59:17</sys_updated_on>
         <value>x_58872_needit_needit</value>
-        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ebbb6f07dba823004d5d560868961955"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>ebbb6f07dba823004d5d560868961955</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-19 16:08:08</sys_created_on>
-        <sys_id>81cde7c7dba823004d5d560868961969</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-19 16:08:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>{{Created_1.current}}</value>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>record</field>
         <id>ebbb6f07dba823004d5d560868961955</id>
@@ -590,6 +584,18 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 15:59:17</sys_updated_on>
         <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ebbb6f07dba823004d5d560868961955</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-19 16:08:08</sys_created_on>
+        <sys_id>81cde7c7dba823004d5d560868961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-19 16:08:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value>{{Created_1.current}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -620,24 +626,24 @@
         <field>values</field>
         <id>ebbb6f07dba823004d5d560868961955</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-19 16:08:08</sys_created_on>
-        <sys_id>45cde7c7dba823004d5d560868961969</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-19 16:08:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>ebbb6f07dba823004d5d560868961955</id>
-        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-19 15:59:17</sys_created_on>
         <sys_id>a7bb6f07dba823004d5d56086896195c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 15:59:17</sys_updated_on>
         <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ebbb6f07dba823004d5d560868961955</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-19 16:08:08</sys_created_on>
+        <sys_id>45cde7c7dba823004d5d560868961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-19 16:08:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=2d9aa78bdbe423004d5d560868961968^sys_idNOT IN63bb6f07dba823004d5d56086896194d"/>
@@ -672,7 +678,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 15:59:17</sys_updated_on>
         <value>^EQ</value>
-        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
@@ -686,7 +692,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 15:59:17</sys_updated_on>
         <value>x_58872_needit_needit</value>
-        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=2d9aa78bdbe423004d5d560868961968^sys_idNOT INa99aa78bdbe423004d5d560868961969"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -898,7 +904,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-01-15 17:14:54</sys_updated_on>
         <value>x_58872_needit_needit</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -912,7 +918,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-01-15 17:14:54</sys_updated_on>
         <value>state=3</value>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=50f4d76e1b560010c6956356bd4bcb9f"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -985,7 +991,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 16:15:26</sys_updated_on>
         <value>approval</value>
-        <variable display_value="">1ed2a9920b10030085c083eb37673ab7</variable>
+        <variable display_value="Approval Field">1ed2a9920b10030085c083eb37673ab7</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -999,7 +1005,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 16:15:26</sys_updated_on>
         <value>x_58872_needit_needit</value>
-        <variable display_value="">d2d2a9920b10030085c083eb37673aa0</variable>
+        <variable display_value="Table">d2d2a9920b10030085c083eb37673aa0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1013,7 +1019,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 16:15:26</sys_updated_on>
         <value/>
-        <variable display_value="">26d2a9920b10030085c083eb37673ad9</variable>
+        <variable display_value="Due Date">26d2a9920b10030085c083eb37673ad9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1027,7 +1033,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 16:15:26</sys_updated_on>
         <value>approval_history</value>
-        <variable display_value="">22d2a9920b10030085c083eb37673ac3</variable>
+        <variable display_value="Journal Field">22d2a9920b10030085c083eb37673ac3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=887f2f0bdba823004d5d560868961930"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1136,7 +1142,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-01-15 17:13:23</sys_updated_on>
         <value>x_58872_needit_needit</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1150,7 +1156,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-01-15 17:13:23</sys_updated_on>
         <value>state=15</value>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=8e94176e1b560010c6956356bd4bcb27"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1223,7 +1229,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 15:59:17</sys_updated_on>
         <value>state=14^assigned_to={"display":"Beth Anglin","value":"46d44a23a9fe19810012d100cca80666"}</value>
-        <variable display_value="">e7d270ccc3c632002841b63b12d3ae8b</variable>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1237,7 +1243,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 16:08:08</sys_updated_on>
         <value>x_58872_needit_needit</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1251,7 +1257,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-01-15 17:10:07</sys_updated_on>
         <value>state=14</value>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1265,21 +1271,9 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 15:59:17</sys_updated_on>
         <value>x_58872_needit_needit</value>
-        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=ebbb6f07dba823004d5d560868961955"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>ebbb6f07dba823004d5d560868961955</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-19 16:08:08</sys_created_on>
-        <sys_id>81cde7c7dba823004d5d560868961969</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-19 16:08:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>{{Created_1.current}}</value>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>record</field>
         <id>ebbb6f07dba823004d5d560868961955</id>
@@ -1290,6 +1284,18 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 15:59:17</sys_updated_on>
         <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ebbb6f07dba823004d5d560868961955</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-19 16:08:08</sys_created_on>
+        <sys_id>81cde7c7dba823004d5d560868961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-19 16:08:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value>{{Created_1.current}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1320,24 +1326,24 @@
         <field>values</field>
         <id>ebbb6f07dba823004d5d560868961955</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-09-19 16:08:08</sys_created_on>
-        <sys_id>45cde7c7dba823004d5d560868961969</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-19 16:08:08</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>ebbb6f07dba823004d5d560868961955</id>
-        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-19 15:59:17</sys_created_on>
         <sys_id>a7bb6f07dba823004d5d56086896195c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 15:59:17</sys_updated_on>
         <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ebbb6f07dba823004d5d560868961955</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-19 16:08:08</sys_created_on>
+        <sys_id>45cde7c7dba823004d5d560868961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-19 16:08:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
     <sys_hub_flow_logic action="delete_multiple" query="flow=2d9aa78bdbe423004d5d560868961968^sys_idNOT IN8c24df2e1b560010c6956356bd4bcbc6,d4f4d76e1b560010c6956356bd4bcba1"/>
@@ -1350,6 +1356,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="NeedIt Fulfillment">2d9aa78bdbe423004d5d560868961968</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
@@ -1382,7 +1390,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-01-15 17:11:20</sys_updated_on>
         <value>Request approved</value>
-        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=8c24df2e1b560010c6956356bd4bcbc6"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1418,6 +1426,8 @@
         <display_text/>
         <extended_inputs/>
         <flow display_value="NeedIt Fulfillment">2d9aa78bdbe423004d5d560868961968</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>4</order>
@@ -1451,11 +1461,11 @@
         <sys_created_on>2018-09-19 15:59:17</sys_created_on>
         <sys_id>2fbb6f07dba823004d5d560868961937</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2d9aa78bdbe423004d5d560868961968_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 15:59:17</sys_updated_on>
         <url/>
@@ -1474,11 +1484,11 @@
         <sys_created_on>2018-09-19 15:59:17</sys_created_on>
         <sys_id>67bb6f07dba823004d5d56086896194a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2d9aa78bdbe423004d5d560868961968_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 15:59:17</sys_updated_on>
         <url/>
@@ -1521,6 +1531,7 @@
         <parent_flow display_value="NeedIt Fulfillment">2d9aa78bdbe423004d5d560868961968</parent_flow>
         <remote_trigger_id/>
         <run_as/>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <status>published</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
@@ -1577,7 +1588,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 16:08:08</sys_updated_on>
         <value>state=14^assigned_to={"display":"Beth Anglin","value":"46d44a23a9fe19810012d100cca80666"}</value>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1591,7 +1602,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 16:08:08</sys_updated_on>
         <value>x_58872_needit_needit</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=89cde7c7dba823004d5d5608689619a2"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -1662,7 +1673,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 16:08:08</sys_updated_on>
         <value>^EQ</value>
-        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
@@ -1676,7 +1687,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 16:08:08</sys_updated_on>
         <value>x_58872_needit_needit</value>
-        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=c5cde7c7dba823004d5d56086896197a^sys_idNOT IN8dcde7c7dba823004d5d56086896197a"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -1888,7 +1899,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 16:08:08</sys_updated_on>
         <value>state=14^assigned_to={"display":"Beth Anglin","value":"46d44a23a9fe19810012d100cca80666"}</value>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -1902,7 +1913,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-09-19 16:08:08</sys_updated_on>
         <value>x_58872_needit_needit</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=89cde7c7dba823004d5d5608689619a2"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">

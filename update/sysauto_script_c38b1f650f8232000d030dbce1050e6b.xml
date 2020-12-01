@@ -6,6 +6,8 @@
         <conditional>false</conditional>
         <entered_time/>
         <name>Find Overdue NeedIt Tasks</name>
+        <offset/>
+        <offset_type/>
         <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
