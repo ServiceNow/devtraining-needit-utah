@@ -26,7 +26,7 @@
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
         <from/>
-        <generation_type>event</generation_type>
+        <generation_type>triggered</generation_type>
         <importance/>
         <include_attachments>false</include_attachments>
         <item>event.parm1</item>
@@ -38,7 +38,7 @@
 <p>Number: ${number}<br />Short description: ${short_description}</p>
 <p>Please complete this task as soon as possible.</p>
 <p>${mail_script:CountOverdueNeedItTasksAssignedTo}</p>
-<p>&nbsp;</p>
+<p><br /></p>
 <p>Click here to view the&nbsp;NeedIt Task record: ${URI_REF}</p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -61,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c003c7f60fc272000d030dbce1050e3b</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Overdue NeedIt Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -69,7 +69,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_email_action_c003c7f60fc272000d030dbce1050e3b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-06-08 17:13:19</sys_updated_on>
+        <sys_updated_on>2020-12-02 16:07:21</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
