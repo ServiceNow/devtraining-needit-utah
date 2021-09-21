@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_panel>c355fddd1b82301068dd5464604bcb92</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page display_value="UI Builder">399fcc0077733300cf3a4a2a6910611b</page>
+        <path>needit-experience</path>
+        <root_macroponent display_value="UXR Blank AppShell">fee17a0f5b130010b913cbd59b81c7c2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-17 15:22:24</sys_created_on>
+        <sys_id>20353ddd1b82301068dd5464604bcb8e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIt Experience</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_page_registry_20353ddd1b82301068dd5464604bcb8e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 15:22:59</sys_updated_on>
+        <title>NeedIt Experience</title>
+    </sys_ux_page_registry>
+</record_update>
