@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_58872_needit_needit" version="2" view="experience_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="654e61d11b02301068dd5464604bcb3e">658ea5991b82301068dd5464604bcb9d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-17 14:52:46</sys_created_on>
+            <sys_id>ed8ea5991b82301068dd5464604bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-17 14:52:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_requested_for</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="654e61d11b02301068dd5464604bcb3e">658ea5991b82301068dd5464604bcb9d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-17 14:52:46</sys_created_on>
+            <sys_id>618ea5991b82301068dd5464604bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-17 14:52:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="654e61d11b02301068dd5464604bcb3e">658ea5991b82301068dd5464604bcb9d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-17 14:52:46</sys_created_on>
+            <sys_id>e18ea5991b82301068dd5464604bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-17 14:52:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="654e61d11b02301068dd5464604bcb3e">658ea5991b82301068dd5464604bcb9d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-17 14:52:46</sys_created_on>
+            <sys_id>658ea5991b82301068dd5464604bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-17 14:52:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="654e61d11b02301068dd5464604bcb3e">658ea5991b82301068dd5464604bcb9d</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-17 14:52:46</sys_created_on>
+            <sys_id>e58ea5991b82301068dd5464604bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-17 14:52:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_58872_needit_needit</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-08-17 14:52:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>658ea5991b82301068dd5464604bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_needit_needit</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_list_x_58872_needit_needit_experience_list</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-08-17 14:52:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="Experience list" name="experience_list">654e61d11b02301068dd5464604bcb3e</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

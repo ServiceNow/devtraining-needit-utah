@@ -2,21 +2,21 @@
     <sys_ui_view action="INSERT_OR_UPDATE">
         <group/>
         <hidden>false</hidden>
-        <name>User</name>
+        <name>experience_list</name>
         <roles/>
         <sys_class_name>sys_ui_view</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-01-26 21:55:52</sys_created_on>
-        <sys_id>5bd975bd0fa03200cd674f8ce1050e7f</sys_id>
+        <sys_created_on>2021-08-17 14:51:42</sys_created_on>
+        <sys_id>654e61d11b02301068dd5464604bcb3e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>User</sys_name>
+        <sys_name>Experience list</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_ui_view_5bd975bd0fa03200cd674f8ce1050e7f</sys_update_name>
+        <sys_update_name>sys_ui_view_654e61d11b02301068dd5464604bcb3e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-01-26 21:55:52</sys_updated_on>
-        <title>User</title>
+        <sys_updated_on>2021-08-17 14:51:42</sys_updated_on>
+        <title>Experience list</title>
         <user/>
     </sys_ui_view>
 </record_update>

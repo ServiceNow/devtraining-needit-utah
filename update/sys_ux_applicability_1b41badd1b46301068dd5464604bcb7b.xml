@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_58872_needit.NeedIt Admins</api_name>
+        <description>Audience of users with the NeedIt admin role</description>
+        <name>NeedIt Admins</name>
+        <roles name="x_58872_needit.admin">168e57609f213200bde5f79ff57fcfb4</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-17 19:44:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1b41badd1b46301068dd5464604bcb7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Admins</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_applicability_1b41badd1b46301068dd5464604bcb7b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-17 19:44:58</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>
