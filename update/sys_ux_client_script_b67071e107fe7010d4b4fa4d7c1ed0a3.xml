@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Record">1a7071e107fe7010d4b4fa4d7c1ed05e</macroponent>
+        <name>logInteractionActivities</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function script({
+    api,
+    event
+}) {
+    if (event.payload.name !== "activityLogs")
+        return;
+    const logMap = api.context.props.activityLogs;
+    if (logMap.size === 0)
+        return;
+    // Since payload contains all the activity logs across the tabs,
+    // look for the last operation based on the timestamp
+    let primaryId, subTable, subId, operation;
+    let lastTimestamp = -1;
+    for (let log of logMap.values()) {
+        const activities = log.activities.entries().next().value[1];
+        if (!activities.length)
+            continue;
+        const context = log.context;
+        if (context.table !== "interaction")
+            continue;
+        // Activity array is sorted by timestamp
+        // only needs to compare the last element
+        const lastActivity = activities[activities.length - 1];
+        const timestamp = parseInt(lastActivity.timestamp, 10);
+        if (timestamp > lastTimestamp) {
+            lastTimestamp = timestamp;
+            primaryId = context.sysId;
+            subTable = lastActivity.table;
+            subId = lastActivity.sysId;
+            operation = lastActivity.operation;
+        }
+    }
+    if (lastTimestamp === -1 || subId === "-1" || subTable === "interaction" || subTable === "interaction_related_record")
+        return;
+    if (operation !== "opened" && operation !== "inserted" && operation !== "updated")
+        return;
+    const operationMap = { "inserted": "Created", "opened": "Viewed", "updated": "Updated" };
+    const oprString = operationMap[operation] || "";
+    const templateFields = `document_table=${subTable}^document_id=${subId}^interaction=${primaryId}^operation=${oprString}`;
+    api.data.create_record.execute({
+        "table": "interaction_related_record",
+        "templateFields": templateFields,
+        "useSetDisplayValue": ""
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-24 16:26:54</sys_created_on>
+        <sys_id>b67071e107fe7010d4b4fa4d7c1ed0a3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>logInteractionActivities</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_b67071e107fe7010d4b4fa4d7c1ed0a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-24 16:29:19</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

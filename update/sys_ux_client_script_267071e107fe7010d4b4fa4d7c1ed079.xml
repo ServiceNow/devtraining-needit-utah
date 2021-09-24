@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Record">1a7071e107fe7010d4b4fa4d7c1ed05e</macroponent>
+        <name>Deep linking workspace configuration</name>
+        <required_translations>[ {
+  "message" : "Related Items",
+  "comment" : ""
+}, {
+  "message" : "Contextual Side Panel",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+
+async function handler({ api, event, helpers, imports }) {
+    if (!event || !event.payload) {
+        return;
+    }
+
+    const { items, table, sysId, options } = event.payload;
+    const userRoles = api.context.session.user.roles;
+    if (userRoles && (userRoles.includes("admin") || userRoles.includes("workspace_admin"))) {
+        //only emit for "workspace_admin" and "admin" role
+        let newItems = [];
+
+        //filter out "Contextual Side Panel" and "Related Items"
+        let tranlatedLabel1, translatedLabel2;
+        await helpers.translate("Contextual Side Panel").then((value1) => {
+            tranlatedLabel1 = value1;
+        });
+        await helpers.translate("Related Items").then((value2) => {
+            translatedLabel2 = value2;
+        });
+
+        items.forEach(item => {
+            if (item && item.label != tranlatedLabel1 && item.label != translatedLabel2) {
+                newItems.push(item);
+            }
+        });
+
+        api.emit("CONTENT_ITEMS_SELECTED", {
+            table,
+            sysId,
+            options,
+            items: newItems
+        });
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-24 16:26:53</sys_created_on>
+        <sys_id>267071e107fe7010d4b4fa4d7c1ed079</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Deep linking workspace configuration</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_267071e107fe7010d4b4fa4d7c1ed079</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-24 16:29:11</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>
