@@ -1008,6 +1008,65 @@
             }
           },
           "eventMappings" : [ {
+            "eventMappingId" : "cktylkzhheaaaaggmddgiiddaqmiieaaeet",
+            "isConfiguration" : false,
+            "offRowStorageId" : null,
+            "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#DATA_FETCH_REQUESTED",
+            "sourceEventCorrelationId" : null,
+            "sourceEventDefinition" : {
+              "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#DATA_FETCH_REQUESTED",
+              "id" : null,
+              "type" : "UXEVENT"
+            },
+            "sourceEventSysId" : null,
+            "targets" : [ {
+              "broker" : null,
+              "clientScript" : null,
+              "declarativeAction" : null,
+              "event" : {
+                "apiName" : "sn_uxf_page.NOW_UXF_PAGE#CLEAR_NOTIFICATIONS",
+                "payload" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : { }
+                },
+                "sysId" : "e1270f814da9399ec7c51a2cf36ecfa8"
+              },
+              "operation" : null,
+              "targetId" : "cktylkzhheaaaaggnddgiiddfayojtvd",
+              "type" : "EVENT"
+            } ]
+          }, {
+            "eventMappingId" : "cktylbbbrlaaaaggdddgiidduljjjjjjddut",
+            "isConfiguration" : false,
+            "offRowStorageId" : null,
+            "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#DATA_FETCH_SUCCEEDED",
+            "sourceEventCorrelationId" : null,
+            "sourceEventDefinition" : {
+              "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#DATA_FETCH_SUCCEEDED",
+              "id" : null,
+              "type" : "UXEVENT"
+            },
+            "sourceEventSysId" : null,
+            "targets" : [ {
+              "broker" : null,
+              "clientScript" : null,
+              "declarativeAction" : null,
+              "event" : {
+                "apiName" : "sn_uxf_page.NOW_UXF_PAGE#ADD_NOTIFICATIONS",
+                "payload" : {
+                  "type" : "CLIENT_TRANSFORM_SCRIPT",
+                  "script" : {
+                    "apiVersion" : "1.0.0",
+                    "inlineScript" : "/**\n * @param {params} params\n * @param {api} params.api\n * @param {any} params.event\n * @param {any} params.imports\n */\nfunction evaluateEvent({\n    api,\n    event\n}) {\n\n    // Get the query value from the payload\n    var payloadQuery = event.payload.query;\n\n    return {\n        items: [{\n            \"content\": {\n                \"type\": \"html\",\n                \"value\": \"&lt;span&gt;&lt;em&gt;NeedIt&lt;/em&gt; records were fetched successfully with query &lt;strong&gt;\" + payloadQuery + \"&lt;/strong&gt;.&lt;/span&gt;\"\n            },\n            \"action\": {\n                \"type\": \"dismiss\"\n            }\n        }]\n    };\n}"
+                  }
+                },
+                "sysId" : "49fe7d575f983bb3f8eea3fa8d40694c"
+              },
+              "operation" : null,
+              "targetId" : "cktylbbbrlaaaaggeddgiiddjjddwpaakzl",
+              "type" : "EVENT"
+            } ]
+          }, {
             "eventMappingId" : "cktylffbbyccaaaaggeeddgiiddeeffffkksjjt",
             "isConfiguration" : false,
             "offRowStorageId" : null,
@@ -1280,13 +1339,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-24 18:11:54</sys_created_on>
         <sys_id>223f9e631b46f41068dd5464604bcb2a</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_223f9e631b46f41068dd5464604bcb2a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-24 16:36:23</sys_updated_on>
+        <sys_updated_on>2021-09-24 16:47:56</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
