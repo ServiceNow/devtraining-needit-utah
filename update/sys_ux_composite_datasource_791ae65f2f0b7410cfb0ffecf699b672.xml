@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_datasource">
+    <sys_ux_composite_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_58872_needit_needit">u_what_needed=hr1^ORu_what_needed=hr2^EQ<item display_value="Human Resources 1" endquery="false" field="u_what_needed" goto="false" newquery="false" operator="=" or="false" value="hr1"/>
+            <item display_value="Human Resources 2" endquery="false" field="u_what_needed" goto="false" newquery="false" operator="=" or="true" value="hr2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <encoded_query_script/>
+        <name>NeedIt Human Resources EVAM Datasource</name>
+        <sort_by>u_when_needed</sort_by>
+        <sys_class_name>sys_ux_composite_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-12 17:32:11</sys_created_on>
+        <sys_id>791ae65f2f0b7410cfb0ffecf699b672</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Human Resources EVAM Datasource</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_composite_datasource_791ae65f2f0b7410cfb0ffecf699b672</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-12 17:32:11</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+    </sys_ux_composite_datasource>
+</record_update>
