@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template">
+    <sys_ux_composite_data_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>NeedIt Task View Template</name>
+        <sys_class_name>sys_ux_composite_data_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-20 18:18:31</sys_created_on>
+        <sys_id>124340022f537c10cfb0ffecf699b691</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Task View Template</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_124340022f537c10cfb0ffecf699b691</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-20 18:18:31</sys_updated_on>
+        <template>{&#13;
+	"component": "now-card-evam-record",&#13;
+	"staticValues": {&#13;
+      "highlightedHeaderIcon": {&#13;
+			"translatable": false,&#13;
+			"key": "clock-outline"&#13;
+		},&#13;
+		"highlightedHeaderBkgColor": {&#13;
+			"translatable": false,&#13;
+			"key": "moderate"&#13;
+		},&#13;
+		"subtitleIcon": {&#13;
+			"translatable": false,&#13;
+			"key": "calendar-fill"&#13;
+		},&#13;
+		"imageType": {&#13;
+			"translatable": false,&#13;
+			"key": "image"&#13;
+		},&#13;
+		"subtitleImageType": {&#13;
+			"translatable": false,&#13;
+			"key": "avatar"&#13;
+		},&#13;
+        "detailLabelOne": {&#13;
+			"translatable": true,&#13;
+			"key": "For NeedIt"&#13;
+		},&#13;
+		"detailLabelTwo": {&#13;
+			"translatable": true,&#13;
+			"key": "State"&#13;
+		},&#13;
+		"detailLabelThree": {&#13;
+			"translatable": true,&#13;
+			"key": "Due date"&#13;
+		},&#13;
+        "detailLabelFour": {&#13;
+			"translatable": true,&#13;
+			"key": "Short description"&#13;
+		}&#13;
+	},&#13;
+	"mappings": {&#13;
+        "highlightedHeaderLabel": "title",&#13;
+		"textHeaderLabel": "priority",&#13;
+		"imageURL": "photo",&#13;
+		"subtitle": "assigned_to",&#13;
+		"subtitleAvatarName": "assigned_to",&#13;
+		"subtitleAvatarURL": "assigned_to.avatar",&#13;
+		"titleLabel": "number",&#13;
+		"detailValueOne": "u_needit",&#13;
+		"detailValueTwo": "state",&#13;
+		"detailValueThree": "due_date",&#13;
+        "detailValueFour": "short_description"   &#13;
+	},&#13;
+	"actionMappings": {&#13;
+		"clickAction": "nit_navigation"&#13;
+	}&#13;
+}&#13;
+</template>
+    </sys_ux_composite_data_template>
+</record_update>
