@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="DELETE">
+        <declarative_action_assignment display_value="ni_navigation_action">404a06e62f9fbc10cfb0ffecf699b6cd</declarative_action_assignment>
+        <predicate display_value="NeedIt Task View Config">d80d2a1d2f57f810cfb0ffecf699b694</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-22 17:25:17</sys_created_on>
+        <sys_id>005a4ee62f9fbc10cfb0ffecf699b69f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_005a4ee62f9fbc10cfb0ffecf699b69f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-22 17:25:17</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>327a7940db0f53407d8cf22ebf961914</instance_id>
+        <instance_name>dev62858</instance_name>
+        <name>sys_ux_predicate_m2m_action_assignment_005a4ee62f9fbc10cfb0ffecf699b69f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="ni_navigation_action">404a06e62f9fbc10cfb0ffecf699b6cd</declarative_action_assignment>
+        <predicate display_value="NeedIt Task View Config">d80d2a1d2f57f810cfb0ffecf699b694</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-22 17:25:17</sys_created_on>
+        <sys_id>005a4ee62f9fbc10cfb0ffecf699b69f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_005a4ee62f9fbc10cfb0ffecf699b69f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-22 17:25:17</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>]]></payload>
+        <payload_hash>-1242187230</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>dd24e6672f173010cfb0ffecf699b6c6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-25 21:51:57</sys_created_on>
+        <sys_id>66246a672f173010cfb0ffecf699b630</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17cb9704d430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-25 21:51:57</sys_updated_on>
+        <type>EVAM View Config Action Assignment M2M</type>
+        <update_guid>e2246a67ce173010e1b4d3042358fc30</update_guid>
+        <update_guid_history>e2246a67ce173010e1b4d3042358fc30:0,2b33aa277a17301030859b4abe499caf:-285711491,c65a15ef5d133010ab93453496285be5:0,854d451b719f305053d5f02cc833dcb1:-1587035624,fa5a4ee6109fbc10c4e77f67912bfb5f:-14879068</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-25 21:58:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_predicate_m2m_action_assignment">sys_ux_predicate_m2m_action_assignment</sys_db_object>
+        <sys_id>22d0a517f80f449ea76ca47ccbee2cf1</sys_id>
+        <sys_metadata>005a4ee62f9fbc10cfb0ffecf699b69f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_005a4ee62f9fbc10cfb0ffecf699b69f</sys_update_name>
+        <sys_update_version display_value="sys_ux_predicate_m2m_action_assignment_005a4ee62f9fbc10cfb0ffecf699b69f">66246a672f173010cfb0ffecf699b630</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-25 21:58:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
