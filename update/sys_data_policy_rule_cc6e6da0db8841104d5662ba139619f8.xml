@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>comments</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>me.niedzielski@snc</sys_created_by>
+        <sys_created_on>2021-11-22 17:02:56</sys_created_on>
+        <sys_data_policy display_value="NeedIt State set to Withdrawn">1bcda5a0db8841104d5662ba13961965</sys_data_policy>
+        <sys_id>cc6e6da0db8841104d5662ba139619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>comments</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_data_policy_rule_cc6e6da0db8841104d5662ba139619f8</sys_update_name>
+        <sys_updated_by>me.niedzielski@snc</sys_updated_by>
+        <sys_updated_on>2021-11-22 17:02:56</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+    </sys_data_policy_rule>
+</record_update>
