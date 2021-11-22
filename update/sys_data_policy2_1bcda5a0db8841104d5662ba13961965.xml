@@ -7,7 +7,7 @@
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
-        <enforce_ui>false</enforce_ui>
+        <enforce_ui>true</enforce_ui>
         <inherit>false</inherit>
         <model_id/>
         <model_table>x_58872_needit_needit</model_table>
@@ -19,7 +19,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1bcda5a0db8841104d5662ba13961965</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>NeedIt State set to Withdrawn</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -27,6 +27,6 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_data_policy2_1bcda5a0db8841104d5662ba13961965</sys_update_name>
         <sys_updated_by>me.niedzielski@snc</sys_updated_by>
-        <sys_updated_on>2021-11-22 17:02:00</sys_updated_on>
+        <sys_updated_on>2021-11-22 17:34:30</sys_updated_on>
     </sys_data_policy2>
 </record_update>
