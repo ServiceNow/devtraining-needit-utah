@@ -2095,275 +2095,335 @@
           },
           "overrides" : {
             "composition" : [ {
-              "elementId" : "needits_awaiting_approval_button",
-              "elementLabel" : "NeedIts Awaiting Approval button",
+              "elementId" : "list_option_buttons",
+              "elementLabel" : "List option buttons",
               "propertyValues" : {
-                "variant" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "secondary"
-                },
-                "size" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "md"
-                },
-                "label" : {
+                "ariaRegionName" : {
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
                     "code" : null,
-                    "message" : "NeedIts Awaiting Approval",
+                    "message" : "",
                     "comment" : ""
                   }
                 },
-                "icon" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "disabled" : {
+                "includeAriaHeading" : {
                   "type" : "JSON_LITERAL",
                   "value" : false
                 },
-                "tooltipContent" : {
-                  "type" : "TRANSLATION_LITERAL",
-                  "value" : {
-                    "code" : null,
-                    "message" : "View NeedIt records that need to be approved",
-                    "comment" : ""
-                  }
+                "ariaRegionHeadingLevel" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "1"
                 },
-                "configAria" : {
-                  "type" : "MAP_CONTAINER",
-                  "container" : { }
+                "type" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : "section"
+                },
+                "ariaRole" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : ""
                 }
               },
-              "eventMappings" : [ {
-                "eventMappingId" : "ckyvsrdbmaaccqeeddeggwdqjdsaccm",
-                "isConfiguration" : false,
-                "offRowStorageId" : null,
-                "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
-                "sourceEventCorrelationId" : null,
-                "sourceEventDefinition" : {
-                  "apiName" : "sn_button.NOW_BUTTON#CLICKED",
-                  "id" : null,
-                  "type" : "UXEVENT"
-                },
-                "sourceEventSysId" : null,
-                "targets" : [ {
-                  "broker" : null,
-                  "clientScript" : null,
-                  "conditional" : null,
-                  "declarativeAction" : null,
-                  "event" : {
-                    "apiName" : "x_58872_needit.UPDATE_LIST_QUERY_AND_TITLE",
-                    "payload" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : {
-                        "heListQuery" : "state=14",
-                        "heListTitle" : "NeedIts Awaiting Approval"
-                      }
-                    },
-                    "sysId" : "939cd0ed1b95c910a047ca641a4bcb6d"
-                  },
-                  "operation" : null,
-                  "targetId" : "ckyvsrdbmaaccqffddeggwfffaxffeffgg",
-                  "type" : "EVENT"
-                } ]
-              } ],
+              "eventMappings" : [ ],
               "slot" : null,
               "definition" : {
-                "id" : "d37ce8abca89d02905fed903c8e34d8e",
+                "id" : "d356d14b6e293a3020a244b63d278d8f",
                 "type" : "MACROPONENT"
               },
-              "overrides" : null,
+              "overrides" : {
+                "composition" : [ {
+                  "elementId" : "needits_awaiting_approval_button",
+                  "elementLabel" : "NeedIts Awaiting Approval button",
+                  "propertyValues" : {
+                    "variant" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "secondary"
+                    },
+                    "size" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "md"
+                    },
+                    "label" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "NeedIts Awaiting Approval",
+                        "comment" : ""
+                      }
+                    },
+                    "icon" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "disabled" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "tooltipContent" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "View NeedIt records that need to be approved",
+                        "comment" : ""
+                      }
+                    },
+                    "configAria" : {
+                      "type" : "MAP_CONTAINER",
+                      "container" : { }
+                    }
+                  },
+                  "eventMappings" : [ {
+                    "eventMappingId" : "ckyvsrdbmaaccqeeddeggwdqjdsaccm",
+                    "isConfiguration" : false,
+                    "offRowStorageId" : null,
+                    "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+                    "sourceEventCorrelationId" : null,
+                    "sourceEventDefinition" : {
+                      "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+                      "id" : null,
+                      "type" : "UXEVENT"
+                    },
+                    "sourceEventSysId" : null,
+                    "targets" : [ {
+                      "broker" : null,
+                      "clientScript" : null,
+                      "conditional" : null,
+                      "declarativeAction" : null,
+                      "event" : {
+                        "apiName" : "x_58872_needit.UPDATE_LIST_QUERY_AND_TITLE",
+                        "payload" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : {
+                            "heListQuery" : "state=14",
+                            "heListTitle" : "NeedIts Awaiting Approval"
+                          }
+                        },
+                        "sysId" : "939cd0ed1b95c910a047ca641a4bcb6d"
+                      },
+                      "operation" : null,
+                      "targetId" : "ckyvsrdbmaaccqffddeggwfffaxffeffgg",
+                      "type" : "EVENT"
+                    } ]
+                  } ],
+                  "slot" : null,
+                  "definition" : {
+                    "id" : "d37ce8abca89d02905fed903c8e34d8e",
+                    "type" : "MACROPONENT"
+                  },
+                  "overrides" : null,
+                  "isHidden" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : null
+                  },
+                  "isHero" : false,
+                  "isNonDestructive" : false,
+                  "styles" : { }
+                }, {
+                  "elementId" : "active_needits_button",
+                  "elementLabel" : "Active NeedIts button",
+                  "propertyValues" : {
+                    "variant" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "secondary"
+                    },
+                    "size" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "md"
+                    },
+                    "label" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "Active NeedIts",
+                        "comment" : ""
+                      }
+                    },
+                    "icon" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "disabled" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "tooltipContent" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "View active NeedIt records",
+                        "comment" : ""
+                      }
+                    },
+                    "configAria" : {
+                      "type" : "MAP_CONTAINER",
+                      "container" : { }
+                    }
+                  },
+                  "eventMappings" : [ {
+                    "eventMappingId" : "ckyvuriiqwaaccttddeggwvmhdiignm",
+                    "isConfiguration" : false,
+                    "offRowStorageId" : null,
+                    "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+                    "sourceEventCorrelationId" : null,
+                    "sourceEventDefinition" : {
+                      "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+                      "id" : null,
+                      "type" : "UXEVENT"
+                    },
+                    "sourceEventSysId" : null,
+                    "targets" : [ {
+                      "broker" : null,
+                      "clientScript" : null,
+                      "conditional" : null,
+                      "declarativeAction" : null,
+                      "event" : {
+                        "apiName" : "x_58872_needit.UPDATE_LIST_QUERY_AND_TITLE",
+                        "payload" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : {
+                            "heListQuery" : "active=true",
+                            "heListTitle" : "Active NeedIts"
+                          }
+                        },
+                        "sysId" : "939cd0ed1b95c910a047ca641a4bcb6d"
+                      },
+                      "operation" : null,
+                      "targetId" : "ckyvuriiqwaacctuddeggwiiddetlvjj",
+                      "type" : "EVENT"
+                    } ]
+                  } ],
+                  "slot" : null,
+                  "definition" : {
+                    "id" : "d37ce8abca89d02905fed903c8e34d8e",
+                    "type" : "MACROPONENT"
+                  },
+                  "overrides" : null,
+                  "isHidden" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : null
+                  },
+                  "isHero" : false,
+                  "isNonDestructive" : false,
+                  "styles" : { }
+                }, {
+                  "elementId" : "closed_needits_button",
+                  "elementLabel" : "Closed NeedIts button",
+                  "propertyValues" : {
+                    "variant" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "secondary"
+                    },
+                    "size" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : "md"
+                    },
+                    "label" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "Closed NeedIts",
+                        "comment" : ""
+                      }
+                    },
+                    "icon" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : null
+                    },
+                    "disabled" : {
+                      "type" : "JSON_LITERAL",
+                      "value" : false
+                    },
+                    "tooltipContent" : {
+                      "type" : "TRANSLATION_LITERAL",
+                      "value" : {
+                        "code" : null,
+                        "message" : "View closed NeedIt records",
+                        "comment" : ""
+                      }
+                    },
+                    "configAria" : {
+                      "type" : "MAP_CONTAINER",
+                      "container" : { }
+                    }
+                  },
+                  "eventMappings" : [ {
+                    "eventMappingId" : "ckyvuthzddaaccweddeggwjaocjjkrb",
+                    "isConfiguration" : false,
+                    "offRowStorageId" : null,
+                    "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+                    "sourceEventCorrelationId" : null,
+                    "sourceEventDefinition" : {
+                      "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+                      "id" : null,
+                      "type" : "UXEVENT"
+                    },
+                    "sourceEventSysId" : null,
+                    "targets" : [ {
+                      "broker" : null,
+                      "clientScript" : null,
+                      "conditional" : null,
+                      "declarativeAction" : null,
+                      "event" : {
+                        "apiName" : "x_58872_needit.UPDATE_LIST_QUERY_AND_TITLE",
+                        "payload" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : {
+                            "heListQuery" : "state=3",
+                            "heListTitle" : "Closed NeedIts"
+                          }
+                        },
+                        "sysId" : "939cd0ed1b95c910a047ca641a4bcb6d"
+                      },
+                      "operation" : null,
+                      "targetId" : "ckyvuthzddaaccwfddeggwbnittkgb",
+                      "type" : "EVENT"
+                    } ]
+                  } ],
+                  "slot" : null,
+                  "definition" : {
+                    "id" : "d37ce8abca89d02905fed903c8e34d8e",
+                    "type" : "MACROPONENT"
+                  },
+                  "overrides" : null,
+                  "isHidden" : {
+                    "type" : "JSON_LITERAL",
+                    "value" : null
+                  },
+                  "isHero" : false,
+                  "isNonDestructive" : false,
+                  "styles" : { }
+                } ],
+                "layout" : {
+                  "default" : {
+                    "children" : null,
+                    "isInline" : null,
+                    "items" : [{"element_id":"active_needits_button","styles":{}},{"element_id":"needits_awaiting_approval_button","styles":{}},{"element_id":"closed_needits_button","styles":{}}],
+                    "root" : null,
+                    "rules" : null,
+                    "styles" : {"flex-direction":"row","justify-content":"space-between"},
+                    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+                    "type" : "flex"
+                  },
+                  "version" : "3.0.0"
+                }
+              },
               "isHidden" : {
                 "type" : "JSON_LITERAL",
                 "value" : null
               },
               "isHero" : false,
               "isNonDestructive" : false,
-              "styles" : { }
-            }, {
-              "elementId" : "active_needits_button",
-              "elementLabel" : "Active NeedIts button",
-              "propertyValues" : {
-                "variant" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "secondary"
-                },
-                "size" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "md"
-                },
-                "label" : {
-                  "type" : "TRANSLATION_LITERAL",
-                  "value" : {
-                    "code" : null,
-                    "message" : "Active NeedIts",
-                    "comment" : ""
-                  }
-                },
-                "icon" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "disabled" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
-                "tooltipContent" : {
-                  "type" : "TRANSLATION_LITERAL",
-                  "value" : {
-                    "code" : null,
-                    "message" : "View active NeedIt records",
-                    "comment" : ""
-                  }
-                },
-                "configAria" : {
-                  "type" : "MAP_CONTAINER",
-                  "container" : { }
-                }
-              },
-              "eventMappings" : [ {
-                "eventMappingId" : "ckyvsqhhbjjaaccpsddeggwtrfbbddvkii",
-                "isConfiguration" : false,
-                "offRowStorageId" : null,
-                "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
-                "sourceEventCorrelationId" : null,
-                "sourceEventDefinition" : {
-                  "apiName" : "sn_button.NOW_BUTTON#CLICKED",
-                  "id" : null,
-                  "type" : "UXEVENT"
-                },
-                "sourceEventSysId" : null,
-                "targets" : [ {
-                  "broker" : null,
-                  "clientScript" : null,
-                  "conditional" : null,
-                  "declarativeAction" : null,
-                  "event" : {
-                    "apiName" : "x_58872_needit.UPDATE_LIST_QUERY_AND_TITLE",
-                    "payload" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : {
-                        "heListQuery" : "active=true",
-                        "heListTitle" : "Active NeedIts"
-                      }
-                    },
-                    "sysId" : "939cd0ed1b95c910a047ca641a4bcb6d"
-                  },
-                  "operation" : null,
-                  "targetId" : "ckyvsqhhbjjaaccptddeggwnaaucejggz",
-                  "type" : "EVENT"
-                } ]
-              } ],
-              "slot" : null,
-              "definition" : {
-                "id" : "d37ce8abca89d02905fed903c8e34d8e",
-                "type" : "MACROPONENT"
-              },
-              "overrides" : null,
-              "isHidden" : {
-                "type" : "JSON_LITERAL",
-                "value" : null
-              },
-              "isHero" : false,
-              "isNonDestructive" : false,
-              "styles" : { }
-            }, {
-              "elementId" : "closed_needits_button",
-              "elementLabel" : "Closed NeedIts button",
-              "propertyValues" : {
-                "variant" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "secondary"
-                },
-                "size" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : "md"
-                },
-                "label" : {
-                  "type" : "TRANSLATION_LITERAL",
-                  "value" : {
-                    "code" : null,
-                    "message" : "Closed NeedIts",
-                    "comment" : ""
-                  }
-                },
-                "icon" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : null
-                },
-                "disabled" : {
-                  "type" : "JSON_LITERAL",
-                  "value" : false
-                },
-                "tooltipContent" : {
-                  "type" : "TRANSLATION_LITERAL",
-                  "value" : {
-                    "code" : null,
-                    "message" : "View closed NeedIt records",
-                    "comment" : ""
-                  }
-                },
-                "configAria" : {
-                  "type" : "MAP_CONTAINER",
-                  "container" : { }
-                }
-              },
-              "eventMappings" : [ {
-                "eventMappingId" : "ckyvssiioffaaccqoddeggwaaqbnmsjz",
-                "isConfiguration" : false,
-                "offRowStorageId" : null,
-                "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
-                "sourceEventCorrelationId" : null,
-                "sourceEventDefinition" : {
-                  "apiName" : "sn_button.NOW_BUTTON#CLICKED",
-                  "id" : null,
-                  "type" : "UXEVENT"
-                },
-                "sourceEventSysId" : null,
-                "targets" : [ {
-                  "broker" : null,
-                  "clientScript" : null,
-                  "conditional" : null,
-                  "declarativeAction" : null,
-                  "event" : {
-                    "apiName" : "x_58872_needit.UPDATE_LIST_QUERY_AND_TITLE",
-                    "payload" : {
-                      "type" : "JSON_LITERAL",
-                      "value" : {
-                        "heListQuery" : "state=3",
-                        "heListTitle" : "Closed NeedIts"
-                      }
-                    },
-                    "sysId" : "939cd0ed1b95c910a047ca641a4bcb6d"
-                  },
-                  "operation" : null,
-                  "targetId" : "ckyvssiioffaaccqpddeggwybffemeesjj",
-                  "type" : "EVENT"
-                } ]
-              } ],
-              "slot" : null,
-              "definition" : {
-                "id" : "d37ce8abca89d02905fed903c8e34d8e",
-                "type" : "MACROPONENT"
-              },
-              "overrides" : null,
-              "isHidden" : {
-                "type" : "JSON_LITERAL",
-                "value" : null
-              },
-              "isHero" : false,
-              "isNonDestructive" : false,
-              "styles" : { }
+              "styles" : {
+                "width" : "100%"
+              }
             } ],
             "layout" : {
               "default" : {
                 "children" : null,
                 "isInline" : null,
-                "items" : [{"element_id":"active_needits_button","styles":{}},{"element_id":"needits_awaiting_approval_button","styles":{}},{"element_id":"closed_needits_button","styles":{}}],
+                "items" : [{"element_id":"list_option_buttons","styles":{}},{"element_id":"active_needits_button","styles":{}},{"element_id":"needits_awaiting_approval_button","styles":{}},{"element_id":"closed_needits_button","styles":{}}],
                 "root" : null,
                 "rules" : null,
-                "styles" : {"flex-direction":"row","justify-content":"space-between"},
+                "styles" : {"flex-direction":"column","justify-content":"space-between"},
                 "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
                 "type" : "flex"
               },
@@ -2735,13 +2795,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-21 15:00:21</sys_created_on>
         <sys_id>5fd11afb1b818d10b81fdce7cc4bcb15</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_5fd11afb1b818d10b81fdce7cc4bcb15</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-26 17:04:56</sys_updated_on>
+        <sys_updated_on>2022-01-26 18:01:58</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
