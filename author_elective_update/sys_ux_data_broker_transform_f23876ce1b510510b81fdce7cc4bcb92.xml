@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="DELETE">
+        <acl_failure_result/>
+        <api_name>x_58872_needit.MEBS Test 02</api_name>
+        <description>[&#13;
+{&#13;
+    "name":"userFullName",&#13;
+    "label":"User full name",&#13;
+    "description":"",&#13;
+    "readOnly":"false",&#13;
+    "fieldType":"string",&#13;
+    "mandatory":true,&#13;
+    "defaultValue":""&#13;
+}&#13;
+]</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>MEBS Test 02</name>
+        <output_schema/>
+        <private>false</private>
+        <props/>
+        <required_translations>[ ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+
+    // Concatenate the user name from the Data Resource Configuration
+    // with a string
+    var newString = input.userFullName + "'s Next NeedIt";
+    return newString;
+
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 17:37:07</sys_created_on>
+        <sys_id>f23876ce1b510510b81fdce7cc4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MEBS Test 02</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_f23876ce1b510510b81fdce7cc4bcb92</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 17:37:07</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="DELETE" query="documentkey=f23876ce1b510510b81fdce7cc4bcb92"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>ed8d2d802bbdbc04ecf7bb4f59da15ad</instance_id>
+        <instance_name>empbsweets</instance_name>
+        <name>sys_ux_data_broker_transform_f23876ce1b510510b81fdce7cc4bcb92</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_data_broker_transform"&gt;&lt;sys_ux_data_broker_transform action="INSERT_OR_UPDATE"&gt;&lt;acl_failure_result/&gt;&lt;api_name&gt;x_58872_needit.MEBS Test 02&lt;/api_name&gt;&lt;description&gt;[&amp;#13;
+{&amp;#13;
+    "name":"userFullName",&amp;#13;
+    "label":"User full name",&amp;#13;
+    "description":"",&amp;#13;
+    "readOnly":"false",&amp;#13;
+    "fieldType":"string",&amp;#13;
+    "mandatory":true,&amp;#13;
+    "defaultValue":""&amp;#13;
+}&amp;#13;
+]&lt;/description&gt;&lt;mutates_server_data&gt;false&lt;/mutates_server_data&gt;&lt;name&gt;MEBS Test 02&lt;/name&gt;&lt;output_schema/&gt;&lt;private&gt;false&lt;/private&gt;&lt;props/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;schema_version&gt;1.0.0&lt;/schema_version&gt;&lt;script&gt;&lt;![CDATA[function transform(input) {
+
+    // Concatenate the user name from the Data Resource Configuration
+    // with a string
+    var newString = input.userFullName + "'s Next NeedIt";
+    return newString;
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_ux_data_broker_transform&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-28 17:37:07&lt;/sys_created_on&gt;&lt;sys_id&gt;f23876ce1b510510b81fdce7cc4bcb92&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;MEBS Test 02&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_data_broker_transform_f23876ce1b510510b81fdce7cc4bcb92&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-28 17:37:07&lt;/sys_updated_on&gt;&lt;/sys_ux_data_broker_transform&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f23876ce1b510510b81fdce7cc4bcb92"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-602814755</payload_hash>
+        <record_name>MEBS Test 02</record_name>
+        <reverted_from/>
+        <source>6de1d7551b580510a047ca641a4bcbda</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 17:37:07</sys_created_on>
+        <sys_id>bbd8bece1b510510b81fdce7cc4bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ea1c323520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 17:37:07</sys_updated_on>
+        <type>Data Broker Server Script</type>
+        <update_guid>f3d8bece8e510510adff29117ca0178e</update_guid>
+        <update_guid_history>f3d8bece8e510510adff29117ca0178e:-602814755</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-28 17:39:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_data_broker_transform">sys_ux_data_broker_transform</sys_db_object>
+        <sys_id>267bbda8353a4fd883cc632be70ee684</sys_id>
+        <sys_metadata>f23876ce1b510510b81fdce7cc4bcb92</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MEBS Test 02</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_data_broker_transform_f23876ce1b510510b81fdce7cc4bcb92</sys_update_name>
+        <sys_update_version display_value="sys_ux_data_broker_transform_f23876ce1b510510b81fdce7cc4bcb92">bbd8bece1b510510b81fdce7cc4bcb8e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-28 17:39:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
