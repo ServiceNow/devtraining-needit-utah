@@ -2814,30 +2814,58 @@
       },
       "overrides" : {
         "composition" : [ {
-          "elementId" : "stylized_text_1",
-          "elementLabel" : "Stylized text 1",
+          "elementId" : "my_next_needit_record",
+          "elementLabel" : "My Next NeedIt record",
           "propertyValues" : {
-            "text" : {
+            "table" : {
+              "type" : "JSON_LITERAL",
+              "value" : "x_58872_needit_needit"
+            },
+            "sysId" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "my_next_needit", "results", "0", "sys_id", "value" ]
+              }
+            },
+            "workspaceConfigId" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "primaryValue" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
                 "code" : null,
-                "message" : "  ",
+                "message" : "My Next NeedIt",
                 "comment" : ""
               }
             },
-            "tag" : {
-              "type" : "JSON_LITERAL",
-              "value" : "h1"
+            "subHeadingValue" : {
+              "type" : "DATA_OUTPUT_BINDING",
+              "binding" : {
+                "address" : [ "my_next_needit", "results", "0", "u_when_needed", "value" ]
+              }
             },
-            "css" : {
+            "secondaryItems" : {
               "type" : "JSON_LITERAL",
-              "value" : "* { }"
+              "value" : null
+            },
+            "headerImageItem" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "hideTagsValue" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "recordTags" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
             }
           },
           "eventMappings" : [ ],
           "slot" : null,
           "definition" : {
-            "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+            "id" : "4d537db98a05adaf55f9e219c50d1358",
             "type" : "MACROPONENT"
           },
           "overrides" : null,
@@ -2853,7 +2881,7 @@
           "default" : {
             "children" : null,
             "isInline" : null,
-            "items" : [{"element_id":"stylized_text_1","styles":{}}],
+            "items" : [{"element_id":"my_next_needit_record","styles":{}}],
             "root" : null,
             "rules" : null,
             "styles" : {"flex-direction":"column"},
@@ -3032,6 +3060,9 @@
   "message" : "List Options",
   "comment" : ""
 }, {
+  "message" : "My Next NeedIt",
+  "comment" : ""
+}, {
   "message" : "NeedIt",
   "comment" : ""
 }, {
@@ -3104,13 +3135,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-21 15:00:21</sys_created_on>
         <sys_id>5fd11afb1b818d10b81fdce7cc4bcb15</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_macroponent_5fd11afb1b818d10b81fdce7cc4bcb15</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-28 13:36:53</sys_updated_on>
+        <sys_updated_on>2022-01-28 14:25:50</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
