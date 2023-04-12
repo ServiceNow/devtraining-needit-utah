@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>NeedIt Properties</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-12 13:51:49</sys_created_on>
+        <sys_id>77b6fe1f97862110ca097cb0f053af28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Properties</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_properties_category_77b6fe1f97862110ca097cb0f053af28</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-12 13:51:49</sys_updated_on>
+        <title><![CDATA[<p><span style="font-size: 14pt;"><strong>Prueba título</strong></span></p>
+<p><span style="font-size: 8pt;"><strong>Aquí es  una página de prueba de la aplicación que estamos usando.</strong></span></p>
+<p><span style="font-size: 8pt;"><strong><img title="innovatelogo.png" src="/sys_attachment.do?sys_id&#61;7437769797862110ca097cb0f053afa6" alt="" width="123" height="123" /></strong></span></p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=77b6fe1f97862110ca097cb0f053af28"/>
+</record_update>
