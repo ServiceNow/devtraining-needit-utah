@@ -18,7 +18,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Email Address Syntax Validate</name>
+        <name>Email Address Syntax Validate - Mazin</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -34,7 +34,7 @@
     var isEmail = validateEmailAddress(current.u_requested_for_email);
     // If isEmail is false (email address syntax is not valid) do not save
     // the record.  Write an error message to the screen.
-    if(isEmail == false){
+    if(isEmail == false){ 
         gs.addErrorMessage(current.u_requested_for_email + " is not a valid email address.  You must provide a valid email address.");
         current.setAbortAction(true);
     }
@@ -46,15 +46,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>01e885f69f513200bde5f79ff57fcf52</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Email Address Syntax Validate</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Email Address Syntax Validate - Mazin</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_01e885f69f513200bde5f79ff57fcf52</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-26 18:53:18</sys_updated_on>
+        <sys_updated_on>2023-05-01 19:25:34</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
