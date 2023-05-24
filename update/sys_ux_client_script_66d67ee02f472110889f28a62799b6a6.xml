@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Overview">0ed67ee02f472110889f28a62799b65d</macroponent>
+        <name>trend_score_2/fallbackText</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.imports
+ */
+function evaluateProperty({
+    api
+}) {
+    const data = api.data.topicflowscompletedrate.output;
+    const pageLocale = api.data.overview_locale_get_list.output || {};
+    const { daysDelta } = api.state;
+    const {
+        fallbackText = '',
+        previousDaysText = ''
+    } = pageLocale;
+    
+    if (data && !data.changeInfo && daysDelta > 0) {
+        return previousDaysText.replace('{0}', daysDelta);
+    } else if (!data) {
+        return fallbackText;
+    }
+    return '';
+}
+
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-23 17:49:36</sys_created_on>
+        <sys_id>66d67ee02f472110889f28a62799b6a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>trend_score_2/fallbackText</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_66d67ee02f472110889f28a62799b6a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-23 17:49:36</sys_updated_on>
+        <target>macroponent</target>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

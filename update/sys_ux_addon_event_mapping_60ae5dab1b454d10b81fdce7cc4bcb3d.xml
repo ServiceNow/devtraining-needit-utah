@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Simple List with Chris default OPEN_NEW_MODEL_MODAL</name>
+        <parent_macroponent display_value="Simple List">bf9e5dab1b454d10b81fdce7cc4bcb0e</parent_macroponent>
+        <source_da display_value="new-model">50181b4a73253010c01ce234c4f6a7b5</source_da>
+        <source_element_id>list_1</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-20 16:38:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>60ae5dab1b454d10b81fdce7cc4bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Simple List with Chris default OPEN_NEW_MODEL_MODAL</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Asset Management Workspace" source="sn_itam_workspace">54b90b435d70f410f87728dca52fcfea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_60ae5dab1b454d10b81fdce7cc4bcb3d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-20 16:38:03</sys_updated_on>
+        <target_event display_value="SIMPLE_LIST#OPEN_MODAL">31a6f26db3163010bf6680bd26a8dcf1</target_event>
+        <target_payload_mapping>{&#13;
+    "type": "MAP_CONTAINER",&#13;
+    "container": {&#13;
+      "route": {&#13;
+        "type": "EVENT_PAYLOAD_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "route"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+      "fields": {&#13;
+        "type": "EVENT_PAYLOAD_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "fields"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+      "params": {&#13;
+        "type": "EVENT_PAYLOAD_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "params"&#13;
+          ]&#13;
+        }&#13;
+      }&#13;
+    }&#13;
+  }</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

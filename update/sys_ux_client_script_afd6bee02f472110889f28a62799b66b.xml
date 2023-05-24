@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes>1a12d5badb902010ff1a84cc299619f7,df0e1238a8202010f8770aac333ab3e1</includes>
+        <macroponent display_value="Overview">0ed67ee02f472110889f28a62799b65d</macroponent>
+        <name>Update PAR Filter Query</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    const {
+        startDate,
+        endDate
+    } = api.context.props;
+    const {
+        getDaysDelta
+    } = imports["sn_ci_analytics.dateUtils"]();
+    const {
+        encodeFilter,
+        generatePARFilterQuery,
+        getCsvUrl
+    } = imports["sn_ci_analytics.VADasboardUtils"]();
+    const filter = {
+        from_date: startDate,
+        to_date: endDate,
+        timestamp: Date.now()
+    };
+    var parFiltersArray = generatePARFilterQuery(encodeFilter(filter), api.state.tables);
+    var dateQuery = `sys_created_onBETWEENjavascript:gs.dateGenerate('${filter.from_date}','00:00:00')@javascript:gs.dateGenerate('${filter.to_date}','23:59:59')`;
+    var ssaId = api.state.selectedSsaId;
+    var metricQuery = "deflection_pattern.deflection_configuration=" + ssaId;
+    parFiltersArray.push({
+        order: 20,
+        type: "query",
+        apply_to: ["ssa_deflection_metric"],
+        encoded_query: metricQuery + "^" + dateQuery
+    });
+    var metricActivityQuery = "metric.deflection_pattern.deflection_configuration=" + ssaId;
+    parFiltersArray.push({
+        order: 30,
+        type: "query",
+        apply_to: ["ssa_deflection_metric_activity"],
+        encoded_query: metricActivityQuery + "^" + dateQuery
+    });
+    api.setState("daysDelta", getDaysDelta(startDate, endDate));
+    api.setState("parFilters", parFiltersArray);
+    api.setState("csvUrlDeflectionsCount", getCsvUrl('ssa_deflection_metric', metricQuery + "^" + dateQuery, {
+        property_name: 'Deflections Count'
+    }));
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-23 17:49:40</sys_created_on>
+        <sys_id>afd6bee02f472110889f28a62799b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update PAR Filter Query</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_afd6bee02f472110889f28a62799b66b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-23 17:49:40</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

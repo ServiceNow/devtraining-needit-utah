@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="CMDB Workspace App Config">6825d0ae8f312010960c53ac37bdee72</app_config>
+        <description/>
+        <fields/>
+        <icon>tree-view-long-outline</icon>
+        <name>Record default Service Relationships</name>
+        <optional_parameters/>
+        <order>200</order>
+        <parent_macroponent display_value="Record">57c4eb371b858d10b81fdce7cc4bcb6d</parent_macroponent>
+        <parent_macroponent_composition_element_id>contextual_sidebar</parent_macroponent_composition_element_id>
+        <route_type>cmdb-service-relationships</route_type>
+        <screen_type display_value="Service Relationships">b882852e531230105016ddeeff7b12b3</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-21 21:02:54</sys_created_on>
+        <sys_id>0ad423771b858d10b81fdce7cc4bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record default Service Relationships</sys_name>
+        <sys_package display_value="CMDB Workspace" source="sn_cmdb_ws">c8ab76825371201032b7ddeeff7b1280</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_app_route_0ad423771b858d10b81fdce7cc4bcb4c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-21 21:02:54</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=0ad423771b858d10b81fdce7cc4bcb4c"/>
+</record_update>
