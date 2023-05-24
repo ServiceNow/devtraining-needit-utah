@@ -3,6 +3,7 @@
         <includes/>
         <macroponent display_value="Record">57c4eb371b858d10b81fdce7cc4bcb6d</macroponent>
         <name>showOnloadAlerts</name>
+        <preset/>
         <required_translations>[ ]</required_translations>
         <script><![CDATA[function handler({api,event,imports}) {
   var paramsString = api.context.props.extraParams,
@@ -46,6 +47,7 @@
         <sys_update_name>sys_ux_client_script_77c4af371b858d10b81fdce7cc4bcb84</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-21 21:08:53</sys_updated_on>
+        <target/>
         <type>default</type>
     </sys_ux_client_script>
 </record_update>

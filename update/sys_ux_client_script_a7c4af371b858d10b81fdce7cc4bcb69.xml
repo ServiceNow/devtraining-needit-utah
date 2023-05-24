@@ -3,6 +3,7 @@
         <includes/>
         <macroponent display_value="Record">57c4eb371b858d10b81fdce7cc4bcb6d</macroponent>
         <name>Conditionally refresh special handing notes data broker</name>
+        <preset/>
         <required_translations>[ ]</required_translations>
         <script><![CDATA[function handler({ api, event, helpers, imports }) {
     const { name } = event.payload;
@@ -55,6 +56,7 @@
         <sys_update_name>sys_ux_client_script_a7c4af371b858d10b81fdce7cc4bcb69</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-01-21 21:08:55</sys_updated_on>
+        <target/>
         <type>default</type>
     </sys_ux_client_script>
 </record_update>
