@@ -2,7 +2,6 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_what_needed" table="x_58872_needit_needit">
         <active>true</active>
         <array>false</array>
-        <array_denormalized>false</array_denormalized>
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
@@ -25,6 +24,7 @@
         <element>u_what_needed</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
@@ -42,14 +42,11 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-26 19:39:57</sys_created_on>
-        <sys_id>36f197ea1b560010c6956356bd4bcb98</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>What needed</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
@@ -59,11 +56,13 @@
         <sys_updated_on>2020-01-15 17:02:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
+        <u_pending_for_customer/>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
