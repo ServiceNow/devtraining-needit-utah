@@ -2,6 +2,7 @@
     <sys_data_source action="INSERT_OR_UPDATE">
         <batch_size/>
         <category/>
+        <connection_override_last_success_time/>
         <connection_timeout>0</connection_timeout>
         <connection_url>attachment://sys_data_source:03c1b4794f313200cb281b818110c701/needitimportdata.csv</connection_url>
         <connection_url_parameters/>

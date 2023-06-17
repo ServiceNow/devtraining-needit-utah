@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-04-05 19:50:44</sys_created_on>
-            <sys_id>6611800edb342010d2f6f9341d9619f7</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_name>state</sys_name>
             <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2017-04-05 19:50:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>36e2f88c0f0232000d030dbce1050e8f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-04-05 19:50:44</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2017-04-05 19:50:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>fee2f88c0f0232000d030dbce1050e90</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-04-05 19:50:44</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2017-04-05 19:50:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f6e2f88c0f0232000d030dbce1050e92</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-04-05 19:50:44</sys_updated_on>
@@ -90,7 +86,6 @@
             <sys_created_on>2017-04-19 03:51:54</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f5bd51d40f9af2000d030dbce1050e82</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-04-19 03:51:54</sys_updated_on>

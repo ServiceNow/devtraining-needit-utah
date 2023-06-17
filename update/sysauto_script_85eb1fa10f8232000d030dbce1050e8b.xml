@@ -5,6 +5,7 @@
         <condition/>
         <conditional>false</conditional>
         <entered_time/>
+        <max_drift/>
         <name>Find NeedIt Tasks Due Soon</name>
         <offset/>
         <offset_type/>
