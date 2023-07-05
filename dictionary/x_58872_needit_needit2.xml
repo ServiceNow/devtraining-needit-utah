@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="854570b0477b6110a9a58a5f746d438a" extends="task" label="NeedIt2" max_length="40" name="x_58872_needit_needit2" type="collection">
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
                 <element inactive_on_update="false" label="Human resources" sequence="0" value="hr"/>
