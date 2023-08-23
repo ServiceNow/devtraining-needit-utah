@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri>/api/x_58872_needit/needit_api/nigetinfo/{user}</default_operation_uri>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>ni_getinfo</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+
+    // Get value from the user_name path parameter passed in the URL
+    var requestUser = request.pathParams.user;
+    // Get value of the ni_query query parameter passed in the URL
+    var requestNIQuery = request.queryParams.ni_query;
+
+    // Query the sys_user table to get the user record for the user passed in
+    // the user_id path parameter.  
+    var requestUserName = new GlideRecord('sys_user');
+    requestUserName.get('user_name', requestUser);
+
+
+
+    // Get the count of active NeedIt table records where the user from the
+    // user_name path parameter is the Requested for.  The encoded query is from the
+    // Query Parameter Associations.  Group by category.
+    var userNICount = new GlideAggregate('x_58872_needit_needit');
+    userNICount.addAggregate('COUNT');
+    userNICount.addQuery('u_requested_for', requestUserName.sys_id);
+    userNICount.addEncodedQuery(requestNIQuery);
+    userNICount.groupBy('u_request_type');
+    userNICount.query();
+
+
+    var needitRecs = 0;
+    var niUserRecs = [];
+    var needitRecsCount = 0;
+
+    while (userNICount.next()) {
+        needitRecs = userNICount.getAggregate('COUNT');
+        var reqType = userNICount.u_request_type.getDisplayValue();
+        niUserRecs.push({
+            "requestType": reqType,
+            "count": needitRecs
+        });
+        needitRecsCount = parseInt(needitRecsCount) + parseInt(needitRecs);
+    }
+
+    //Create a body object.  Add property value pairs to the body.
+    var body = {};
+    body.totalUserNIRecs = needitRecsCount;
+    body.catCounts = niUserRecs;
+    body.user = {
+        "user_name": requestUserName.user_name,
+		"full_name": requestUserName.name,
+        "User_ID": requestUserName.sys_id,
+    };
+
+    // Send the response object, which is returned to the requestor, to the body object.
+    response.setBody(body);
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_58872_needit/v1/needit_api/nigetinfo/{user}</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/nigetinfo/{user}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description>Find the active NeedIt records for a user. Group by What needed.</short_description>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-22 05:24:27</sys_created_on>
+        <sys_id>a0d430f997f4b5101eebfc9fe153af3d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>ni_getinfo</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ws_operation_a0d430f997f4b5101eebfc9fe153af3d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-23 18:38:45</sys_updated_on>
+        <web_service_definition display_value="NeedIt API">0d85ac7197f4b5101eebfc9fe153af2e</web_service_definition>
+        <web_service_version display_value="v1">7f5474da97b839101eebfc9fe153afff</web_service_version>
+    </sys_ws_operation>
+</record_update>
