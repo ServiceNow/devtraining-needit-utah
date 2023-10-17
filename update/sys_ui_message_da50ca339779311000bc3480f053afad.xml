@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>use the link below to submit your request:</key>
+        <language>en</language>
+        <message>Use the link below to submit your request:</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 09:04:23</sys_created_on>
+        <sys_id>da50ca339779311000bc3480f053afad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>use the link below to submit your request:</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_message_da50ca339779311000bc3480f053afad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 09:04:23</sys_updated_on>
+    </sys_ui_message>
+</record_update>
