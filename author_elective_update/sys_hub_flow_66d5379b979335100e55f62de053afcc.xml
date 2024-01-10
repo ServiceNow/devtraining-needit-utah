@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow to manage the process when hardware is stolen</description>
+        <internal_name>stolen_hardware</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Stolen Hardware</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-29 17:54:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>66d5379b979335100e55f62de053afcc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Stolen Hardware</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_66d5379b979335100e55f62de053afcc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 20:08:10</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=66d5379b979335100e55f62de053afcc"/>
+    <sys_variable_value action="DELETE" query="document_key=66d5379b979335100e55f62de053afcc"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=66d5379b979335100e55f62de053afcc"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=66d5379b979335100e55f62de053afcc"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=66d5379b979335100e55f62de053afcc^sys_idNOT IN62d537db979335100e55f62de053af04"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>66d5379b979335100e55f62de053afcc</id>
+        <name>Stolen Hardware</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-29 17:54:59</sys_created_on>
+        <sys_id>62d537db979335100e55f62de053af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-29 17:54:59</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=62d537db979335100e55f62de053af04"/>
+    <sys_hub_flow_input action="DELETE" query="model=66d5379b979335100e55f62de053afcc"/>
+    <sys_hub_flow_output action="DELETE" query="model=66d5379b979335100e55f62de053afcc"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=66d5379b979335100e55f62de053afcc"/>
+    <sys_hub_action_instance action="DELETE" query="flow=66d5379b979335100e55f62de053afcc"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=66d5379b979335100e55f62de053afcc"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=66d5379b979335100e55f62de053afcc"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=66d5379b979335100e55f62de053afcc"/>
+    <sys_hub_flow_variable action="DELETE" query="model=66d5379b979335100e55f62de053afcc"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_66d5379b979335100e55f62de053afcc"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_66d5379b979335100e55f62de053afcc"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_66d5379b979335100e55f62de053afcc"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_66d5379b979335100e55f62de053afcc"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=66d5379b979335100e55f62de053afcc"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=66d5379b979335100e55f62de053afcc"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a89a52421bf67190ba5ceb9b2d4bcb3a</instance_id>
+        <instance_name>dev229910</instance_name>
+        <name>sys_hub_flow_66d5379b979335100e55f62de053afcc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description>Flow to manage the process when hardware is stolen</description><internal_name>stolen_hardware</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>Stolen Hardware</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>user</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-29 17:54:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>66d5379b979335100e55f62de053afcc</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Stolen Hardware</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_hub_flow_66d5379b979335100e55f62de053afcc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-03 20:08:10</sys_updated_on><type>flow</type></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=66d5379b979335100e55f62de053afcc"/><sys_variable_value action="delete_multiple" query="document_key=66d5379b979335100e55f62de053afcc"/><sys_hub_trigger_instance action="delete_multiple" query="flow=66d5379b979335100e55f62de053afcc"/><sys_hub_flow_stage action="delete_multiple" query="flow=66d5379b979335100e55f62de053afcc"/><sys_flow_cat_variable_model action="delete_multiple" query="id=66d5379b979335100e55f62de053afcc^sys_idNOT IN62d537db979335100e55f62de053af04"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>66d5379b979335100e55f62de053afcc</id><name>Stolen Hardware</name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-29 17:54:59</sys_created_on><sys_id>62d537db979335100e55f62de053af04</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-29 17:54:59</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=62d537db979335100e55f62de053af04"/><sys_hub_flow_input action="delete_multiple" query="model=66d5379b979335100e55f62de053afcc"/><sys_hub_flow_output action="delete_multiple" query="model=66d5379b979335100e55f62de053afcc"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=66d5379b979335100e55f62de053afcc"/><sys_hub_action_instance action="delete_multiple" query="flow=66d5379b979335100e55f62de053afcc"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=66d5379b979335100e55f62de053afcc"/><sys_hub_flow_logic action="delete_multiple" query="flow=66d5379b979335100e55f62de053afcc"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=66d5379b979335100e55f62de053afcc"/><sys_hub_flow_variable action="delete_multiple" query="model=66d5379b979335100e55f62de053afcc"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_66d5379b979335100e55f62de053afcc"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_66d5379b979335100e55f62de053afcc"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_66d5379b979335100e55f62de053afcc"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_66d5379b979335100e55f62de053afcc"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=66d5379b979335100e55f62de053afcc"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=66d5379b979335100e55f62de053afcc"/></record_update>]]></payload>
+        <payload_hash>987518422</payload_hash>
+        <record_name>Stolen Hardware</record_name>
+        <reverted_from/>
+        <source>5fd3fb89979331100e55f62de053afec</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-03 20:08:11</sys_created_on>
+        <sys_id>56440289972331100e55f62de053af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cd0f0cc8e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 20:08:11</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>9a44028964233110a8e3c35358c3f15c</update_guid>
+        <update_guid_history>9a44028964233110a8e3c35358c3f15c:987518422,62d537db419335107c4052588eb8f20a:2077862414</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-03 20:09:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>0c06f465bb7048a0810ea079df0e9bb1</sys_id>
+        <sys_metadata>66d5379b979335100e55f62de053afcc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Stolen Hardware</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_66d5379b979335100e55f62de053afcc</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_66d5379b979335100e55f62de053afcc">56440289972331100e55f62de053af5d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-03 20:09:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
