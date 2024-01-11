@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>NeedIt Properties 2.0</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 13:46:12</sys_created_on>
+        <sys_id>846944464723351082eef164336d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Properties 2.0</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_properties_category_846944464723351082eef164336d43c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 13:46:12</sys_updated_on>
+        <title><![CDATA[<p><span style="font-size: 14pt;"><strong>NeedIt Application Properties</strong> 2.0</span> </p>
+<p>These properties can be read and updated by users with the NeedIt  Application&#39;s admin role:  x_48872_needit.admin. Second version </p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=846944464723351082eef164336d43c4"/>
+</record_update>

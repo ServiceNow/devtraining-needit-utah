@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_widgets">
+    <pa_widgets action="INSERT_OR_UPDATE">
+        <aggregate/>
+        <alignment>left</alignment>
+        <breakdown/>
+        <breakdown_level2/>
+        <breakdown_page_size>5</breakdown_page_size>
+        <chart_color/>
+        <color_scheme/>
+        <coloring_method>score</coloring_method>
+        <column_bulletchart>false</column_bulletchart>
+        <column_change>false</column_change>
+        <column_change_perc>false</column_change_perc>
+        <column_current>true</column_current>
+        <column_gap>false</column_gap>
+        <column_gap_perc>false</column_gap_perc>
+        <column_multiple>false</column_multiple>
+        <column_steps>1</column_steps>
+        <column_stepsize>1</column_stepsize>
+        <column_target>false</column_target>
+        <column_trend>true</column_trend>
+        <compare_main_label/>
+        <compare_number_of_periods>2</compare_number_of_periods>
+        <compare_period>year</compare_period>
+        <cube_facts_table>x_58872_needit_needit</cube_facts_table>
+        <cutoff>1</cutoff>
+        <cutoff_condition>GTE</cutoff_condition>
+        <cutoff_type>VAL</cutoff_type>
+        <date_from>00000000</date_from>
+        <date_to>00000000</date_to>
+        <default_indicator/>
+        <description>Line chart of NeedIt requests this Year by Month</description>
+        <element/>
+        <element_level2/>
+        <elements_filter/>
+        <field/>
+        <filter/>
+        <flip_axes>false</flip_axes>
+        <follow_element>false</follow_element>
+        <follow_managed_element>false</follow_managed_element>
+        <followed_breakdown/>
+        <followed_breakdown_relation/>
+        <gauge_autoscale>false</gauge_autoscale>
+        <gauge_from/>
+        <gauge_to/>
+        <include_comments>false</include_comments>
+        <include_confidence>false</include_confidence>
+        <include_forecast>false</include_forecast>
+        <include_prediction_interval>false</include_prediction_interval>
+        <include_target>true</include_target>
+        <include_thresholds>true</include_thresholds>
+        <include_trend>false</include_trend>
+        <indicator display_value="NeedIt: Due Monthly">484c809747eff11082eef164336d4313</indicator>
+        <is_compare_chart>false</is_compare_chart>
+        <lastscore_compare>previous_score</lastscore_compare>
+        <lastscore_periods_back>1</lastscore_periods_back>
+        <limit>50</limit>
+        <lookup_name/>
+        <manual_elements>false</manual_elements>
+        <max_color display_value="Green">65b302aea9fe3dba00a530d65ecc2106</max_color>
+        <multiple_elements_view/>
+        <name>NeedIt Requests this Year by Month</name>
+        <number_of_records>5</number_of_records>
+        <overlap_data_labels>false</overlap_data_labels>
+        <percentages>no_percentages</percentages>
+        <period>1y</period>
+        <pivot_breakdown/>
+        <pivot_elements_filter/>
+        <related_dashboards>0</related_dashboards>
+        <score_font_size>responsive</score_font_size>
+        <scorecard_options>all</scorecard_options>
+        <show_bar>false</show_bar>
+        <show_breakdown_selector>true</show_breakdown_selector>
+        <show_change>true</show_change>
+        <show_change_perc>true</show_change_perc>
+        <show_comparison_date>true</show_comparison_date>
+        <show_data_labels>false</show_data_labels>
+        <show_empty_elements>true</show_empty_elements>
+        <show_gap>false</show_gap>
+        <show_gap_perc>false</show_gap_perc>
+        <show_legend>true</show_legend>
+        <show_on_click_link_label>true</show_on_click_link_label>
+        <show_range_selector>true</show_range_selector>
+        <show_target>false</show_target>
+        <show_top_x>10</show_top_x>
+        <show_total>false</show_total>
+        <show_trend>true</show_trend>
+        <show_visualization_selector>true</show_visualization_selector>
+        <sort_direction>asc</sort_direction>
+        <sort_on>default</sort_on>
+        <subtitle/>
+        <sys_class_name>pa_widgets</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 13:40:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>166e60974763351082eef164336d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Requests this Year by Month</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>pa_widgets_166e60974763351082eef164336d436b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 13:40:02</sys_updated_on>
+        <tag/>
+        <template>template1</template>
+        <treemap_max_color display_value="Green">65b302aea9fe3dba00a530d65ecc2106</treemap_max_color>
+        <treemap_min_color display_value="Red">65b30395a9fe3dba003277a7b660b5db</treemap_min_color>
+        <type>time</type>
+        <visualization>line</visualization>
+        <words_in_trendline>5</words_in_trendline>
+        <yaxis2_from/>
+        <yaxis2_title/>
+        <yaxis2_to/>
+        <yaxis_from/>
+        <yaxis_title/>
+        <yaxis_to/>
+    </pa_widgets>
+    <sys_translated_text action="delete_multiple" query="documentkey=166e60974763351082eef164336d436b"/>
+</record_update>
