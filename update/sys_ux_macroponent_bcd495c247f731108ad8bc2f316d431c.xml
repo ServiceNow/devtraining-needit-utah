@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "header_row",
+  "elementLabel" : "Header row",
+  "propertyValues" : {
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "hideEmptyStateUi" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "header",
+      "elementLabel" : "Header",
+      "propertyValues" : {
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "hideEmptyStateUi" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "ariaRegionName" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "includeAriaHeading" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "type" : {
+          "type" : "JSON_LITERAL",
+          "value" : "section"
+        },
+        "ariaRole" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "page_title",
+          "elementLabel" : "Page title",
+          "propertyValues" : {
+            "css" : {
+              "type" : "JSON_LITERAL",
+              "value" : "* {\r\n    color: black;\r\n }"
+            },
+            "text" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "The NeedIt Experience",
+                "comment" : ""
+              }
+            },
+            "tag" : {
+              "type" : "JSON_LITERAL",
+              "value" : "h1"
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : null,
+          "definition" : {
+            "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "extensionPoints" : [ ],
+          "isNonDestructive" : false,
+          "items" : [ ],
+          "styles" : null
+        }, {
+          "elementId" : "image_1",
+          "elementLabel" : "Image 1",
+          "propertyValues" : {
+            "fit" : {
+              "type" : "JSON_LITERAL",
+              "value" : "none"
+            },
+            "src" : {
+              "type" : "JSON_LITERAL",
+              "value" : "needit_logo_purple.png"
+            },
+            "alt" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "NeedIt Logo",
+                "comment" : ""
+              }
+            },
+            "position" : {
+              "type" : "JSON_LITERAL",
+              "value" : "center center"
+            },
+            "height" : {
+              "type" : "JSON_LITERAL",
+              "value" : 125
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : null,
+          "definition" : {
+            "id" : "15fe506403f8a98575b6df59008ea8f1",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "extensionPoints" : [ ],
+          "isNonDestructive" : false,
+          "items" : [ ],
+          "styles" : null
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "isInline" : null,
+            "items" : [{"element_id":"image_1","styles":{"width":"125px"}},{"element_id":"page_title","styles":{}}],
+            "root" : null,
+            "rules" : null,
+            "styles" : {"flex-direction":"row","display":"flex","grid-template-columns":"1fr 1fr","grid-template-rows":"1fr 1fr","grid-auto-rows":"1fr","grid-auto-columns":"1fr","flex-wrap":"nowrap","align-content":"space-around","align-items":"center"},
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "flex"
+          },
+          "version" : "3.0.0"
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : null
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"header","styles":{"width":"90%","flex":"none"}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column","align-items":"center"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : null
+}, {
+  "elementId" : "list_row",
+  "elementLabel" : "List row",
+  "propertyValues" : {
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "hideEmptyStateUi" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "list_container",
+      "elementLabel" : "List container",
+      "propertyValues" : {
+        "ariaRegionHeadingLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "hideEmptyStateUi" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "ariaRegionName" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "",
+            "comment" : ""
+          }
+        },
+        "includeAriaHeading" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "type" : {
+          "type" : "JSON_LITERAL",
+          "value" : "section"
+        },
+        "ariaRole" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "list__simple_1",
+          "elementLabel" : "List - Simple 1",
+          "propertyValues" : {
+            "highlightedValueConfigId" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "maxCharLimit" : {
+              "type" : "JSON_LITERAL",
+              "value" : 4000
+            },
+            "columns" : {
+              "type" : "JSON_LITERAL",
+              "value" : "number,short_description,u_when_needed,u_request_type,u_requested_for"
+            },
+            "hideLinks" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "wordWrap" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideTitleRowCount" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideColumnFiltering" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "maxColumns" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "limit" : {
+              "type" : "JSON_LITERAL",
+              "value" : 10
+            },
+            "hideLastRefreshedText" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideInlineEditing" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideColumnReorder" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "table" : {
+              "type" : "JSON_LITERAL",
+              "value" : "x_58872_needit_needit"
+            },
+            "hideHighlightedValues" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideRowSelector" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideColumnGrouping" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideHeader" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideColumnResizing" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "query" : {
+              "type" : "JSON_LITERAL",
+              "value" : "u_requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe"
+            },
+            "refreshRequested" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "hideHighlightContent" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideEmptyStateImage" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "highlightContent" : {
+              "type" : "JSON_LITERAL",
+              "value" : {
+                "patterns" : [ ],
+                "color" : ""
+              }
+            },
+            "hideRefreshButton" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "listTitle" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "code" : null,
+                "message" : "My Active NeedIts",
+                "comment" : ""
+              }
+            },
+            "groupByField" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "fixedQuery" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "hideTitle" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideDotwalk" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideColumnSorting" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "overrideWordWrapUserPref" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hidePersonalization" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "hideViewAll" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : null,
+          "definition" : {
+            "id" : "2b1c080881e05dc63b917044290b233f",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "isHero" : false,
+          "extensionPoints" : [ ],
+          "isNonDestructive" : false,
+          "items" : [ ],
+          "styles" : null
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "isInline" : null,
+            "items" : [{"element_id":"list__simple_1","styles":{}}],
+            "root" : null,
+            "rules" : null,
+            "styles" : {"flex-direction":"column"},
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "flex"
+          },
+          "version" : "3.0.0"
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : null
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"list_container","styles":{"width":"90%"}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column","align-items":"center"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : null
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"header_row","styles":{"width":"100%","background":" #8586BC"}},{"element_id":"list_row","styles":{"width":"100%","background":"rgb(var(--now-color--neutral-0))"}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>NeedIt User home</name>
+        <output_prop_mapping/>
+        <props>[ ]</props>
+        <required_translations>[ {
+  "message" : "My Active NeedIts",
+  "comment" : ""
+}, {
+  "message" : "NeedIt Logo",
+  "comment" : ""
+}, {
+  "message" : "The NeedIt Experience",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 05:30:26</sys_created_on>
+        <sys_id>bcd495c247f731108ad8bc2f316d431c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>NeedIt User home</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_macroponent_bcd495c247f731108ad8bc2f316d431c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 05:43:28</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=bcd495c247f731108ad8bc2f316d431c"/>
+</record_update>
