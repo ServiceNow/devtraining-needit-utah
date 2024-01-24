@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Asset Workspace App Config">67137075530130106b86ddeeff7b1213</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>Simple List with Chris default New Model Modal</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Simple List">bf9e5dab1b454d10b81fdce7cc4bcb0e</parent_macroponent>
+        <parent_macroponent_composition_element_id>modal_viewport_1</parent_macroponent_composition_element_id>
+        <route_type>new-model-modal</route_type>
+        <screen_type display_value="New Model Modal">7b3e273973153010c01ce234c4f6a7aa</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-20 16:38:03</sys_created_on>
+        <sys_id>7cae5dab1b454d10b81fdce7cc4bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Simple List with Chris default New Model Modal</sys_name>
+        <sys_package display_value="Asset Management Workspace" source="sn_itam_workspace">54b90b435d70f410f87728dca52fcfea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_app_route_7cae5dab1b454d10b81fdce7cc4bcb51</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-20 16:38:03</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=7cae5dab1b454d10b81fdce7cc4bcb51"/>
+</record_update>

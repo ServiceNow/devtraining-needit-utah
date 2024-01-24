@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Simple List">bf9e5dab1b454d10b81fdce7cc4bcb0e</macroponent>
+        <name>Update tab title</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */ 
+function handler({api, event, helpers, imports}) {
+    if (!api.context.props.listTitle)
+        return;
+
+    const setTabTitle = (title) => {
+        api.emit('SCREEN_STATUS_CHANGED', { 
+            'title': title
+        });
+    };
+
+    switch (event.name) {
+      case 'MACROPONENT_PROPERTY_CHANGED':
+        if (event.payload.name === 'listTitle')
+          setTabTitle(api.context.props.listTitle);
+        break;
+      case 'MACROPONENT_READY':
+        setTabTitle(api.context.props.listTitle);
+        break;
+    }
+}
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-20 16:38:01</sys_created_on>
+        <sys_id>80ae5dab1b454d10b81fdce7cc4bcb1d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Update tab title</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_80ae5dab1b454d10b81fdce7cc4bcb1d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-20 16:39:02</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

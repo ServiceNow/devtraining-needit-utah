@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Return UI action for TOL</description>
+        <name>Record default Return</name>
+        <parent_macroponent display_value="Record">57c4eb371b858d10b81fdce7cc4bcb6d</parent_macroponent>
+        <source_da display_value="return">b73283609c033010fa9be6ee6ce9cfde</source_da>
+        <source_element_id>ui_action_bar</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-21 21:02:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>35d4ef371b858d10b81fdce7cc4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record default Return</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Asset Management Workspace" source="sn_itam_workspace">54b90b435d70f410f87728dca52fcfea</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_35d4ef371b858d10b81fdce7cc4bcbf8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-21 21:02:53</sys_updated_on>
+        <target_event display_value="RECORD#OPEN_MODAL">509663140f0310107d20409dc4767e00</target_event>
+        <target_payload_mapping>{ &#13;
+    "type": "MAP_CONTAINER", &#13;
+    "container": { &#13;
+      "route": { &#13;
+        "type": "EVENT_PAYLOAD_BINDING", &#13;
+        "binding": { &#13;
+          "address": [ &#13;
+            "route" &#13;
+          ] &#13;
+        } &#13;
+      }, &#13;
+      "size": { &#13;
+        "type": "EVENT_PAYLOAD_BINDING", &#13;
+        "binding": { &#13;
+          "address": [ &#13;
+            "size" &#13;
+          ] &#13;
+        } &#13;
+      }, &#13;
+      "fields": { &#13;
+        "type": "EVENT_PAYLOAD_BINDING", &#13;
+        "binding": { &#13;
+          "address": [ &#13;
+            "fields" &#13;
+          ] &#13;
+        } &#13;
+      }, &#13;
+      "params": { &#13;
+        "type": "EVENT_PAYLOAD_BINDING", &#13;
+        "binding": { &#13;
+          "address": [ &#13;
+            "params" &#13;
+          ] &#13;
+        } &#13;
+      } &#13;
+    } &#13;
+  } </target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

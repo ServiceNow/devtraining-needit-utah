@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Related List New button.</description>
+        <name>Record default UXF Related List New</name>
+        <parent_macroponent display_value="Record">57c4eb371b858d10b81fdce7cc4bcb6d</parent_macroponent>
+        <source_da display_value="create-new-uxf">5555b77273131010a0a79329faf6a780</source_da>
+        <source_element_id>record_page_tabs_1</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-21 21:02:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7dd4ef371b858d10b81fdce7cc4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record default UXF Related List New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Base Agent Workspace" source="sn_uib_base_aw">4d3530700f3110107d20409dc4767e42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_7dd4ef371b858d10b81fdce7cc4bcbda</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-21 21:02:53</sys_updated_on>
+        <target_event display_value="RECORD#NAV_ITEM_SELECTED">835ec4a00f4310107d20409dc4767eaa</target_event>
+        <target_payload_mapping>{
+  "type": "MAP_CONTAINER",
+  "container": {
+    "route": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "route"
+        ]
+      }
+    },
+    "fields": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "fields"
+        ]
+      }
+    },
+    "multiInstField": "sysId",
+    "params": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "params"
+        ]
+      }
+    },
+    "redirect": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "redirect"
+        ]
+      }
+    },
+    "passiveNavigation": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "passiveNavigation"
+        ]
+      }
+    },
+    "title": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "title"
+        ]
+      }
+    },
+    "targetRoute": "current",
+    "external": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "external"
+        ]
+      }
+    }
+  }
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

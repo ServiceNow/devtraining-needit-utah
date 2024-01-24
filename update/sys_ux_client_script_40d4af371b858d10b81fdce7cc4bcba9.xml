@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Record">57c4eb371b858d10b81fdce7cc4bcb6d</macroponent>
+        <name>Handle activityLogs update</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[
+function handler({api, event: {payload: {name, value}}, helpers, imports}) {
+    const TEMPLATES_REFRESH_STATE_NAME = 'templatesRefresh';
+    const TEMPLATES_REFRESH_OPERATIONS = ['inserted', 'closed', 'deleted', 'updated'];
+    const templateRefreshState = api.state[TEMPLATES_REFRESH_STATE_NAME];
+
+    if (name === 'activityLogs' && value && value.size > 0) {
+        const mapEntries = Array.from(value);
+        if (!mapEntries || mapEntries.length < 1)
+            return;
+        const curCrudActivities = mapEntries.pop()[1].activities.get('crud');
+        if (!curCrudActivities || curCrudActivities.length < 1)
+            return;
+        const {table, operation, timestamp} = curCrudActivities[curCrudActivities.length - 1];
+
+        if (table.match(/^sys_template\d*$/) && TEMPLATES_REFRESH_OPERATIONS.includes(operation) && timestamp !== templateRefreshState.timestamp) {
+                api.setState(TEMPLATES_REFRESH_STATE_NAME, {
+                    timestamp,
+                });
+        }
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-21 21:02:46</sys_created_on>
+        <sys_id>40d4af371b858d10b81fdce7cc4bcba9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Handle activityLogs update</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_40d4af371b858d10b81fdce7cc4bcba9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-21 21:08:50</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
