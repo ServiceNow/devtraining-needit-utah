@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Needlt Information" section_id="54d2dbe347373110abd9eb02d16d4305" sys_domain="global" table="x_58872_needit_needlt" version="3" view="Custom_View">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-24 06:31:48</sys_created_on>
+            <sys_id>68d2dbe347373110abd9eb02d16d4330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Needlt Information" display_value="Needlt Information" name="x_58872_needit_needlt" sys_domain="global" view="78c1dba347373110abd9eb02d16d434b">54d2dbe347373110abd9eb02d16d4305</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-24 06:31:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-24 06:31:48</sys_created_on>
+            <sys_id>e8d2dbe347373110abd9eb02d16d4330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Needlt Information" display_value="Needlt Information" name="x_58872_needit_needlt" sys_domain="global" view="78c1dba347373110abd9eb02d16d434b">54d2dbe347373110abd9eb02d16d4305</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-24 06:31:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-24 06:31:48</sys_created_on>
+            <sys_id>6cd2dbe347373110abd9eb02d16d4330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Needlt Information" display_value="Needlt Information" name="x_58872_needit_needlt" sys_domain="global" view="78c1dba347373110abd9eb02d16d434b">54d2dbe347373110abd9eb02d16d4305</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-24 06:31:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>createdat</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-24 06:31:48</sys_created_on>
+            <sys_id>ecd2dbe347373110abd9eb02d16d4330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Needlt Information" display_value="Needlt Information" name="x_58872_needit_needlt" sys_domain="global" view="78c1dba347373110abd9eb02d16d434b">54d2dbe347373110abd9eb02d16d4305</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-24 06:31:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Needlt Information</caption>
+            <header>false</header>
+            <name>x_58872_needit_needlt</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-24 06:31:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54d2dbe347373110abd9eb02d16d4305</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_needit_needlt</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_section_54d2dbe347373110abd9eb02d16d4305</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-24 06:31:47</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Custom View" name="Custom_View">78c1dba347373110abd9eb02d16d434b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
