@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <controller/>
+        <description>Knowledge List Open Record</description>
+        <name>Knowledge List Open Record</name>
+        <parent_macroponent display_value="Default">a47d9c54471402102c440b02d16d4393</parent_macroponent>
+        <source_component/>
+        <source_da display_value="create_new">ba4a8dfa535b10108ce6ddeeff7b1253</source_da>
+        <source_element_id>list</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-07 11:30:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>497d1094471402102c440b02d16d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Knowledge List Open Record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_497d1094471402102c440b02d16d436a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-07 11:30:32</sys_updated_on>
+        <target_event display_value="LIST#NAV_ITEM_SELECTED">8c1321d50f1310107d20409dc4767e52</target_event>
+        <target_payload_mapping>{
+    "container": {
+        "external": {
+            "binding": {
+                "address": [
+                    "external"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "fields": {
+            "binding": {
+                "address": [
+                    "fields"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "multiInstField": {
+            "binding": {
+                "address": [
+                    "multiInstField"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "params": {
+            "binding": {
+                "address": [
+                    "params"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "passiveNavigation": {
+            "binding": {
+                "address": [
+                    "passiveNavigation"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "redirect": {
+            "binding": {
+                "address": [
+                    "redirect"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "route": {
+            "binding": {
+                "address": [
+                    "route"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        },
+        "title": {
+            "binding": {
+                "address": [
+                    "title"
+                ]
+            },
+            "type": "EVENT_PAYLOAD_BINDING"
+        }
+    },
+    "type": "MAP_CONTAINER"
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

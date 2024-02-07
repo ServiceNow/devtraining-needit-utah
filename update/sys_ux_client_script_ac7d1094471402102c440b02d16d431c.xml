@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">a47d9c54471402102c440b02d16d4393</macroponent>
+        <name>List CRUD </name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, imports}) {
+  let type = '';
+	if(event.name === "NOW_RECORD_LIST_CONNECTED#SAVE_AS_REQUESTED") {
+		type = "CREATE";
+	}
+	else if (event.name  ===  "NOW_RECORD_LIST_CONNECTED#DELETE_REQUESTED") {
+		type = "DESTROY";
+	}
+	else if (event.name  ===  "NOW_RECORD_LIST_CONNECTED#RENAME_REQUESTED" ||  event.name  ===  "NOW_RECORD_LIST_CONNECTED#EDIT_COLUMNS_REQUESTED" || event.name  === "NOW_RECORD_LIST_CONNECTED#SAVE_REQUESTED") {
+		type = "UPDATE";
+	}
+
+	const CRUD = {
+		type: type,
+		options: event.payload.update,
+		timestamp: event.payload.timestamp
+	};
+	
+	api.setState('CRUD', CRUD);
+}]]></script>
+        <script_api_version>1.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-07 11:30:31</sys_created_on>
+        <sys_id>ac7d1094471402102c440b02d16d431c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>List CRUD </sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_ac7d1094471402102c440b02d16d431c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-07 11:30:31</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

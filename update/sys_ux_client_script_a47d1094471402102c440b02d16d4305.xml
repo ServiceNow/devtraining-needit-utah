@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes>e75113c0c3302010de10a0f89d40dd0e</includes>
+        <macroponent display_value="Default">a47d9c54471402102c440b02d16d4393</macroponent>
+        <name>listUserPrefState</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    // event name
+    const eventName = event.name;
+    
+    // import the getUserPreference method from userPreferenceUtils script includes
+    const {
+        getUserPreference
+    } = imports["sn_record_page.userPreferenceUtils"](api.context.props.userPrefs);
+
+    /**
+     * setWrapListText - toggle the srap list text behavior
+     */
+    const setWrapListText = () => {
+        // show preference name constant
+        const WRAP_LIST_TEXT_PREF_NAME = "workspace.wrapListText";
+
+        // fetch the user's wrap list text preference value
+        const pref = getUserPreference(WRAP_LIST_TEXT_PREF_NAME);
+
+        api.setState('wrapListText', pref);
+    };
+
+    /**
+     * onLoadUserPreference - if User pref from DR lookup exists, save it to client state.
+     */
+    const onLoadUserPreference = (userPrefs) => {
+        if(userPrefs.length > 0) {
+            userPrefs.forEach((userPref) => {
+                switch(userPref.name) {
+                    case api.state.listRatioPreference:
+                        if(userPref.value) 
+                            api.setState('listDividerPosition', userPref.value);
+                        break;
+                    case api.state.listMenuOpenPreference:
+                        const closed = userPref.value === 'false';
+                        api.setState('listMenuOpen', !closed);
+                        api.setState('listDisplayPanes', closed? 'right': 'both');
+                        break;
+                }
+            });
+        }
+    };
+
+    /**
+     * onLoadListPref - When page is loading, read the list ratio preference via DR
+     */
+    const onLoadListPref = () => {
+        // Set the preferences we want to load
+        api.setState('listPreferences', api.state.listRatioPreference + ',' + api.state.listMenuOpenPreference);
+
+        // the preference name is loaded by DR from client state var, this 
+        // calls the DR to look it up. Then DR calls the DATA_FETCH_SUCCEEDED
+        // event handler (in switch statement below) to update state variable    
+        api.data.getListPreferences.refresh();
+    };
+
+    // handle the wrap list text collapsed state based on the macroponent ready & 
+    // macroponent property change events
+    switch(eventName) {
+        case 'MACROPONENT_READY':
+            setWrapListText();
+            onLoadListPref();
+            break;
+
+        case 'MACROPONENT_PROPERTY_CHANGED':
+            if(event.payload.name === 'userPrefs') 
+                setWrapListText();    
+            break;
+
+        case 'DATA_FETCH_SUCCEEDED':
+            if (event.elementId === 'getListPreferences') 
+                onLoadUserPreference(api.data.getListPreferences.result.preferences);
+            break;
+
+        default:
+            break;
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-07 11:30:31</sys_created_on>
+        <sys_id>a47d1094471402102c440b02d16d4305</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>listUserPrefState</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_a47d1094471402102c440b02d16d4305</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-07 11:30:31</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
