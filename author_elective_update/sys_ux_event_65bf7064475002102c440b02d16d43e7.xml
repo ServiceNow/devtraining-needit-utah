@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>UPDATE_LIST_QUERY_AND_TITLE</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Update list query and title</label>
+        <props>[
+    {
+        "fieldType": "",
+        "interfaceApiName": "",
+        "label": "List query",
+        "mandatory": false,
+        "name": "heListQuery",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "",
+        "interfaceApiName": "",
+        "label": "List title",
+        "mandatory": false,
+        "name": "heListTitle",
+        "readOnly": false,
+        "typeMetadata": null
+    }
+]</props>
+        <required_translations>[ {
+  "message" : "List query",
+  "comment" : ""
+}, {
+  "message" : "List title",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-08 10:03:05</sys_created_on>
+        <sys_id>65bf7064475002102c440b02d16d43e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update list query and title</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_event_65bf7064475002102c440b02d16d43e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-08 10:03:05</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="DELETE" query="documentkey=65bf7064475002102c440b02d16d43e7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>57f1cf001b72311052a243f4bd4bcbee</instance_id>
+        <instance_name>dev223590</instance_name>
+        <name>sys_ux_event_65bf7064475002102c440b02d16d43e7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>UPDATE_LIST_QUERY_AND_TITLE</event_name><explicit_api_name/><interfaces/><label>Update list query and title</label><props>[
+    {
+        "fieldType": "",
+        "interfaceApiName": "",
+        "label": "List query",
+        "mandatory": false,
+        "name": "heListQuery",
+        "readOnly": false,
+        "typeMetadata": null
+    },
+    {
+        "fieldType": "",
+        "interfaceApiName": "",
+        "label": "List title",
+        "mandatory": false,
+        "name": "heListTitle",
+        "readOnly": false,
+        "typeMetadata": null
+    }
+]</props><required_translations>[ {
+  "message" : "List query",
+  "comment" : ""
+}, {
+  "message" : "List title",
+  "comment" : ""
+} ]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-08 10:03:05</sys_created_on><sys_id>65bf7064475002102c440b02d16d43e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Update list query and title</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ux_event_65bf7064475002102c440b02d16d43e7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-08 10:03:05</sys_updated_on></sys_ux_event><sys_translated_text action="delete_multiple" query="documentkey=65bf7064475002102c440b02d16d43e7"/></record_update>]]></payload>
+        <payload_hash>-176878879</payload_hash>
+        <record_name>Update list query and title</record_name>
+        <reverted_from/>
+        <source>c0d777c4475002102c440b02d16d4396</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-08 10:03:06</sys_created_on>
+        <sys_id>71035d68479002102c440b02d16d43ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d882bc3f20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-08 10:03:06</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>b5035d681390021018fd611550cd8fac</update_guid>
+        <update_guid_history>b5035d681390021018fd611550cd8fac:-176878879</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-08 10:09:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>3b72b5b5466543de93d27345fb5b0509</sys_id>
+        <sys_metadata>65bf7064475002102c440b02d16d43e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update list query and title</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_event_65bf7064475002102c440b02d16d43e7</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_65bf7064475002102c440b02d16d43e7">71035d68479002102c440b02d16d43ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-08 10:09:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

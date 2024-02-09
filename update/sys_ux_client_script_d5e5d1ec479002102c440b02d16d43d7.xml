@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">808d1094471402102c440b02d16d43f5</macroponent>
+        <name>Generate Query and Title</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+   * @param {params} params
+   * @param {api} params.api
+   * @param {any} params.event
+   * @param {any} params.imports
+   * @param {ApiHelpers} params.helpers
+   */
+  function handler({
+      api,
+      event,
+      helpers,
+      imports
+  }) {
+      // Script overview: Get current client state parameter values and
+      // update the values with the selected Request type
+      // filter information
+  
+      // Get current client state parameter values
+      var cspListQuery = api.state.listQuery;
+      var cspListTitle = api.state.listTitle;
+  
+      // Clear Request type from existing query by splitting on the parameter 
+      // in the encoded query
+      var cspListQueryArray = cspListQuery.split('^u_request_type=');
+  
+      // Clear Request type from existing title
+      var cspListTitleArray = cspListTitle.split(' - ');
+  
+      // Get payload from handled event
+      var passedQuery = event.payload.heListQuery;
+      var passedTitle = event.payload.heListTitle;
+  
+      // Check to see if a Request type is passed in the payload
+      // A Request type is passed when a radio button is selected
+      if (passedQuery == 'legal' || passedQuery == 'facilities' || passedQuery == 'hr') {
+  
+          // If a Request type is passed, update the query and title to reflect
+          // the selected Request type
+          if (passedQuery == 'hr') {
+              api.setState('listQuery', cspListQueryArray[0] + '^u_request_type=' + passedQuery);
+                api.setState('listTitle', cspListTitleArray[0] + ' - ' + passedQuery.toUpperCase());
+          }
+          else {
+          api.setState('listQuery', cspListQueryArray[0] + '^u_request_type=' + passedQuery);
+          api.setState('listTitle', cspListTitleArray[0] + ' - ' + passedQuery[0].toUpperCase() + passedQuery.slice(1));
+          }
+  
+      } else if (passedQuery == 'all') {
+          // If the All radio button is selected, remove the Request type from 
+          // the query
+          api.setState('listQuery', cspListQueryArray[0]);
+          api.setState('listTitle', cspListTitleArray[0]);
+  
+      } else {
+          // Else just pass the values passed to the event handler
+          // This branch runs when filter buttons are clicked
+          api.setState('listQuery', passedQuery);
+          api.setState('listTitle', passedTitle);
+         
+      }
+  }]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-08 11:51:01</sys_created_on>
+        <sys_id>d5e5d1ec479002102c440b02d16d43d7</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Generate Query and Title</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_client_script_d5e5d1ec479002102c440b02d16d43d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-08 12:17:29</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
