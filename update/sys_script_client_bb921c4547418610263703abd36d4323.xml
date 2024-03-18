@@ -3,32 +3,36 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description/>
-        <field>active</field>
+        <description>Set the Requested for to the currently logged in user for new records. Users can change the field value</description>
+        <field>u_requested_for</field>
         <global>true</global>
-        <isolate_script>false</isolate_script>
+        <isolate_script>true</isolate_script>
         <messages/>
-        <name>NeedIt onLoad Example</name>
+        <name> NeedIt Set Requested for</name>
         <order/>
         <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
-   alert("Thank you for loading the NeedIt form.   When you close this alert you will be able to interact with the form.");
+  //Check to see if the form is for a new record.  If it is a new record, 
+  //set the Requested for value to the currently logged in user.
+
+    if(g_form.isNewRecord()){
+        g_form.setValue('u_requested_for',g_user.userID);
+    }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-02-08 17:07:03</sys_created_on>
+        <sys_created_on>2024-03-18 01:27:07</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>139133b10fb43200cd674f8ce1050efb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>NeedIt onLoad Example</sys_name>
+        <sys_id>bb921c4547418610263703abd36d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> NeedIt Set Requested for</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_script_client_139133b10fb43200cd674f8ce1050efb</sys_update_name>
+        <sys_update_name>sys_script_client_bb921c4547418610263703abd36d4323</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-17 23:48:50</sys_updated_on>
+        <sys_updated_on>2024-03-18 01:27:07</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
