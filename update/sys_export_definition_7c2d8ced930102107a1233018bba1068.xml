@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_export_definition">
+    <sys_export_definition action="INSERT_OR_UPDATE">
+        <field_list>number,u_request_type,u_requested_for,u_what_needed,u_when_needed,state</field_list>
+        <filter/>
+        <name>ed_t_x_58872_needit_needit</name>
+        <sys_class_name>sys_export_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-19 14:18:44</sys_created_on>
+        <sys_id>7c2d8ced930102107a1233018bba1068</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ed_t_x_58872_needit_needit</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_export_definition_7c2d8ced930102107a1233018bba1068</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-19 14:18:44</sys_updated_on>
+        <table_name>x_58872_needit_needit</table_name>
+        <view display_value="Exp_d7c2d8ced930102107a1233018bba1068" name="exp_d7c2d8ced930102107a1233018bba1068">3c2d8ced930102107a1233018bba1069</view>
+    </sys_export_definition>
+</record_update>
