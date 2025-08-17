@@ -3,9 +3,8 @@
         <active>true</active>
         <application display_value="NeedIt">0242fb8d0fa83200cd674f8ce1050e79</application>
         <assessment/>
-        <content_page/>
         <device_type/>
-        <filter table="x_58872_needit_needit">stateNOT IN3^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="3"/>
+        <filter table="x_58872_needit_needit">stateNOT IN3^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="3"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint>A list of records in the NeedIt table that do not have a State value of Closed.</hint>

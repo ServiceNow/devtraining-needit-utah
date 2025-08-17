@@ -2,6 +2,7 @@
     <sys_transform_map action="INSERT_OR_UPDATE">
         <active>true</active>
         <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
         <enforce_mandatory_fields>All Fields</enforce_mandatory_fields>
         <name>Import Historic NeedIt Data</name>
         <order>100</order>
