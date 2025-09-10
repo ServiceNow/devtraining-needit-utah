@@ -5,7 +5,7 @@
         <description/>
         <device_type>browser</device_type>
         <hint/>
-        <name>NeedIt</name>
+        <name>NeedItCustom</name>
         <order>100</order>
         <roles>x_58872_needit.needit_user</roles>
         <sys_class_name>sys_app_application</sys_class_name>
