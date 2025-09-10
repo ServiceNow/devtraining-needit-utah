@@ -1,10 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
-   <sys_app_application action="INSERT_OR_UPDATE">
-    <name>NeedItCustom</name> <!-- UI Name -->
-    <sys_name>NeedItCustom</sys_name> <!-- Technical Name -->
-    <sys_id>REPLACE_WITH_NEW_GUID</sys_id> <!-- Must be unique -->
-    <sys_package display_value="NeedItCustom" source="x_58872_needitcustom">NEW_PACKAGE_SYS_ID</sys_package>
-    <sys_scope display_value="NeedItCustom">NEW_SCOPE_SYS_ID</sys_scope>
-</sys_app_application>
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <!-- Display name shown in Studio / Application Picker -->
+        <name>NeedItCustom</name>
 
+        <!-- Internal technical name -->
+        <sys_name>NeedItCustom</sys_name>
+
+        <!-- Must be globally unique. Replace this with a brand new GUID. 
+             You can generate one in ServiceNow by creating a dummy app,
+             or use any online UUID generator. -->
+        <sys_id>REPLACE_WITH_NEW_GUID</sys_id>
+
+        <!-- Package record reference (unique per app). 
+             Create new if needed, otherwise just use a placeholder ID. -->
+        <sys_package display_value="NeedItCustom" source="x_snc_needitcustom">
+            REPLACE_WITH_NEW_PACKAGE_SYS_ID
+        </sys_package>
+
+        <!-- Scope record reference (unique per app).
+             This links to the app scope table entry. -->
+        <sys_scope display_value="NeedItCustom">
+            REPLACE_WITH_NEW_SCOPE_SYS_ID
+        </sys_scope>
+    </sys_app_application>
 </record_update>
