@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category>140e2eda0b203300a1b16c2367673af4</category>
+        <channels/>
+        <connect_queue/>
+        <context_profiles/>
+        <description>out look related issue </description>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{
+  "graph_api_version": "1.0.82",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "22f71656f3934dd8ae42c38fead310e7": {
+          "id": "22f71656f3934dd8ae42c38fead310e7",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Hello "
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.user.first_name}}",
+                      "displayValue": "Input Variables➛User➛First name"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ", Welcome to the Outlook Topic"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "b2717cd0eca54e71a173d6cc028fbc34": {
+          "id": "b2717cd0eca54e71a173d6cc028fbc34",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "df44ba04b9ca47aea8cd2fbc2ef96f31": {
+          "name": "Outlook Issues",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Below are the Options to confirm it!"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "30de0bd3bfce41eb9bb9d02ca967806a",
+          "detailDescription": "",
+          "id": "df44ba04b9ca47aea8cd2fbc2ef96f31",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": true,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "Large image with text",
+            "cardFields": {
+              "1c617fa17313101081e06502edf6a780_title": {
+                "value": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Outlook Issues"
+                      }
+                    ]
+                  }
+                ],
+                "mode": "simple"
+              },
+              "1c617fa17313101081e06502edf6a780_description": {
+                "value": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "text": "Solving a Outlook issues"
+                      }
+                    ]
+                  }
+                ],
+                "mode": "simple"
+              },
+              "1c617fa17313101081e06502edf6a780_image": {
+                "value": "toppng.com-outlook-email-logo-png-1764x1490_1758978588568.png",
+                "mode": "db_image"
+              }
+            },
+            "cardDefinition": {
+              "sys_id": "1c617fa17313101081e06502edf6a780",
+              "name": "Large image with text",
+              "sys_name": "Large image with text",
+              "thumbnail.name": "Large image with text.svg",
+              "fields": [
+                {
+                  "label": "Title",
+                  "position": "1",
+                  "mandatory": true,
+                  "name": "title",
+                  "id": "1c617fa17313101081e06502edf6a780_title"
+                },
+                {
+                  "label": "Description",
+                  "position": "2",
+                  "mandatory": false,
+                  "name": "description",
+                  "id": "1c617fa17313101081e06502edf6a780_description"
+                },
+                {
+                  "label": "Image URL link",
+                  "position": "3",
+                  "mandatory": true,
+                  "type": "image",
+                  "name": "image",
+                  "id": "1c617fa17313101081e06502edf6a780_image"
+                },
+                {
+                  "label": "Image alt text",
+                  "position": "4",
+                  "mandatory": false,
+                  "name": "imageAlt",
+                  "id": "1c617fa17313101081e06502edf6a780_imageAlt"
+                }
+              ],
+              "value": "Large image with text",
+              "hasTemplateError": false
+            }
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "6cb803dfe961472e8efe79a6da6b2210": {
+          "id": "6cb803dfe961472e8efe79a6da6b2210",
+          "stepType": "TextPrompt",
+          "name": "Asking a Question to User",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Are you facing an Outlook issue my friend? hmm... Don't worry, I'm glad you're at the right place 😊 Let me know what are you facing it?? "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Thank You for the submission "
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "50df01352da04e39be10eb6979de8d7e",
+          "detailDescription": "",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          },
+          "requestFeedback": true
+        },
+        "20f97e7c1f614615ba7082b23aa734b1": {
+          "id": "20f97e7c1f614615ba7082b23aa734b1",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "926595f2654f41b481e8a0cd753e6ee4": {
+          "id": "926595f2654f41b481e8a0cd753e6ee4",
+          "stepType": "ImplicitEnd"
+        },
+        "37cfe8c68e87436f8119a7fe877bcc97": {
+          "id": "37cfe8c68e87436f8119a7fe877bcc97",
+          "stepType": "ImplicitEnd"
+        },
+        "032db019cd354a158be5d0856687c60a": {
+          "id": "032db019cd354a158be5d0856687c60a",
+          "stepType": "ImplicitEnd"
+        },
+        "7aee7bf26d3d4c9a983b3709c10c3856": {
+          "id": "7aee7bf26d3d4c9a983b3709c10c3856",
+          "stepType": "LinkOutput",
+          "name": "Knowledge Guide",
+          "url": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "https://dev278311.service-now.com/sp/en/outlook-issue?id=kb_article_view&amp;sysparm_article=KB99999999"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "label": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Microsoft Outlook Issues - Slowness"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "header": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Outlook is slow - facing folloe the steps below, we are providing in detail"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "linkType": "single",
+          "introMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "listOfLinks": ""
+        },
+        "6ce6ad52bf9f4ed391e0e03f0871c245": {
+          "id": "6ce6ad52bf9f4ed391e0e03f0871c245",
+          "stepType": "BooleanPrompt",
+          "name": "Outlook Slowness",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Outlook Slowness issue solved?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "8397c39027a84d51823f989e23ed62a9",
+          "detailDescription": ""
+        },
+        "dc16fc93ba39477f9608f8a72ed7faca": {
+          "id": "dc16fc93ba39477f9608f8a72ed7faca",
+          "stepType": "ImplicitEnd"
+        },
+        "7386dd313c6e4eaf9cd36b5f1e9584f1": {
+          "id": "7386dd313c6e4eaf9cd36b5f1e9584f1",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "b8f202bfc2694a95a9faab37fe4d9a4f": {
+          "id": "b8f202bfc2694a95a9faab37fe4d9a4f",
+          "stepType": "Component",
+          "name": "Pause to read knowledge guide title",
+          "fields": [],
+          "reusableTopicId": "da36dc0f534e2010c232ddeeff7b12d4",
+          "reusableTopicChoice": "Pause",
+          "sourceType": "TOPIC_BLOCK",
+          "loading": false,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "inputs": {
+            "seconds": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "10"
+                    }
+                  ]
+                }
+              ],
+              "mode": "string",
+              "type": "String"
+            }
+          },
+          "outputs": [],
+          "outdatedNote": false,
+          "variableIds": []
+        }
+      },
+      "edges": [
+        {
+          "id": "2e714d54ddae4e72aa474eded29a9102",
+          "edgeType": "Branch",
+          "source": "7386dd313c6e4eaf9cd36b5f1e9584f1",
+          "target": "37cfe8c68e87436f8119a7fe877bcc97",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.outlook_slowness=true",
+            "mode": "query"
+          },
+          "label": "true"
+        },
+        {
+          "id": "26e4e7cf0f684a2aa1c3d1bd188b06a3",
+          "edgeType": "Branch",
+          "source": "7386dd313c6e4eaf9cd36b5f1e9584f1",
+          "target": "dc16fc93ba39477f9608f8a72ed7faca",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.outlook_slowness=false",
+            "mode": "query"
+          },
+          "label": "false"
+        },
+        {
+          "id": "7835d49e620f4d2b9e5d79b6e877f805",
+          "edgeType": "Edge",
+          "source": "22f71656f3934dd8ae42c38fead310e7",
+          "target": "6cb803dfe961472e8efe79a6da6b2210",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "be9044f56f8d4d7e91e61dfe0bf1645f",
+          "edgeType": "Edge",
+          "source": "6cb803dfe961472e8efe79a6da6b2210",
+          "target": "df44ba04b9ca47aea8cd2fbc2ef96f31",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "394adba87a0b4610a1e870ffed1b7829",
+          "edgeType": "Edge",
+          "source": "df44ba04b9ca47aea8cd2fbc2ef96f31",
+          "target": "20f97e7c1f614615ba7082b23aa734b1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d7c9569b3a554586a2187a52186cf758",
+          "edgeType": "Branch",
+          "source": "20f97e7c1f614615ba7082b23aa734b1",
+          "target": "b2717cd0eca54e71a173d6cc028fbc34",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.outlook_issues=Unable to open an email",
+            "mode": "query"
+          },
+          "label": "Unable to open an email"
+        },
+        {
+          "id": "7cbb92c3c2a849c7ad19ffc7e2e05dd1",
+          "edgeType": "Branch",
+          "source": "20f97e7c1f614615ba7082b23aa734b1",
+          "target": "926595f2654f41b481e8a0cd753e6ee4",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.outlook_issues=Others",
+            "mode": "query"
+          },
+          "label": "Others"
+        },
+        {
+          "id": "f9a3ccd648a4438e93e89a020274573f",
+          "edgeType": "Branch",
+          "source": "20f97e7c1f614615ba7082b23aa734b1",
+          "target": "032db019cd354a158be5d0856687c60a",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.outlook_issues=outlook is not openinig",
+            "mode": "query"
+          },
+          "label": "outlook is not openinig"
+        },
+        {
+          "id": "24600d15457f488e86e8bef93ef6d434",
+          "edgeType": "Branch",
+          "source": "20f97e7c1f614615ba7082b23aa734b1",
+          "target": "7aee7bf26d3d4c9a983b3709c10c3856",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.outlook_issues=outlook is slow",
+            "mode": "query"
+          },
+          "label": "Outlook is slow"
+        },
+        {
+          "id": "212874a252394d4e90ea685fdb41d37d",
+          "edgeType": "Edge",
+          "source": "6ce6ad52bf9f4ed391e0e03f0871c245",
+          "target": "7386dd313c6e4eaf9cd36b5f1e9584f1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f49d1ef01b504eb3bab8acd4cf8d039f",
+          "edgeType": "Edge",
+          "source": "7aee7bf26d3d4c9a983b3709c10c3856",
+          "target": "b8f202bfc2694a95a9faab37fe4d9a4f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d88cbb180f7540b5a6aa2b8a991f267a",
+          "edgeType": "Edge",
+          "source": "b8f202bfc2694a95a9faab37fe4d9a4f",
+          "target": "6ce6ad52bf9f4ed391e0e03f0871c245",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "30de0bd3bfce41eb9bb9d02ca967806a": {
+      "id": "30de0bd3bfce41eb9bb9d02ca967806a",
+      "name": "outlook_issues",
+      "label": "Outlook Issues",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Outlook is slow",
+          "value": "outlook is slow"
+        },
+        {
+          "label": "outlook is not openinig",
+          "value": "outlook is not openinig"
+        },
+        {
+          "label": "Unable to open an email",
+          "value": "Unable to open an email",
+          "checked": true,
+          "meta": {}
+        },
+        {
+          "label": "Others",
+          "value": "Others",
+          "checked": true,
+          "meta": {}
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "df44ba04b9ca47aea8cd2fbc2ef96f31",
+      "isHidden": false
+    },
+    "50df01352da04e39be10eb6979de8d7e": {
+      "id": "50df01352da04e39be10eb6979de8d7e",
+      "name": "asking_a_question_to_user",
+      "label": "Asking A Question To User",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTc1ODk3OTMzNTUwNiBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "6cb803dfe961472e8efe79a6da6b2210",
+      "isHidden": false
+    },
+    "8397c39027a84d51823f989e23ed62a9": {
+      "id": "8397c39027a84d51823f989e23ed62a9",
+      "name": "outlook_slowness",
+      "label": "Outlook Slowness",
+      "varType": "boolean",
+      "secure": false,
+      "category": "vaInputs",
+      "nodeId": "6ce6ad52bf9f4ed391e0e03f0871c245",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <key_phrases>Outlook Issue,outlook is not working,outlook,outlook is not responding,outlook troubleshooting</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>Outlook Issue</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-27 12:49:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4936d070831c3210dd91f0ffeeaad396</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Outlook Issue</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_topic_4936d070831c3210dd91f0ffeeaad396</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-27 13:52:16</sys_updated_on>
+        <title>Outlook Issue</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=4936d070831c3210dd91f0ffeeaad396"/>
+</record_update>

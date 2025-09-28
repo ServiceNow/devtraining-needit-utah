@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic_library_usage">
+    <sys_cb_topic_library_usage action="INSERT_OR_UPDATE">
+        <calling_cb_topic_id display_value="Outlook Issue">4936d070831c3210dd91f0ffeeaad396</calling_cb_topic_id>
+        <library_cb_topic_id display_value="Pause">86d5980f534e2010c232ddeeff7b1238</library_cb_topic_id>
+        <sys_class_name>sys_cb_topic_library_usage</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-27 13:52:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2f946038835c3210dd91f0ffeeaad3fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_topic_library_usage_2f946038835c3210dd91f0ffeeaad3fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-27 13:52:16</sys_updated_on>
+    </sys_cb_topic_library_usage>
+</record_update>
