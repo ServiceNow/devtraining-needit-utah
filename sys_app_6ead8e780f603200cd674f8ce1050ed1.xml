@@ -5,8 +5,9 @@
         <enforce_license>log</enforce_license>
         <guided_setup_guid/>
         <hide_on_ui>false</hide_on_ui>
+        <ide_created/>
         <installed_as_dependency>false</installed_as_dependency>
-        <js_level>helsinki_es5</js_level>
+        <js_level>es_latest</js_level>
         <licensable>true</licensable>
         <license/>
         <license_category/>
@@ -15,6 +16,7 @@
         <logo/>
         <menu/>
         <name>NeedIt</name>
+        <package_json/>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
@@ -24,14 +26,15 @@
         <source>x_58872_needit</source>
         <store_correlation_id/>
         <store_url/>
+        <subscription_entitlement/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-23 20:48:29</sys_created_on>
         <sys_id>6ead8e780f603200cd674f8ce1050ed1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-04-11 00:32:45</sys_updated_on>
+        <sys_updated_on>2025-09-16 15:16:31</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
@@ -40,4 +43,5 @@
         <vendor_prefix/>
         <version>1.0.0</version>
     </sys_app>
+    <sys_translated_text action="delete_multiple" query="documentkey=6ead8e780f603200cd674f8ce1050ed1"/>
 </record_update>

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>28000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>3542e553b37803000abf86d256a8dc7d</copied_from>
+        <copied_from_name>VTB Sample Flow</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>copy_of_vtb_sample_flow</internal_name>
+        <label_cache>[{"name":"Created_1.current.assigned_to","label":"Trigger➛Incident Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"incident","column_name":"assigned_to"},{"name":"b9b3d009-1491-4466-bbb9-f98d90e8bacd.Board","label":"1➛Board","reference":"vtb_board","reference_display":"Visual Task Board","type":"document_id","base_type":"document_id"},{"name":"47eb6b89-3a3e-450a-b6d7-c71d4e0378e6.Record","label":"2➛Visual Task Board Lane Record","reference":"vtb_lane","reference_display":"Visual Task Board Lane","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Copy of VTB Sample Flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-16 04:38:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a76cb14dc3c472103665b92ed4013118</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Copy of VTB Sample Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_a76cb14dc3c472103665b92ed4013118</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-16 04:38:43</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=a76cb14dc3c472103665b92ed4013118"/>
+    <sys_variable_value action="DELETE" query="document_key=a76cb14dc3c472103665b92ed4013118"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=a76cb14dc3c472103665b92ed4013118"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=a76cb14dc3c472103665b92ed4013118^sys_idNOT IN236cb14dc3c472103665b92ed4013119"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>a76cb14dc3c472103665b92ed4013118</id>
+        <name>Copy of VTB Sample Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-16 04:38:42</sys_created_on>
+        <sys_id>236cb14dc3c472103665b92ed4013119</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-16 04:38:42</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=236cb14dc3c472103665b92ed4013119"/>
+    <sys_hub_flow_input action="DELETE" query="model=a76cb14dc3c472103665b92ed4013118^sys_idNOT IN2b6cb14dc3c472103665b92ed401311f,736cb14dc3c472103665b92ed4013123"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,labelCacheCleanUpExecuted=true,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Copy of VTB Sample Flow">a76cb14dc3c472103665b92ed4013118</model>
+        <model_id>a76cb14dc3c472103665b92ed4013118</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a76cb14dc3c472103665b92ed4013118</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-16 04:38:42</sys_created_on>
+        <sys_id>2b6cb14dc3c472103665b92ed401311f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-16 04:38:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=2b6cb14dc3c472103665b92ed401311f"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Copy of VTB Sample Flow">a76cb14dc3c472103665b92ed4013118</model>
+        <model_id>a76cb14dc3c472103665b92ed4013118</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_a76cb14dc3c472103665b92ed4013118</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-16 04:38:43</sys_created_on>
+        <sys_id>736cb14dc3c472103665b92ed4013123</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-16 04:38:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=736cb14dc3c472103665b92ed4013123"/>
+    <sys_hub_flow_output action="DELETE" query="model=a76cb14dc3c472103665b92ed4013118"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=a76cb14dc3c472103665b92ed4013118"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=a76cb14dc3c472103665b92ed4013118^sys_idNOT INb36cb14dc3c472103665b92ed4013144"/>
+    <sys_hub_trigger_instance_v2 action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Copy of VTB Sample Flow">a76cb14dc3c472103665b92ed4013118</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-16 04:38:43</sys_created_on>
+        <sys_id>b36cb14dc3c472103665b92ed4013144</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-16 04:38:43</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+VY227jNhD9FUFPLZACuvimvG3tLGogTQrH2z6kgUCJpE2sTLkSpaw38L93qJtlXRxfknbtvBjwkCLnDM+ZGfLxRRUBm81IMOahQNwlD6twjNVrtWsaJrG6pmP2B5qpaRpy6KCHjW4PDbA70NUr1UMO8WDqFDkegf+MCxJw5E1XSwJmIc02Rws5tkAcI+EHK/VaBBG5UmngL6ZksfSQgMkUeSEY/QCTQL3Wr9Tks2wN+DxGXiT/M+4yTLgAE2YhfLz6MxsZb0aWKICvhVzppXDqlvGvMA2G3TnzcEC4ev34BE5LsC51kWUQzTV10zA0zRh0dKdnOrqBTUQ0rQFsxUHRgFnabsufKXfpwAYm+SYIxwQXEajFKSAI33NvVcyYA6IUyAJ9C9l32HagyXmUACiXpGPFXzuLU2qmIyTQA6zsiiggeTx85pIwDQcmFEWeGJZt6YT7pWA+Tz9JUadf+1604HdpNNRigfxYwBKF4ARZSpzS8wwGfZj7z5Pcy8+MJyHJBj3fRV7xDwngqBMJ6c+LSpkHJ2qnkQ79KEggT26G95OR/den6fC3m4k9uXmYTsbD6c1IXV+p4SoceigMN15CeOx/IrlH6nPmnZ0CXBfs+syIJwnCo4UD/sFSbsCW4pMrWJzTdn31FiIa+hyzJMI1Ibn5UFj2tUS+Emny6O5Sl6YV9HVLu+YaWwbMD5hY/R1pmon1utTqEw5XXK+HECaoRXEObYlMg9uiIUhl5Q3LA+UQ7NJeZtlHfB1NOyf5Zdn3WPUtfEy8UZmDKfNtxpeRkCF+RlyEtvBthLFdOhU5FXw6XI4p2vU7ai+IOGxlF4SoKzA5guKwblkI0B8hF+VxTpyRB5yzbhJxxQfmwI/iRgGEWSi5XOl4gWYZcvpHLp0kvBm/YxTY9sKGQNnzyLG3Ymz3rYGl99qk03e3IpiIWhJJVZ/W8tyJR1xRIj39Epb//c7CkPFZKbwFxuT4ahALdCAeJY9gCjU8L6xPpyTSOoXiCjUqSXQXQQ5Pp7pOqUOoofVllHTNdKiu9bUuohio7xo7yd4KQVTYv5VWc+O7pNS3SagvBehd0a4eVA5Ikt87hOvxtlCydYx1U17/cVyrlBfzoPpSkDs1j/bn+Bt3hQjHMvnj48vMu1cY6vnPkNaOqC4Ocr/OAj/iuJp/5ZoK48pmhvJTdhY/n1f2LVca6gdkN97tGeeD8uQasyFRLmnEV/XqkhoPryMm1R2LdIgG5cMESjtdy3JcZFDa7/WJ0U7pRhcvq368orW4SaxtCbuRx3ET/Q+oIv+/gyfVkozIjZUkHft4NeN5TrgNsAPbk1WhVjpmHsMkHzsts9S2ijd3yEp2OSq10IHldvV+3+1DigXktEMcpHeMLrL6PXPQfQ35LldFQzTKyeY2Nf0nt39ZZKRvLUnnSzr0A7wEfBT5hEQIWYIP77s4XIeSb1DqXqkZkbxQkkTpB8qdz38Zb+YpDwSKfvI4dUatSbkB2we0JLJyUagdX8xrDScg/RXsW0jlHavlzD/am0dFYfF2KBvePI4J6BHvIaQz6FrUbC421NqdJ9rxXU5Hu2cCi1tTYVPnuG+CiBvzTNFJVnvRIyhTIWK2tPlKF/1xg3JS556rvfUR6BhnP2i3krS1p7Qs0lti+7RcyUa+AgMKbKIwqmTeEqw4K0XMCRyPB9c92FCRu59ZCStX8DryQnwXjTu9HtcaFzAr2VXkjIC9TU9S0dHO17KGeB3echDcR92u2XK/tfYR+ysYLqf5ODgfxU3pbWexPWzd6pqN5bZEj2067dldXDDqd3v4a/DibBqDp38BC7KqjF4nAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=a76cb14dc3c472103665b92ed4013118^sys_idNOT IN3f6cb14dc3c472103665b92ed4013140,b76cb14dc3c472103665b92ed401313f,f76cb14dc3c472103665b92ed4013142"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Look Up Record">bf0256c10b30030085c083eb37673ac0</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <comment/>
+        <compiled_snapshot>bf0256c10b30030085c083eb37673ac0</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of VTB Sample Flow">a76cb14dc3c472103665b92ed4013118</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-16 04:38:43</sys_created_on>
+        <sys_id>3f6cb14dc3c472103665b92ed4013140</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-16 04:38:43</sys_updated_on>
+        <ui_id>47eb6b89-3a3e-450a-b6d7-c71d4e0378e6</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VWTW/bMAz9K4bPSeDE+exta1CgQNcCbdFL1xnUhxthiuRJctosyH8fZdlJthTNumWHbUAupEjqkXxPzv0qBuqEVufKOlCU3yztOYtP4sGol/LJICXpaJykSZIAycdD1hsMYcwo9ONWLHycAyI5GgrmfMdcgCy9vXAkk6C8iwlbSFje1Sd3wpYgo1uwn6P3GgyLLkJcAQZrOW7ik1VMZ0Iyw1V8cv9Q30hGCaKg3YQgLPyNBzQZpxyBDkcp0BRLSCBcYujty+DcstiYWXUWfBe7adFlONCGeShJK+bPjivGEUMO0vJWPAfFwGmz3HgMB3al5NYxE8phxdgHP1vxFe8dJz4u59gV5eFsY2b1kII7n4KDG2dK6kpTh9KZFpTbMA/GcyilO931hYCrwi81pIS2Q7aW5VxdhnHEmwLNTtBTWgTBC9+oR163kd/M9NN1g/JMqGom9aHUFOTGAueMIKXzeFYxl3yOhbI5FIVQj1lh9EJUyYhl3nmUaHRyqZ/wUiseVSewsYNzhc4Z+qeV+w6M8F18wDKYvG7FdmlPJVi77QWHmH0pPZLQWd1DFsbgU6gRhXuHFyx4DXfd+l3+U62Y8AXslmff+RolEM/xjyVSlq1WZEJSliSTdrc/6bb7/eGwTQiZtPPJmE0SPiZAWadSxXr9yVcNibc6mup9KR2z9CH1peRV9eU76js9NJpah3u+i5cK1DrsHk2HfVzqX6REvPxfEGIYwZ9So8izOU5RFPiwG06RMzYDw7Ncl4plofaWjD8Z3SjYLyQXxro6eF+I1xzpoSKNzIvcjEdVdLSJPqStPH9NWwx2tHWeRw30ur6NEHpUQY9+sdFGjxVvf9Ri46x12DuiDo+jwtVmOGcgZDV/63ixs0BujDY7n3TPtybnwOpe4UDzMK1fegbeDKp7VFC99f47lL7pIXqJ9CFi+ibu/2f/Kx6+AX83fjFZCwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=3f6cb14dc3c472103665b92ed4013140"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Create Freeform VTB">06ebb06d2fc00300e8f802d3c18c95ea</action_type>
+        <action_type_parent display_value="Create Freeform VTB">f1ca3c2d2fc00300e8f802d3c18c9541</action_type_parent>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <comment>Create a task board assigned to the incident owner</comment>
+        <compiled_snapshot>06ebb06d2fc00300e8f802d3c18c95ea</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of VTB Sample Flow">a76cb14dc3c472103665b92ed4013118</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-16 04:38:43</sys_created_on>
+        <sys_id>b76cb14dc3c472103665b92ed401313f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-16 04:38:43</sys_updated_on>
+        <ui_id>b9b3d009-1491-4466-bbb9-f98d90e8bacd</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2WXW/aMBSG/wryNWWBlC5wt1EhVdraamy9qarIsU/AqrEzx4EyxH/fMUkgbQNt196s5Qp8jj/ec/I+ca6XhDIrtDpTqaWKwWiRnnHSJz2/40Ov60f+58DzPc+jURyc8E73hAac9U5Ikwg375xOAf8r97MZzajM3PCy3ThTTHBQNsUwF2ki6eKqPptQg6stGNJfEjYRkhtQpH99U5zkdSCKPJQQM88pgiAOvA73WTtgvS5w3ELSCOQuUXaRuFFqjVDjYvytWDAqg9pwJ8BrErizoDhu24+pTKFJplRxarVZkL41GQYMUH6h5GIzYyKUxc2Im3uXij94XICdczNjwGIY5NnNMCw6kofjU2opKsmYzUwxlU20YJDmbeAQ00zaQTWWT7hI3DPMl1gayXK1ltlUnedtIJsNygeAkSxFEZC4Sp32opB4NNHzH6XKoVDrphRJqRmVmxG12Loos07PkoCEKW4UTmmSYEPDxOiZWC9GLdPWWOKgFUs9x0NTMVat3HwtbCxtDTF+ug5fUSNcFd9xG1y8apJ0kQ4kTdNtLdjE8HfmlOSVFTWEeRvcEmZEYr/gATMo5K6ar7X7xVyhoI21ymFp+OVygK6wwMN2i2UG22dbqBpLwpDVq9VjCp7h/IDuc35cdf4OfYX3tz68b/8flXhBQPutCPA79/2PTzJE15kdHPzKU/8lC/EIqGGToQDpHpvK3zsfjJDTvK/hlYD51ogPorNt1/8BB7wI4p04eFEFh+LYxl4xL7kYOvuxKCKHm+Hj3QyXgt2CQU+lIhJS2MXWb3WpkoD2YwTcu/XVGLSDCga5gMZztRVARFpLoOoBET9R3aeh69mWCv/NqDg+MPGOmFh7phaJmszriWB7ieh0K0Ssz68FokbZi3k4PvBw4KGGh6+U3Y6NzhQPB1rqyod6TabkYWajo0hTw4+YyxzV8FE35SlY2rAPFh8qsGzFNZ6W/ZKvqe7ha+p9knLzF7qwJsxYEgAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=b76cb14dc3c472103665b92ed401313f"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Create VTB Card">dc5c60692fc00300e8f802d3c18c9590</action_type>
+        <action_type_parent display_value="Create VTB Card">7b7b2c292fc00300e8f802d3c18c95f4</action_type_parent>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <comment>Assign the incident as a task to the board</comment>
+        <compiled_snapshot>dc5c60692fc00300e8f802d3c18c9590</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Copy of VTB Sample Flow">a76cb14dc3c472103665b92ed4013118</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-16 04:38:43</sys_created_on>
+        <sys_id>f76cb14dc3c472103665b92ed4013142</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-16 04:38:43</sys_updated_on>
+        <ui_id>5ad44c7f-f7e1-4a68-8031-cc4f75d992c0</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2TTU/cMBCG/wryOYmSzccme2sXISHRIkHFBaFobE9Yq85HbWdhu9r/XmdjdnOgqFBxoOpxxp7xO+/4ud0SYEa0zXmjDTQMrzf6nJMFSeezGIs0pvE8D+MwDIFWecZnaQY5Z8CIR8Rw73MLituggRon4RpkP8TbLS1ozMOw8KOkiPwkyTKfUlr4VZHzIsScAuPBvmy3s4Vc6E7C5sbV20wHyvY2qMhiS9hKSK6wIYvbO6eAJynLwqyYVSwclGJe5eGMxyzKWZEWsW0hgaL8vViz6YZQYYW2NUOXunBVV5N8q/ggJPQIPhpsOFoFFUiNHqmh4WBatSELo3qbUAj8spGbw42VaMw4Uw2PWvy0j8Yzb/LugqwNLamTdciXzhR7fiN0D/LkG+jvJ0/yq1MwcG3fZKZXzjS2agVDPdrEsYJemuU0N1647IbdjyUGqHyqbmVfN19Hl8ihwWQpvbaqsBscGGZyA1bXq/bhYNeZaPZmuUPZMpCTqwiKrc4EymGJ+414BIxRgvZmULklKLG27csauk4092Wn2rXYt7QK6+Be2iCoZPtgpWhx3wTjVw7sGiA4s/nTffoGlBhm+2Lb2OKdR/RGLyVofZzQel3+6Ad947xusnI0ZyhhSnTmk31gjW6Infe38FxAg8fv6KIjOskcaUbzwo8hRj9JQ/Bpxuc+m0c8wdA2xyy4Qta+mZ30RXYgmbDzrNbXkxO9JzlyVPVH4Jy4Ef7T81HpGXZ5/JEuOtKztL/IIC+jgPXKWmreyEiUv8QIjSaMPKvo9YzM3osRMyp6jg8n9p+goa+pvfvReLj7BTlVxPWMCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=f76cb14dc3c472103665b92ed4013142"/>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=a76cb14dc3c472103665b92ed4013118"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=a76cb14dc3c472103665b92ed4013118"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=a76cb14dc3c472103665b92ed4013118"/>
+    <sys_hub_flow_variable action="DELETE" query="model=a76cb14dc3c472103665b92ed4013118"/>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a76cb14dc3c472103665b92ed4013118</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-16 04:38:43</sys_created_on>
+        <sys_id>376cb14dc3c472103665b92ed4013122</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-16 04:38:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a76cb14dc3c472103665b92ed4013118</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-16 04:38:43</sys_created_on>
+        <sys_id>b36cb14dc3c472103665b92ed4013125</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-16 04:38:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_a76cb14dc3c472103665b92ed4013118"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_a76cb14dc3c472103665b92ed4013118"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=a76cb14dc3c472103665b92ed4013118"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=a76cb14dc3c472103665b92ed4013118"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>e2dbc1dcdbfe751005ef17291396195e</instance_id>
+        <instance_name>dev223966</instance_name>
+        <name>sys_hub_flow_a76cb14dc3c472103665b92ed4013118</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;labelCacheCleanUpExecuted=true&lt;/attributes&gt;&lt;authored_on_release_version&gt;28000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build/&gt;&lt;copied_from&gt;3542e553b37803000abf86d256a8dc7d&lt;/copied_from&gt;&lt;copied_from_name&gt;VTB Sample Flow&lt;/copied_from_name&gt;&lt;description/&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority/&gt;&lt;generation_source/&gt;&lt;internal_name&gt;copy_of_vtb_sample_flow&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"Created_1.current.assigned_to","label":"Trigger➛Incident Record➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"incident","column_name":"assigned_to"},{"name":"b9b3d009-1491-4466-bbb9-f98d90e8bacd.Board","label":"1➛Board","reference":"vtb_board","reference_display":"Visual Task Board","type":"document_id","base_type":"document_id"},{"name":"47eb6b89-3a3e-450a-b6d7-c71d4e0378e6.Record","label":"2➛Visual Task Board Lane Record","reference":"vtb_lane","reference_display":"Visual Task Board Lane","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger➛Incident Record","reference":"incident","reference_display":"Incident","type":"reference","base_type":"reference"}]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;Copy of VTB Sample Flow&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-16 04:38:42&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a76cb14dc3c472103665b92ed4013118&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Copy of VTB Sample Flow&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_a76cb14dc3c472103665b92ed4013118&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-16 04:38:43&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;updation_source/&gt;&lt;version&gt;2&lt;/version&gt;&lt;version_record/&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a76cb14dc3c472103665b92ed4013118"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=a76cb14dc3c472103665b92ed4013118"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=a76cb14dc3c472103665b92ed4013118"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=a76cb14dc3c472103665b92ed4013118^sys_idNOT IN236cb14dc3c472103665b92ed4013119"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;a76cb14dc3c472103665b92ed4013118&lt;/id&gt;&lt;name&gt;Copy of VTB Sample Flow&lt;/name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-16 04:38:42&lt;/sys_created_on&gt;&lt;sys_id&gt;236cb14dc3c472103665b92ed4013119&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-16 04:38:42&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=236cb14dc3c472103665b92ed4013119"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=a76cb14dc3c472103665b92ed4013118^sys_idNOT IN2b6cb14dc3c472103665b92ed401311f,736cb14dc3c472103665b92ed4013123"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,labelCacheCleanUpExecuted=true,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Copy of VTB Sample Flow"&gt;a76cb14dc3c472103665b92ed4013118&lt;/model&gt;&lt;model_id&gt;a76cb14dc3c472103665b92ed4013118&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_a76cb14dc3c472103665b92ed4013118&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-16 04:38:42&lt;/sys_created_on&gt;&lt;sys_id&gt;2b6cb14dc3c472103665b92ed401311f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-16 04:38:42&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2b6cb14dc3c472103665b92ed401311f"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Copy of VTB Sample Flow"&gt;a76cb14dc3c472103665b92ed4013118&lt;/model&gt;&lt;model_id&gt;a76cb14dc3c472103665b92ed4013118&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_a76cb14dc3c472103665b92ed4013118&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-16 04:38:43&lt;/sys_created_on&gt;&lt;sys_id&gt;736cb14dc3c472103665b92ed4013123&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-16 04:38:43&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=736cb14dc3c472103665b92ed4013123"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=a76cb14dc3c472103665b92ed4013118"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=a76cb14dc3c472103665b92ed4013118"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=a76cb14dc3c472103665b92ed4013118^sys_idNOT INb36cb14dc3c472103665b92ed4013144"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Copy of VTB Sample Flow"&gt;a76cb14dc3c472103665b92ed4013118&lt;/flow&gt;&lt;generation_source/&gt;&lt;name&gt;Created&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-16 04:38:43&lt;/sys_created_on&gt;&lt;sys_id&gt;b36cb14dc3c472103665b92ed4013144&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-16 04:38:43&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created"&gt;798916a0c31322002841b63b12d3ae7c&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;H4sIAAAAAAAA/+VY227jNhD9FUFPLZACuvimvG3tLGogTQrH2z6kgUCJpE2sTLkSpaw38L93qJtlXRxfknbtvBjwkCLnDM+ZGfLxRRUBm81IMOahQNwlD6twjNVrtWsaJrG6pmP2B5qpaRpy6KCHjW4PDbA70NUr1UMO8WDqFDkegf+MCxJw5E1XSwJmIc02Rws5tkAcI+EHK/VaBBG5UmngL6ZksfSQgMkUeSEY/QCTQL3Wr9Tks2wN+DxGXiT/M+4yTLgAE2YhfLz6MxsZb0aWKICvhVzppXDqlvGvMA2G3TnzcEC4ev34BE5LsC51kWUQzTV10zA0zRh0dKdnOrqBTUQ0rQFsxUHRgFnabsufKXfpwAYm+SYIxwQXEajFKSAI33NvVcyYA6IUyAJ9C9l32HagyXmUACiXpGPFXzuLU2qmIyTQA6zsiiggeTx85pIwDQcmFEWeGJZt6YT7pWA+Tz9JUadf+1604HdpNNRigfxYwBKF4ARZSpzS8wwGfZj7z5Pcy8+MJyHJBj3fRV7xDwngqBMJ6c+LSpkHJ2qnkQ79KEggT26G95OR/den6fC3m4k9uXmYTsbD6c1IXV+p4SoceigMN15CeOx/IrlH6nPmnZ0CXBfs+syIJwnCo4UD/sFSbsCW4pMrWJzTdn31FiIa+hyzJMI1Ibn5UFj2tUS+Emny6O5Sl6YV9HVLu+YaWwbMD5hY/R1pmon1utTqEw5XXK+HECaoRXEObYlMg9uiIUhl5Q3LA+UQ7NJeZtlHfB1NOyf5Zdn3WPUtfEy8UZmDKfNtxpeRkCF+RlyEtvBthLFdOhU5FXw6XI4p2vU7ai+IOGxlF4SoKzA5guKwblkI0B8hF+VxTpyRB5yzbhJxxQfmwI/iRgGEWSi5XOl4gWYZcvpHLp0kvBm/YxTY9sKGQNnzyLG3Ymz3rYGl99qk03e3IpiIWhJJVZ/W8tyJR1xRIj39Epb//c7CkPFZKbwFxuT4ahALdCAeJY9gCjU8L6xPpyTSOoXiCjUqSXQXQQ5Pp7pOqUOoofVllHTNdKiu9bUuohio7xo7yd4KQVTYv5VWc+O7pNS3SagvBehd0a4eVA5Ikt87hOvxtlCydYx1U17/cVyrlBfzoPpSkDs1j/bn+Bt3hQjHMvnj48vMu1cY6vnPkNaOqC4Ocr/OAj/iuJp/5ZoK48pmhvJTdhY/n1f2LVca6gdkN97tGeeD8uQasyFRLmnEV/XqkhoPryMm1R2LdIgG5cMESjtdy3JcZFDa7/WJ0U7pRhcvq368orW4SaxtCbuRx3ET/Q+oIv+/gyfVkozIjZUkHft4NeN5TrgNsAPbk1WhVjpmHsMkHzsts9S2ijd3yEp2OSq10IHldvV+3+1DigXktEMcpHeMLrL6PXPQfQ35LldFQzTKyeY2Nf0nt39ZZKRvLUnnSzr0A7wEfBT5hEQIWYIP77s4XIeSb1DqXqkZkbxQkkTpB8qdz38Zb+YpDwSKfvI4dUatSbkB2we0JLJyUagdX8xrDScg/RXsW0jlHavlzD/am0dFYfF2KBvePI4J6BHvIaQz6FrUbC421NqdJ9rxXU5Hu2cCi1tTYVPnuG+CiBvzTNFJVnvRIyhTIWK2tPlKF/1xg3JS556rvfUR6BhnP2i3krS1p7Qs0lti+7RcyUa+AgMKbKIwqmTeEqw4K0XMCRyPB9c92FCRu59ZCStX8DryQnwXjTu9HtcaFzAr2VXkjIC9TU9S0dHO17KGeB3echDcR92u2XK/tfYR+ysYLqf5ODgfxU3pbWexPWzd6pqN5bZEj2067dldXDDqd3v4a/DibBqDp38BC7KqjF4nAAA=&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create&lt;/trigger_type&gt;&lt;updation_source/&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=a76cb14dc3c472103665b92ed4013118^sys_idNOT IN3f6cb14dc3c472103665b92ed4013140,b76cb14dc3c472103665b92ed401313f,f76cb14dc3c472103665b92ed4013142"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Look Up Record"&gt;bf0256c10b30030085c083eb37673ac0&lt;/action_type&gt;&lt;action_type_parent display_value="Look Up Record"&gt;b93f42810b30030085c083eb37673a63&lt;/action_type_parent&gt;&lt;attributes&gt;labelCacheCleanUpExecuted=true&lt;/attributes&gt;&lt;comment/&gt;&lt;compiled_snapshot&gt;bf0256c10b30030085c083eb37673ac0&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Copy of VTB Sample Flow"&gt;a76cb14dc3c472103665b92ed4013118&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;2&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-16 04:38:43&lt;/sys_created_on&gt;&lt;sys_id&gt;3f6cb14dc3c472103665b92ed4013140&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-16 04:38:43&lt;/sys_updated_on&gt;&lt;ui_id&gt;47eb6b89-3a3e-450a-b6d7-c71d4e0378e6&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+VWTW/bMAz9K4bPSeDE+exta1CgQNcCbdFL1xnUhxthiuRJctosyH8fZdlJthTNumWHbUAupEjqkXxPzv0qBuqEVufKOlCU3yztOYtP4sGol/LJICXpaJykSZIAycdD1hsMYcwo9ONWLHycAyI5GgrmfMdcgCy9vXAkk6C8iwlbSFje1Sd3wpYgo1uwn6P3GgyLLkJcAQZrOW7ik1VMZ0Iyw1V8cv9Q30hGCaKg3YQgLPyNBzQZpxyBDkcp0BRLSCBcYujty+DcstiYWXUWfBe7adFlONCGeShJK+bPjivGEUMO0vJWPAfFwGmz3HgMB3al5NYxE8phxdgHP1vxFe8dJz4u59gV5eFsY2b1kII7n4KDG2dK6kpTh9KZFpTbMA/GcyilO931hYCrwi81pIS2Q7aW5VxdhnHEmwLNTtBTWgTBC9+oR163kd/M9NN1g/JMqGom9aHUFOTGAueMIKXzeFYxl3yOhbI5FIVQj1lh9EJUyYhl3nmUaHRyqZ/wUiseVSewsYNzhc4Z+qeV+w6M8F18wDKYvG7FdmlPJVi77QWHmH0pPZLQWd1DFsbgU6gRhXuHFyx4DXfd+l3+U62Y8AXslmff+RolEM/xjyVSlq1WZEJSliSTdrc/6bb7/eGwTQiZtPPJmE0SPiZAWadSxXr9yVcNibc6mup9KR2z9CH1peRV9eU76js9NJpah3u+i5cK1DrsHk2HfVzqX6REvPxfEGIYwZ9So8izOU5RFPiwG06RMzYDw7Ncl4plofaWjD8Z3SjYLyQXxro6eF+I1xzpoSKNzIvcjEdVdLSJPqStPH9NWwx2tHWeRw30ur6NEHpUQY9+sdFGjxVvf9Ri46x12DuiDo+jwtVmOGcgZDV/63ixs0BujDY7n3TPtybnwOpe4UDzMK1fegbeDKp7VFC99f47lL7pIXqJ9CFi+ibu/2f/Kx6+AX83fjFZCwAA&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=3f6cb14dc3c472103665b92ed4013140"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Create Freeform VTB"&gt;06ebb06d2fc00300e8f802d3c18c95ea&lt;/action_type&gt;&lt;action_type_parent display_value="Create Freeform VTB"&gt;f1ca3c2d2fc00300e8f802d3c18c9541&lt;/action_type_parent&gt;&lt;attributes&gt;labelCacheCleanUpExecuted=true&lt;/attributes&gt;&lt;comment&gt;Create a task board assigned to the incident owner&lt;/comment&gt;&lt;compiled_snapshot&gt;06ebb06d2fc00300e8f802d3c18c95ea&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Copy of VTB Sample Flow"&gt;a76cb14dc3c472103665b92ed4013118&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;1&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-16 04:38:43&lt;/sys_created_on&gt;&lt;sys_id&gt;b76cb14dc3c472103665b92ed401313f&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-16 04:38:43&lt;/sys_updated_on&gt;&lt;ui_id&gt;b9b3d009-1491-4466-bbb9-f98d90e8bacd&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+2WXW/aMBSG/wryNWWBlC5wt1EhVdraamy9qarIsU/AqrEzx4EyxH/fMUkgbQNt196s5Qp8jj/ec/I+ca6XhDIrtDpTqaWKwWiRnnHSJz2/40Ov60f+58DzPc+jURyc8E73hAac9U5Ikwg375xOAf8r97MZzajM3PCy3ThTTHBQNsUwF2ki6eKqPptQg6stGNJfEjYRkhtQpH99U5zkdSCKPJQQM88pgiAOvA73WTtgvS5w3ELSCOQuUXaRuFFqjVDjYvytWDAqg9pwJ8BrErizoDhu24+pTKFJplRxarVZkL41GQYMUH6h5GIzYyKUxc2Im3uXij94XICdczNjwGIY5NnNMCw6kofjU2opKsmYzUwxlU20YJDmbeAQ00zaQTWWT7hI3DPMl1gayXK1ltlUnedtIJsNygeAkSxFEZC4Sp32opB4NNHzH6XKoVDrphRJqRmVmxG12Loos07PkoCEKW4UTmmSYEPDxOiZWC9GLdPWWOKgFUs9x0NTMVat3HwtbCxtDTF+ug5fUSNcFd9xG1y8apJ0kQ4kTdNtLdjE8HfmlOSVFTWEeRvcEmZEYr/gATMo5K6ar7X7xVyhoI21ymFp+OVygK6wwMN2i2UG22dbqBpLwpDVq9VjCp7h/IDuc35cdf4OfYX3tz68b/8flXhBQPutCPA79/2PTzJE15kdHPzKU/8lC/EIqGGToQDpHpvK3zsfjJDTvK/hlYD51ogPorNt1/8BB7wI4p04eFEFh+LYxl4xL7kYOvuxKCKHm+Hj3QyXgt2CQU+lIhJS2MXWb3WpkoD2YwTcu/XVGLSDCga5gMZztRVARFpLoOoBET9R3aeh69mWCv/NqDg+MPGOmFh7phaJmszriWB7ieh0K0Ssz68FokbZi3k4PvBw4KGGh6+U3Y6NzhQPB1rqyod6TabkYWajo0hTw4+YyxzV8FE35SlY2rAPFh8qsGzFNZ6W/ZKvqe7ha+p9knLzF7qwJsxYEgAA&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=b76cb14dc3c472103665b92ed401313f"/&gt;&lt;sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;action_type display_value="Create VTB Card"&gt;dc5c60692fc00300e8f802d3c18c9590&lt;/action_type&gt;&lt;action_type_parent display_value="Create VTB Card"&gt;7b7b2c292fc00300e8f802d3c18c95f4&lt;/action_type_parent&gt;&lt;attributes&gt;labelCacheCleanUpExecuted=true&lt;/attributes&gt;&lt;comment&gt;Assign the incident as a task to the board&lt;/comment&gt;&lt;compiled_snapshot&gt;dc5c60692fc00300e8f802d3c18c9590&lt;/compiled_snapshot&gt;&lt;display_text/&gt;&lt;flow display_value="Copy of VTB Sample Flow"&gt;a76cb14dc3c472103665b92ed4013118&lt;/flow&gt;&lt;generation_source/&gt;&lt;order&gt;3&lt;/order&gt;&lt;parent_ui_id/&gt;&lt;sys_class_name&gt;sys_hub_action_instance_v2&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-16 04:38:43&lt;/sys_created_on&gt;&lt;sys_id&gt;f76cb14dc3c472103665b92ed4013142&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-16 04:38:43&lt;/sys_updated_on&gt;&lt;ui_id&gt;5ad44c7f-f7e1-4a68-8031-cc4f75d992c0&lt;/ui_id&gt;&lt;updation_source/&gt;&lt;values&gt;H4sIAAAAAAAA/+2TTU/cMBCG/wryOYmSzccme2sXISHRIkHFBaFobE9Yq85HbWdhu9r/XmdjdnOgqFBxoOpxxp7xO+/4ud0SYEa0zXmjDTQMrzf6nJMFSeezGIs0pvE8D+MwDIFWecZnaQY5Z8CIR8Rw73MLituggRon4RpkP8TbLS1ozMOw8KOkiPwkyTKfUlr4VZHzIsScAuPBvmy3s4Vc6E7C5sbV20wHyvY2qMhiS9hKSK6wIYvbO6eAJynLwqyYVSwclGJe5eGMxyzKWZEWsW0hgaL8vViz6YZQYYW2NUOXunBVV5N8q/ggJPQIPhpsOFoFFUiNHqmh4WBatSELo3qbUAj8spGbw42VaMw4Uw2PWvy0j8Yzb/LugqwNLamTdciXzhR7fiN0D/LkG+jvJ0/yq1MwcG3fZKZXzjS2agVDPdrEsYJemuU0N1647IbdjyUGqHyqbmVfN19Hl8ihwWQpvbaqsBscGGZyA1bXq/bhYNeZaPZmuUPZMpCTqwiKrc4EymGJ+414BIxRgvZmULklKLG27csauk4092Wn2rXYt7QK6+Be2iCoZPtgpWhx3wTjVw7sGiA4s/nTffoGlBhm+2Lb2OKdR/RGLyVofZzQel3+6Ad947xusnI0ZyhhSnTmk31gjW6Infe38FxAg8fv6KIjOskcaUbzwo8hRj9JQ/Bpxuc+m0c8wdA2xyy4Qta+mZ30RXYgmbDzrNbXkxO9JzlyVPVH4Jy4Ef7T81HpGXZ5/JEuOtKztL/IIC+jgPXKWmreyEiUv8QIjSaMPKvo9YzM3osRMyp6jg8n9p+goa+pvfvReLj7BTlVxPWMCQAA&lt;/values&gt;&lt;/sys_hub_action_instance_v2&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=f76cb14dc3c472103665b92ed4013142"/&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=a76cb14dc3c472103665b92ed4013118"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=a76cb14dc3c472103665b92ed4013118"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=a76cb14dc3c472103665b92ed4013118"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=a76cb14dc3c472103665b92ed4013118"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_a76cb14dc3c472103665b92ed4013118&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-16 04:38:43&lt;/sys_created_on&gt;&lt;sys_id&gt;376cb14dc3c472103665b92ed4013122&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-16 04:38:43&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_a76cb14dc3c472103665b92ed4013118&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-16 04:38:43&lt;/sys_created_on&gt;&lt;sys_id&gt;b36cb14dc3c472103665b92ed4013125&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-16 04:38:43&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a76cb14dc3c472103665b92ed4013118"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a76cb14dc3c472103665b92ed4013118"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=a76cb14dc3c472103665b92ed4013118"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=a76cb14dc3c472103665b92ed4013118"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1373726585</payload_hash>
+        <record_name>Copy of VTB Sample Flow</record_name>
+        <reverted_from/>
+        <source>89e16ca097440210d684f91de053afd1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-16 04:38:43</sys_created_on>
+        <sys_id>776cb14dc3c472103665b92ed401314f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19950d1626e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-16 04:38:43</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>b76cb14d70c47210fe0d384c3314cd4e</update_guid>
+        <update_guid_history>b76cb14d70c47210fe0d384c3314cd4e:-1373726585,2f6cb14d7fc4721048d1c0b6e53e041c:1438718545</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-16 04:39:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>5bf769a07ccc4d96b810b2f5c44c2321</sys_id>
+        <sys_metadata>a76cb14dc3c472103665b92ed4013118</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of VTB Sample Flow</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_a76cb14dc3c472103665b92ed4013118</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_a76cb14dc3c472103665b92ed4013118">776cb14dc3c472103665b92ed401314f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-16 04:39:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
