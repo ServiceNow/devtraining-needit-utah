@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="DELETE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Handheld Holographics">e5a8baadc3713210bc92554d05013127</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-13 22:21:38</sys_created_on>
+        <sys_id>6c7a3aa1c3b13210bc92554d05013153</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Services</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_category_6c7a3aa1c3b13210bc92554d05013153</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-13 22:21:38</sys_updated_on>
+        <title>Employee Services</title>
+    </sc_category>
+    <sys_translated_text action="DELETE" query="documentkey=6c7a3aa1c3b13210bc92554d05013153"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>37016832db6e3d5005ef17291396193c</instance_id>
+        <instance_name>dev218160</instance_name>
+        <name>sc_category_6c7a3aa1c3b13210bc92554d05013153</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Handheld Holographics">e5a8baadc3713210bc92554d05013127</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-12-13 22:21:38</sys_created_on><sys_id>6c7a3aa1c3b13210bc92554d05013153</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Employee Services</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sc_category_6c7a3aa1c3b13210bc92554d05013153</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-12-13 22:21:38</sys_updated_on><title>Employee Services</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=6c7a3aa1c3b13210bc92554d05013153"/></record_update>]]></payload>
+        <payload_hash>-419783998</payload_hash>
+        <record_name>Employee Services</record_name>
+        <reverted_from/>
+        <source>b606e03cc385ea10bc92554d0501312a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-13 22:21:39</sys_created_on>
+        <sys_id>c0ab7a25c3b13210bc92554d050131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19b19ce271f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-13 22:21:39</sys_updated_on>
+        <type>Category</type>
+        <update_guid>80ab7a25b8b1321097a9044af4d8d7b9</update_guid>
+        <update_guid_history>80ab7a25b8b1321097a9044af4d8d7b9:-419783998</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Employee Services">223c32a5c3b13210bc92554d050131ec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-12-13 22:24:18</sys_created_on>
+        <sys_db_object display_value="" name="sc_category">sc_category</sys_db_object>
+        <sys_id>4943881341fc43019a1128c273c93941</sys_id>
+        <sys_metadata>6c7a3aa1c3b13210bc92554d05013153</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Services</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sc_category_6c7a3aa1c3b13210bc92554d05013153</sys_update_name>
+        <sys_update_version display_value="sc_category_6c7a3aa1c3b13210bc92554d05013153">c0ab7a25c3b13210bc92554d050131ba</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-12-13 22:24:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

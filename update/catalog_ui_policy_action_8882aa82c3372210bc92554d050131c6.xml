@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Need It">182566cdc3b32250bc92554d05013145</catalog_item>
+        <catalog_variable>IO:36dc5646c3f32210bc92554d050131e3</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>250</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-06 23:44:25</sys_created_on>
+        <sys_id>8882aa82c3372210bc92554d050131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_other</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_8882aa82c3372210bc92554d050131c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-06 23:44:25</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Other field display">582fda4ec3f32210bc92554d050131d1</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>u_other</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=8882aa82c3372210bc92554d050131c6"/>
+</record_update>

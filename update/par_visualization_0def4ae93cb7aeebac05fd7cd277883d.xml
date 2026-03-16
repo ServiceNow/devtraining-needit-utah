@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="Donut">a2b0596cec6b9d49dd1ff9bf76b5084b</macroponent>
+        <name>NeedIt Requests by Type</name>
+        <properties>{"applyDateRange":false,"bareBorder":false,"colorConfig":{"type":"palette","palette":"68d08c72d700210096614251ce61039e"},"configVersion":"23.0.0-ci-SNAPSHOT","dataLabelsType":"value","dataSources":[{"allowRealTime":true,"dataCategories":["group","simple","trend"],"filterQuery":"","id":"dGFibGV4XzU4ODcyX25lZWRpdF9uZWVkaXQxNzQxMTI3MDQwMDAwMzI0NzUzMjUuMDUxOTQxMjA1","reportSourceSysId":"4747b819c344e210bc92554d05013160","isDatabaseView":false,"preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"sourceType":"table","tableOrViewName":"x_58872_needit_needit"}],"dateFormat":"default","emptyStateHeading":"No data available.","emptyStateIllustration":"add-data","enableCustomEmptyState":false,"enableDrilldown":true,"enableRealTimeUpdate":false,"filterConfigurations":"@state.parFilters","followFilters":true,"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzU4ODcyX25lZWRpdF9uZWVkaXQxNzQxMTI3MDQwMDAwMzI0NzUzMjUuMDUxOTQxMjA1","groupByField":"u_request_type","isChoice":true,"isPaBucket":false,"isRange":false}],"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true}],"headerTitle":"NeedIt Requests by Type","hideMatrixAggregate":false,"legendExpandToFit":false,"legendHorizontalAlignment":"center","metrics":[{"aggregateFunction":"COUNT","axisId":"primary","dataSource":"dGFibGV4XzU4ODcyX25lZWRpdF9uZWVkaXQxNzQxMTI3MDQwMDAwMzI0NzUzMjUuMDUxOTQxMjA1","id":"ZEdGaWJHVjRYelU0T0RjeVgyNWxaV1JwZEY5dVpXVmthWFF4TnpReE1USTNNRFF3TURBd016STBOelV6TWpVdU1EVXhPVFF4TWpBMTE3NDExMjcwNDAwMDI5ODY2NTkzLjUyNDkzODEzOA==","numberFormat":{"customFormat":true,"abbreviationEnabled":true,"numberInTooltipsEnabled":true},"durationFormat":{"customFormat":false},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"newReporting":false,"numberOfPeriods":2.0,"period":"M","registerOrientation":"horizontal","registerPosition":"bottom","showAbsolutePeriod":false,"showBorder":true,"showChange":false,"showChangeFrom":"previous","showChangePercentage":false,"showComment":false,"showConfidenceBand":false,"showDataLabels":true,"showDataPassthrough":false,"showFilterIcon":true,"showFirstGroupAggregate":false,"showForecast":false,"showForecastRange":false,"showGapPercentage":false,"showHeader":true,"showHeaderSeparator":true,"showMaximumRange":false,"showMetricLabel":false,"showRegister":true,"showRegisterOnSameLine":false,"showRegisterPercentage":true,"showRegisterValue":true,"showSecondGroupAggregate":false,"showSparkline":false,"showSubAggregate":false,"showTarget":false,"showThreshold":false,"showTotalAggregate":false,"showTrend":false,"sortBy":"value","sortByOrder":"desc","telemetry":"null","truncationType":"start","wrapTitle":true,"showDataTable":true,"showAdditionalGroupBySelector":true,"additionalGroupByConfig":[{"metricLabel":"u_what_needed","id":"u_what_needed"},{"metricLabel":"u_requested_for","id":"u_requested_for"},{"metricLabel":"u_request_type","id":"u_request_type"}]}</properties>
+        <requested_by/>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-04 22:18:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0def4ae93cb7aeebac05fd7cd277883d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIt Requests by Type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>par_visualization_0def4ae93cb7aeebac05fd7cd277883d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-04 22:24:00</sys_updated_on>
+        <type>Donut</type>
+    </par_visualization>
+</record_update>

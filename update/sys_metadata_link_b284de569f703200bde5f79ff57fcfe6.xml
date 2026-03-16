@@ -10,7 +10,7 @@
         <approval>not requested</approval>
         <approval_history/>
         <approval_set/>
-        <assigned_to/>
+        <assigned_to display_value="Andrew Och">800b174138d089c868d09de320f9833b</assigned_to>
         <assignment_group/>
         <business_duration/>
         <business_service/>
@@ -22,7 +22,9 @@
         <comments/>
         <comments_and_work_notes/>
         <company/>
+        <complete/>
         <contact_type/>
+        <contract/>
         <correlation_display/>
         <correlation_id/>
         <delivery_plan/>
@@ -42,28 +44,33 @@
         <opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</opened_by>
         <order/>
         <parent/>
+        <percent_complete_target/>
         <priority>4</priority>
         <reassignment_count>0</reassignment_count>
         <rejection_goto/>
-        <short_description>When does the ESPP window close?</short_description>
+        <route_reason/>
+        <service_offering/>
+        <short_description>This text set by the Debugging Business Rules business rule.</short_description>
         <sla_due/>
-        <state>3</state>
+        <state>15</state>
         <sys_class_name>x_58872_needit_needit</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-30 22:51:35</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e1bc2a030fe03200cd674f8ce1050ea4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-26 18:52:41</sys_updated_on>
+        <sys_updated_on>2024-12-29 21:03:58</sys_updated_on>
+        <task_effective_number>NI012004</task_effective_number>
         <time_worked/>
         <u_other/>
         <u_request_type>legal</u_request_type>
-        <u_requested_for display_value="Beth Anglin">46d44a23a9fe19810012d100cca80666</u_requested_for>
-        <u_requested_for_email/>
+        <u_requested_for display_value="Abel Tuter">62826bf03710200044e0bfc8bcbe5df1</u_requested_for>
+        <u_requested_for_email>abel.tuter@example.com</u_requested_for_email>
         <u_what_needed>legal1</u_what_needed>
-        <u_when_needed>2017-05-18 21:52:02</u_when_needed>
+        <u_when_needed>2017-05-04 21:52:02</u_when_needed>
+        <universal_request/>
         <upon_approval>proceed</upon_approval>
         <upon_reject>cancel</upon_reject>
         <urgency>3</urgency>
@@ -82,14 +89,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-09 23:25:07</sys_created_on>
         <sys_id>b284de569f703200bde5f79ff57fcfe6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>NI012004</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_metadata_link_b284de569f703200bde5f79ff57fcfe6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-26 18:53:44</sys_updated_on>
+        <sys_updated_on>2025-10-17 23:36:44</sys_updated_on>
         <tablename>x_58872_needit_needit</tablename>
     </sys_metadata_link>
 </record_update>

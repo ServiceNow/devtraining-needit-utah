@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_58872_needit_needit" version="2" view="exp_d33ca8fa5c32c3610bc92554d0501311b">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="7bca8fa5c32c3610bc92554d0501311c">7bcacbe5c32c3610bc92554d05013171</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 20:09:31</sys_created_on>
+            <sys_id>b7cacbe5c32c3610bc92554d05013172</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 20:09:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_requested_for</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="7bca8fa5c32c3610bc92554d0501311c">7bcacbe5c32c3610bc92554d05013171</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 20:09:31</sys_created_on>
+            <sys_id>3bcacbe5c32c3610bc92554d05013172</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 20:09:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_request_type</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="7bca8fa5c32c3610bc92554d0501311c">7bcacbe5c32c3610bc92554d05013171</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 20:09:31</sys_created_on>
+            <sys_id>bbcacbe5c32c3610bc92554d05013172</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 20:09:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_when_needed</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="7bca8fa5c32c3610bc92554d0501311c">7bcacbe5c32c3610bc92554d05013171</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 20:09:31</sys_created_on>
+            <sys_id>3fcacbe5c32c3610bc92554d05013172</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 20:09:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>complete</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="7bca8fa5c32c3610bc92554d0501311c">7bcacbe5c32c3610bc92554d05013171</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 20:09:31</sys_created_on>
+            <sys_id>bfcacbe5c32c3610bc92554d05013172</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 20:09:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>percent_complete_target</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="7bca8fa5c32c3610bc92554d0501311c">7bcacbe5c32c3610bc92554d05013171</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 20:09:31</sys_created_on>
+            <sys_id>33cacbe5c32c3610bc92554d05013173</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 20:09:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>priority</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="7bca8fa5c32c3610bc92554d0501311c">7bcacbe5c32c3610bc92554d05013171</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 20:09:31</sys_created_on>
+            <sys_id>b3cacbe5c32c3610bc92554d05013173</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 20:09:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="7bca8fa5c32c3610bc92554d0501311c">7bcacbe5c32c3610bc92554d05013171</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 20:09:31</sys_created_on>
+            <sys_id>37cacbe5c32c3610bc92554d05013173</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 20:09:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="7bca8fa5c32c3610bc92554d0501311c">7bcacbe5c32c3610bc92554d05013171</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 20:09:31</sys_created_on>
+            <sys_id>b7cacbe5c32c3610bc92554d05013173</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 20:09:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="7bca8fa5c32c3610bc92554d0501311c">7bcacbe5c32c3610bc92554d05013171</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 20:09:31</sys_created_on>
+            <sys_id>3bcacbe5c32c3610bc92554d05013173</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 20:09:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_class_name</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="7bca8fa5c32c3610bc92554d0501311c">7bcacbe5c32c3610bc92554d05013171</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 20:09:31</sys_created_on>
+            <sys_id>bbcacbe5c32c3610bc92554d05013173</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 20:09:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="7bca8fa5c32c3610bc92554d0501311c">7bcacbe5c32c3610bc92554d05013171</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 20:09:31</sys_created_on>
+            <sys_id>3fcacbe5c32c3610bc92554d05013173</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 20:09:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="7bca8fa5c32c3610bc92554d0501311c">7bcacbe5c32c3610bc92554d05013171</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 20:09:31</sys_created_on>
+            <sys_id>bfcacbe5c32c3610bc92554d05013173</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 20:09:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_tags</element>
+            <list_id display_value="x_58872_needit_needit" element="NULL" name="x_58872_needit_needit" parent="NULL" relationship="NULL" sys_domain="global" view="7bca8fa5c32c3610bc92554d0501311c">7bcacbe5c32c3610bc92554d05013171</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 20:09:31</sys_created_on>
+            <sys_id>33cacbe5c32c3610bc92554d05013174</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 20:09:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_58872_needit_needit</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-10-12 20:09:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7bcacbe5c32c3610bc92554d05013171</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_needit_needit</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_list_x_58872_needit_needit_exp_d33ca8fa5c32c3610bc92554d0501311b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-10-12 20:09:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="Exp_d33ca8fa5c32c3610bc92554d0501311b" name="exp_d33ca8fa5c32c3610bc92554d0501311b">7bca8fa5c32c3610bc92554d0501311c</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

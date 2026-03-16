@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>6</order>
+        <published_ref/>
+        <question display_value="Short description">89252641c3f32250bc92554d0501313b</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-03 21:20:53</sys_created_on>
+        <sys_id>19252641c3f32250bc92554d05013175</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request for a new service</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>question_choice_19252641c3f32250bc92554d05013175</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-03 21:20:53</sys_updated_on>
+        <text>Request for a new service</text>
+        <value>Request for a new service</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=19252641c3f32250bc92554d05013175"/>
+</record_update>

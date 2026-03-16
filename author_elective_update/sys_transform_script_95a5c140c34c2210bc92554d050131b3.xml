@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="DELETE">
+        <active>true</active>
+        <map display_value="Test Historic NeedIt Import">a9a6f123c3f31210bc92554d05013117</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	// Add your code here
+	 if (action == 'insert') {
+        ignore = true;
+     }
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 01:54:54</sys_created_on>
+        <sys_id>95a5c140c34c2210bc92554d050131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_transform_script_95a5c140c34c2210bc92554d050131b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 01:54:54</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+    <sys_es_latest_script action="DELETE">
+        <id>95a5c140c34c2210bc92554d050131b3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 01:54:53</sys_created_on>
+        <sys_id>52c58900c34c2210bc92554d050131f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 01:54:53</sys_updated_on>
+        <table>sys_transform_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>37016832db6e3d5005ef17291396193c</instance_id>
+        <instance_name>dev218160</instance_name>
+        <name>sys_transform_script_95a5c140c34c2210bc92554d050131b3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;&lt;sys_transform_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;map display_value="Test Historic NeedIt Import"&gt;a9a6f123c3f31210bc92554d05013117&lt;/map&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	// Add your code here
+	 if (action == 'insert') {
+        ignore = true;
+     }
+
+})(source, map, log, target);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-26 01:54:54&lt;/sys_created_on&gt;&lt;sys_id&gt;95a5c140c34c2210bc92554d050131b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;onBefore&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_script_95a5c140c34c2210bc92554d050131b3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-26 01:54:54&lt;/sys_updated_on&gt;&lt;when&gt;onBefore&lt;/when&gt;&lt;/sys_transform_script&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;95a5c140c34c2210bc92554d050131b3&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-26 01:54:53&lt;/sys_created_on&gt;&lt;sys_id&gt;52c58900c34c2210bc92554d050131f6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-26 01:54:53&lt;/sys_updated_on&gt;&lt;table&gt;sys_transform_script&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>709995869</payload_hash>
+        <record_name>onBefore</record_name>
+        <reverted_from/>
+        <source>6e0a254ac34a1610bc92554d050131e8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 01:54:54</sys_created_on>
+        <sys_id>22c54900c34c2210bc92554d050131cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1953ff6cfe50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 01:54:54</sys_updated_on>
+        <type>Transform Script</type>
+        <update_guid>26c54900294c2210ee5a503a5fa939cc</update_guid>
+        <update_guid_history>26c54900294c2210ee5a503a5fa939cc:709995869</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 23:25:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_script">sys_transform_script</sys_db_object>
+        <sys_id>2a590fdce4224bf08a17f4307c6c5900</sys_id>
+        <sys_metadata>95a5c140c34c2210bc92554d050131b3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Test Historic NeedIt Import">a9a6f123c3f31210bc92554d05013117</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_transform_script_95a5c140c34c2210bc92554d050131b3</sys_update_name>
+        <sys_update_version display_value="sys_transform_script_95a5c140c34c2210bc92554d050131b3">22c54900c34c2210bc92554d050131cd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 23:25:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -20,12 +20,13 @@
         <digest_template/>
         <digest_text/>
         <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
         <event_name>x_58872_needit.overdueNeedItTask</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
-        <from/>
+        <from>noreply@sn.com</from>
         <generation_type>event</generation_type>
         <importance/>
         <include_attachments>false</include_attachments>
@@ -35,12 +36,13 @@
         <message/>
         <message_html><![CDATA[<p>Dear ${assigned_to.first_name},</p>
 <p>An overdue&nbsp;NeedIt Task is assigned to you:</p>
-<p>Number: ${number}<br />Short description: ${short_description}</p>
+<p>Number: ${number}<br>Short description: ${short_description}</p>
 <p>Please complete this task as soon as possible.</p>
-<p>${mail_script:CountOverdueNeedItTasksAssignedTo}</p>
-<p>&nbsp;</p>
+<p>${mail_script:CountOverdueNeedItTasksAssignedTo1}</p>
+<p>mailto:</p>
+<p><code>${mailto:mailto.closeneedittask}</code></p>
 <p>Click here to view the&nbsp;NeedIt Task record: ${URI_REF}</p>
-<p>${mailto:mailto.closeneedittask}</p>
+<p>&nbsp;</p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -50,7 +52,7 @@
         <push_message_only>false</push_message_only>
         <recipient_fields>assigned_to</recipient_fields>
         <recipient_groups/>
-        <recipient_users/>
+        <recipient_users>46d44a23a9fe19810012d100cca80666,sohailsarwarkhan1981@gmail.com</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -63,7 +65,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c003c7f60fc272000d030dbce1050e3b</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Overdue NeedIt Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -71,10 +73,21 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_email_action_c003c7f60fc272000d030dbce1050e3b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-06-08 16:55:11</sys_updated_on>
+        <sys_updated_on>2025-02-17 23:20:55</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>c003c7f60fc272000d030dbce1050e3b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-03 23:12:34</sys_created_on>
+        <sys_id>56adc7f0c3631210bc92554d05013109</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-03 23:12:34</sys_updated_on>
+        <table>sysevent_email_action</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

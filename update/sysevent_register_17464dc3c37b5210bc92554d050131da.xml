@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description>This is the evnet that will be fired by overdue tasks with in 24 hrs</description>
+        <event_name>x_58872_needit.dueSoonNeedItTasks1</event_name>
+        <fired_by>dueSoonNeedItTasksActionScript</fired_by>
+        <priority>100</priority>
+        <queue/>
+        <suffix>dueSoonNeedItTasks1</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-22 23:24:51</sys_created_on>
+        <sys_id>17464dc3c37b5210bc92554d050131da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.dueSoonNeedItTasks1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_register_17464dc3c37b5210bc92554d050131da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-22 23:24:51</sys_updated_on>
+        <table>x_58872_needit_needit_task</table>
+    </sysevent_register>
+</record_update>

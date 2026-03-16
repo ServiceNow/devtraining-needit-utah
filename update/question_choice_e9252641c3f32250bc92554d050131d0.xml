@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>4</order>
+        <published_ref/>
+        <question display_value="State">9d252641c3f32250bc92554d0501319e</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-03 21:20:54</sys_created_on>
+        <sys_id>e9252641c3f32250bc92554d050131d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Closed Complete</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>question_choice_e9252641c3f32250bc92554d050131d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-03 21:20:54</sys_updated_on>
+        <text>Closed Complete</text>
+        <value>3</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=e9252641c3f32250bc92554d050131d0"/>
+</record_update>

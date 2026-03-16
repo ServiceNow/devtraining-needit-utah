@@ -3,7 +3,7 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_when_needed</element>
             <help/>
-            <hint/>
+            <hint>example hint</hint>
             <label>When needed</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
@@ -11,15 +11,14 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-26 19:08:23</sys_created_on>
-            <sys_id>f6f197ea1b560010c6956356bd4bcb99</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_name>When needed</sys_name>
             <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
             <sys_policy/>
             <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
             <sys_update_name>sys_documentation_x_58872_needit_needit_u_when_needed_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-01-26 19:08:23</sys_updated_on>
+            <sys_updated_on>2025-09-08 21:18:37</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

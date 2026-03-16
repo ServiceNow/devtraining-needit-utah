@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices>7,14,21,28</choices>
+        <description>Number of days a NeedIt Task is overdue before it should automatically close</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_58872_needit.advancedNoticeDays1</name>
+        <read_roles>x_58872_needit.admin</read_roles>
+        <suffix>advancedNoticeDays1</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-09 23:58:38</sys_created_on>
+        <sys_id>a95ad6bbc3c86210bc92554d05013114</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.advancedNoticeDays1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_properties_a95ad6bbc3c86210bc92554d05013114</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-09 23:58:38</sys_updated_on>
+        <type>choicelist</type>
+        <value>14</value>
+        <write_roles>x_58872_needit.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=a95ad6bbc3c86210bc92554d05013114"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>37016832db6e3d5005ef17291396193c</instance_id>
+        <instance_name>dev218160</instance_name>
+        <name>sys_properties_a95ad6bbc3c86210bc92554d05013114</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices>7,14,21,28</choices><description>Number of days a NeedIt Task is overdue before it should automatically close</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>x_58872_needit.advancedNoticeDays1</name><read_roles>x_58872_needit.admin</read_roles><suffix>advancedNoticeDays1</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-09 23:58:38</sys_created_on><sys_id>a95ad6bbc3c86210bc92554d05013114</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_58872_needit.advancedNoticeDays1</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_properties_a95ad6bbc3c86210bc92554d05013114</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-09 23:58:38</sys_updated_on><type>choicelist</type><value>14</value><write_roles>x_58872_needit.admin</write_roles></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=a95ad6bbc3c86210bc92554d05013114"/></record_update>]]></payload>
+        <payload_hash>-1685112591</payload_hash>
+        <record_name>x_58872_needit.advancedNoticeDays1</record_name>
+        <reverted_from/>
+        <source>6e0a254ac34a1610bc92554d050131e8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-09 23:58:39</sys_created_on>
+        <sys_id>684e9633c30c6210bc92554d050131cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1957d58afe20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-09 23:58:39</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>6c4e9633d80c62103d332c4c2ff220ca</update_guid>
+        <update_guid_history>6c4e9633d80c62103d332c4c2ff220ca:-1685112591</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 00:18:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>4bf8662741e548bc9cc2f4e8a4d6ff64</sys_id>
+        <sys_metadata>a95ad6bbc3c86210bc92554d05013114</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.advancedNoticeDays1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_properties_a95ad6bbc3c86210bc92554d05013114</sys_update_name>
+        <sys_update_version display_value="sys_properties_a95ad6bbc3c86210bc92554d05013114">684e9633c30c6210bc92554d050131cb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 00:18:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
