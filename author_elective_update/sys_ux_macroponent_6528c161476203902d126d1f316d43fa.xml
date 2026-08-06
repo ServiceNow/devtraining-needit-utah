@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="DELETE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[]</composition>
+        <da_relay_models/>
+        <data>[]</data>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <dispatched_events>9965b79853030110aab9ddeeff7b1240</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Technical dashboard template">2395ddb853772110784cddeeff7b1251</extends>
+        <extension_point/>
+        <form_factors>{}</form_factors>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <keyboard_shortcuts>{}</keyboard_shortcuts>
+        <layout/>
+        <macroponent_dependencies/>
+        <name>NeedIt Application default</name>
+        <output_prop_mapping/>
+        <props/>
+        <required_sys_props/>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_persistence_config>[]</state_persistence_config>
+        <state_properties>[]</state_properties>
+        <style_config>{}</style_config>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-06 16:55:23</sys_created_on>
+        <sys_id>6528c161476203902d126d1f316d43fa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>NeedIt Application default</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_macroponent_6528c161476203902d126d1f316d43fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:55:27</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="DELETE" query="documentkey=6528c161476203902d126d1f316d43fa"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>5086df323b60c710986d048aa4e45aac</instance_id>
+        <instance_name>dev397116</instance_name>
+        <name>sys_ux_macroponent_6528c161476203902d126d1f316d43fa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types/><bundles/><category>page</category><component_dependencies/><composition>[]</composition><da_relay_models/><data>[]</data><description/><disable_auto_reflow>false</disable_auto_reflow><dispatched_events>9965b79853030110aab9ddeeff7b1240</dispatched_events><ext_controller_dep/><extends display_value="Technical dashboard template">2395ddb853772110784cddeeff7b1251</extends><extension_point/><form_factors>{}</form_factors><handled_events/><interactions/><interfaces/><internal_event_mappings>{}</internal_event_mappings><keyboard_shortcuts>{}</keyboard_shortcuts><layout/><macroponent_dependencies/><name>NeedIt Application default</name><output_prop_mapping/><props/><required_sys_props/><required_translations>[ ]</required_translations><root_component/><root_component_config/><root_component_definition/><schema_version>1.0.0</schema_version><state_persistence_config>[]</state_persistence_config><state_properties>[]</state_properties><style_config>{}</style_config><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-06 16:55:23</sys_created_on><sys_id>6528c161476203902d126d1f316d43fa</sys_id><sys_mod_count>2</sys_mod_count><sys_name>NeedIt Application default</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ux_macroponent_6528c161476203902d126d1f316d43fa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-06 16:55:27</sys_updated_on></sys_ux_macroponent><sys_translated_text action="delete_multiple" query="documentkey=6528c161476203902d126d1f316d43fa"/></record_update>]]></payload>
+        <payload_hash>1310742511</payload_hash>
+        <record_name>NeedIt Application default</record_name>
+        <reverted_from/>
+        <source>7df6cd7b479e43502d126d1f316d43b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-06 16:55:27</sys_created_on>
+        <sys_id>72280561476203902d126d1f316d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fd80053070000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:55:27</sys_updated_on>
+        <type>UX Macroponent Definition</type>
+        <update_guid>be2805610e620390dd06214e6b746d8c</update_guid>
+        <update_guid_history>be2805610e620390dd06214e6b746d8c:1310742511,79280561aa62039060eae194fc205e43:-1584601777,f1280561c562039048f4275ba299a102:1819511377</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-06 17:02:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_macroponent">sys_ux_macroponent</sys_db_object>
+        <sys_id>427e7cc655284905ab67191c70ae5411</sys_id>
+        <sys_metadata>6528c161476203902d126d1f316d43fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Application default</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_macroponent_6528c161476203902d126d1f316d43fa</sys_update_name>
+        <sys_update_version display_value="sys_ux_macroponent_6528c161476203902d126d1f316d43fa">72280561476203902d126d1f316d438e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 17:02:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

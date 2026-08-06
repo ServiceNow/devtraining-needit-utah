@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_source">
+    <sys_report_source action="DELETE">
+        <description/>
+        <display>TestDemo (Incident)</display>
+        <filter/>
+        <name>TestDemo</name>
+        <sys_class_name>sys_report_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-05 06:35:07</sys_created_on>
+        <sys_id>1883698547260f502d126d1f316d4308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestDemo (Incident)</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_report_source_1883698547260f502d126d1f316d4308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-05 06:35:07</sys_updated_on>
+        <table>incident</table>
+    </sys_report_source>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>5086df323b60c710986d048aa4e45aac</instance_id>
+        <instance_name>dev397116</instance_name>
+        <name>sys_report_source_1883698547260f502d126d1f316d4308</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_source"><sys_report_source action="INSERT_OR_UPDATE"><description/><display>TestDemo (Incident)</display><filter/><name>TestDemo</name><sys_class_name>sys_report_source</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-05 06:35:07</sys_created_on><sys_id>1883698547260f502d126d1f316d4308</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TestDemo (Incident)</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_report_source_1883698547260f502d126d1f316d4308</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-05 06:35:07</sys_updated_on><table>incident</table></sys_report_source></record_update>]]></payload>
+        <payload_hash>-1379954949</payload_hash>
+        <record_name>TestDemo (Incident)</record_name>
+        <reverted_from/>
+        <source>7df6cd7b479e43502d126d1f316d43b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-05 06:35:07</sys_created_on>
+        <sys_id>b99071c947660f502d126d1f316d4399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fd0a2067f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-05 06:35:07</sys_updated_on>
+        <type>Report Source</type>
+        <update_guid>399071c98a660f50c2d23d06b52b5e98</update_guid>
+        <update_guid_history>399071c98a660f50c2d23d06b52b5e98:-1379954949</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-05 06:39:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_source">sys_report_source</sys_db_object>
+        <sys_id>e642d27e0a1f462081a7026d72f88040</sys_id>
+        <sys_metadata>1883698547260f502d126d1f316d4308</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestDemo (Incident)</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_report_source_1883698547260f502d126d1f316d4308</sys_update_name>
+        <sys_update_version display_value="sys_report_source_1883698547260f502d126d1f316d4308">b99071c947660f502d126d1f316d4399</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-05 06:39:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

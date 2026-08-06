@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <disable_interoperable>false</disable_interoperable>
+        <event_mappings/>
+        <macroponent/>
+        <macroponent_config>{}</macroponent_config>
+        <name>NeedIt Application default</name>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="NeedIt Application">e928c161476203902d126d1f316d43db</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-06 16:55:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>71280561476203902d126d1f316d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Application default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_screen_71280561476203902d126d1f316d4304</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 16:55:23</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=71280561476203902d126d1f316d4304"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>5086df323b60c710986d048aa4e45aac</instance_id>
+        <instance_name>dev397116</instance_name>
+        <name>sys_ux_screen_71280561476203902d126d1f316d4304</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</app_config><description/><disable_auto_reflow>false</disable_auto_reflow><disable_interoperable>false</disable_interoperable><event_mappings/><macroponent/><macroponent_config>{}</macroponent_config><name>NeedIt Application default</name><order>0</order><parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="NeedIt Application">e928c161476203902d126d1f316d43db</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-08-06 16:55:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>71280561476203902d126d1f316d4304</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NeedIt Application default</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ux_screen_71280561476203902d126d1f316d4304</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-08-06 16:55:23</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=71280561476203902d126d1f316d4304"/></record_update>]]></payload>
+        <payload_hash>-1571997664</payload_hash>
+        <record_name>NeedIt Application default</record_name>
+        <reverted_from/>
+        <source>7df6cd7b479e43502d126d1f316d43b0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-06 17:02:09</sys_created_on>
+        <sys_id>a8b94165476203902d126d1f316d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fd80672620000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 17:02:09</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>bd2805615c620390d0e86f7d5c458c30</update_guid>
+        <update_guid_history>bd2805615c620390d0e86f7d5c458c30:-1028447101,bd2805615c620390d0e86f7d5c458c30:-1028447101</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-06 17:02:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>445906be9e794e98bf578efa53ceee69</sys_id>
+        <sys_metadata>71280561476203902d126d1f316d4304</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Application default</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_71280561476203902d126d1f316d4304</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_71280561476203902d126d1f316d4304">a8b94165476203902d126d1f316d4356</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-06 17:02:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
